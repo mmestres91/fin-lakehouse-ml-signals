@@ -37,7 +37,17 @@ jobs:
           poetry config virtualenvs.in-project true
           poetry install --no-interaction --no-root --with dev
 
-      # 4 — Lint ✨
+      # 4 — Terraform Checks
+      - name: Terraform validation (fmt, lint, tfsec, trivy)
+        run: |
+          terraform -chdir=infra/dev init -backend=false
+
+          # Run all pre-commit Terraform hooks
+          poetry run pre-commit run terraform_fmt --all-files
+          poetry run pre-commit run terraform_tflint --all-files
+          poetry run pre-commit run terraform_trivy --all-files
+
+      # 5 — Lint ✨
       - name: Run pre-commit hooks
         run: poetry run pre-commit run --all-files --show-diff-on-failure
 
@@ -45,11 +55,11 @@ jobs:
       - name: Run pytest
         run: poetry run pytest -q
 
-      # 6 — Static typing
+      # 7 — Static typing
       - name: Run mypy
         run: poetry run mypy src
 
-      # 7 — Type check (mypy)  – keep after tests so type errors fail job even if tests pass
+      # 8 — Type check (mypy)  – keep after tests so type errors fail job even if tests pass
       - name: Static type check
         run: poetry run mypy src
 
