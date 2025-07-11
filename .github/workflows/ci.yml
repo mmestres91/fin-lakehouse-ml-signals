@@ -45,7 +45,7 @@ jobs:
 
       - name: Install TFLint
         run: |
-          curl -s https://raw.githubusercontent.com/terraform-linters/tflint/master/install_linux.sh | bash
+          curl -s https://raw.githubusercontent.com/terraform-linters/tflint/5c0f6ef6891f12c61b4db527177f7b2a19d2f43f/install_linux.sh | bash
 
       - name: Install Trivy
         run: |
