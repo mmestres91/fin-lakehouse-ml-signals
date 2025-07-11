@@ -18,9 +18,9 @@ repos:
     rev: v1.87.0            # latest release as of July 2025
     hooks:
       - id: terraform_fmt
-        args: ["-recursive", "infra"]
+        args: ["infra"]
       - id: terraform_tflint
-        args: ["--recursive", "infra"]
+        args: ["infra"]
       - id: terraform_trivy
         args: ["infra"]
 
