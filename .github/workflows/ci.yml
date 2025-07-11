@@ -26,13 +26,17 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
           cache: "poetry"
-
-      # 3 — Install Poetry **and** project deps in ONE step
-      - name: Install Poetry + deps
+      
+      # 3 — Install Poetry
+      - name: Install Poetry
         run: |
           curl -sSL https://install.python-poetry.org | python3 -
-          echo "$HOME/.local/bin" >> "$GITHUB_PATH"        # make poetry visible to later steps
-          poetry --version                                 # sanity print
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+
+      # 3.1 — Add Poetry to PATH
+      - name: Install dependencies
+        run: |
+          poetry --version
           poetry config virtualenvs.in-project true
           poetry install --no-interaction --no-root --with dev
 
