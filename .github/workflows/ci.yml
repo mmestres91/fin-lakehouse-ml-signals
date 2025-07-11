@@ -18,38 +18,37 @@ jobs:
         os: [ ubuntu-latest ]          # keep single OS now; easy to add mac/win later
 
     steps:
-    # 1 — Checkout code
-    - uses: actions/checkout@v4
+      # 1 — Checkout code
+      - uses: actions/checkout@v4
 
-    # 2 — Set up Python (unchanged)
-    - uses: actions/setup-python@v5
-      with:
-        python-version: ${{ matrix.python-version }}
-        cache: "poetry"
+      # 2 — Python toolchain (matrix)
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: "poetry"
 
-    # 3 — Install Poetry (new, replaces previous block)
-    - uses: snok/install-poetry@v1
-      with:
-        version: "2.0.0"               # or "latest"
-        virtualenvs-create: true
-        virtualenvs-in-project: true
+      # 3 — Install Poetry **and** project deps in ONE step
+      - name: Install Poetry + deps
+        run: |
+          curl -sSL https://install.python-poetry.org | python3 -
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"        # make poetry visible to later steps
+          poetry --version                                 # sanity print
+          poetry config virtualenvs.in-project true
+          poetry install --no-interaction --no-root --with dev
 
-    # 4 — Configure Poetry to create venv in project (optional)
-    - run: poetry config virtualenvs.in-project true
+      # 4 — Lint ✨
+      - name: Run pre-commit hooks
+        run: poetry run pre-commit run --all-files --show-diff-on-failure
 
-    # 5 — Install dependencies (runtime + dev) from lock-file
-    - name: Install project
-      run: poetry install --no-interaction --no-root --with dev
+      # 5 — Tests
+      - name: Run pytest
+        run: poetry run pytest -q
 
-    # 6 — Lint  ✨  (Black + isort check mode)
-    - name: Run pre-commit checks
-      run: poetry run pre-commit run --all-files --show-diff-on-failure
+      # 6 — Static typing
+      - name: Run mypy
+        run: poetry run mypy src
 
-    # 7 — Unit tests
-    - name: Run pytest
-      run: poetry run pytest -q
-
-    # 8 — Type check (mypy)  – keep after tests so type errors fail job even if tests pass
-    - name: Static type check
-      run: poetry run mypy src
+      # 7 — Type check (mypy)  – keep after tests so type errors fail job even if tests pass
+      - name: Static type check
+        run: poetry run mypy src
 
