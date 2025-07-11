@@ -1,0 +1,40 @@
+# pyproject.toml
+[project]
+name = "finlakehouse-ml-signals"
+version = "0.1.0"
+description = "Financial data lakehouse & ML signals home lab"
+authors = [
+  { name = "Mark Anthony Mestres", email = "mmestres91@gmail.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.11"
+
+# ───────────────────────── Runtime dependencies ─────────────────────────
+dependencies = [
+  "pytz",                       # timezone helpers ─ adjust as needed
+]
+
+# ───────────────────────── Dev / tooling dependencies ───────────────────
+[tool.poetry.group.dev.dependencies]
+pytest         = "^8.0"
+black          = "^24.3"
+isort          = "^5.13"
+flake8         = "^7.0"
+mypy           = "^1.10"
+pre-commit     = "^3.7"
+detect-secrets = "^1.4"
+commitizen     = "^3.13"
+
+# ───────────────────────── Commitizen (Conventional Commits) ────────────
+[tool.commitizen]
+name                       = "cz_conventional_commits"
+version                    = "0.1.0"
+tag_format                 = "v$version"
+update_changelog_on_bump   = true
+
+# ───────────────────────── Build backend (unchanged) ────────────────────
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
