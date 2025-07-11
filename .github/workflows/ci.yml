@@ -42,6 +42,11 @@ jobs:
         uses: hashicorp/setup-terraform@v3
         with:
           terraform_version: 1.8.5
+
+      - name: Install TFLint
+        run: |
+          curl -s https://raw.githubusercontent.com/terraform-linters/tflint/master/install_linux.sh | bash
+          sudo mv tflint /usr/local/bin/
       
       - name: Terraform validation (fmt, lint, tfsec, trivy)
         run: |
