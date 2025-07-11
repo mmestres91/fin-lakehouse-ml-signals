@@ -1,0 +1,54 @@
+name: CI
+
+on:
+  push:
+    branches: [main]        # run on direct pushes
+  pull_request:             # and on every PR targeting main
+    branches: [main]
+
+jobs:
+  test:
+    name: Python ${{ matrix.python-version }} • ${{ matrix.os }}
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: [ "3.10", "3.11" ]
+        os: [ ubuntu-latest ]          # keep single OS now; easy to add mac/win later
+
+    steps:
+    # 1 — Checkout code
+    - uses: actions/checkout@v4
+
+    # 2 — Set up required Python
+    - uses: actions/setup-python@v5
+      with:
+        python-version: ${{ matrix.python-version }}
+        cache: "poetry"               # built-in Poetry cache (pip wheel & venv)
+
+    # 3 — Install Poetry 1 line (shell script recommended by Poetry docs)
+    - name: Install Poetry
+      run: |
+        curl -sSL https://install.python-poetry.org | python3 -
+        echo "$HOME/.local/bin" >> $GITHUB_PATH    # make `poetry` discoverable
+
+    # 4 — Configure Poetry to create venv in project (optional)
+    - run: poetry config virtualenvs.in-project true
+
+    # 5 — Install dependencies (runtime + dev) from lock-file
+    - name: Install project
+      run: poetry install --no-interaction --no-root --with dev
+
+    # 6 — Lint  ✨  (Black + isort check mode)
+    - name: Run pre-commit checks
+      run: poetry run pre-commit run --all-files --show-diff-on-failure
+
+    # 7 — Unit tests
+    - name: Run pytest
+      run: poetry run pytest -q
+
+    # 8 — Type check (mypy)  – keep after tests so type errors fail job even if tests pass
+    - name: Static type check
+      run: poetry run mypy src
+
