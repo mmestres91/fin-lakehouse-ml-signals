@@ -21,17 +21,18 @@ jobs:
     # 1 — Checkout code
     - uses: actions/checkout@v4
 
-    # 2 — Set up required Python
+    # 2 — Set up Python (unchanged)
     - uses: actions/setup-python@v5
       with:
         python-version: ${{ matrix.python-version }}
-        cache: "poetry"               # built-in Poetry cache (pip wheel & venv)
+        cache: "poetry"
 
-    # 3 — Install Poetry 1 line (shell script recommended by Poetry docs)
-    - name: Install Poetry
-      run: |
-        curl -sSL https://install.python-poetry.org | python3 -
-        echo "$HOME/.local/bin" >> $GITHUB_PATH    # make `poetry` discoverable
+    # 3 — Install Poetry (new, replaces previous block)
+    - uses: snok/install-poetry@v1
+      with:
+        version: "2.0.0"               # or "latest"
+        virtualenvs-create: true
+        virtualenvs-in-project: true
 
     # 4 — Configure Poetry to create venv in project (optional)
     - run: poetry config virtualenvs.in-project true
