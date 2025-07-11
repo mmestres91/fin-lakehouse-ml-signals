@@ -37,7 +37,12 @@ jobs:
           poetry config virtualenvs.in-project true
           poetry install --no-interaction --no-root --with dev
 
-      # 4 — Terraform Checks
+      # 4 — Terraform Install and Checks
+      - name: Install Terraform
+        uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: 1.8.5
+      
       - name: Terraform validation (fmt, lint, tfsec, trivy)
         run: |
           terraform -chdir=infra/dev init -backend=false
