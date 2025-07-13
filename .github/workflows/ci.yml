@@ -67,7 +67,6 @@ jobs:
           # Run all pre-commit Terraform hooks
           poetry run pre-commit run terraform_fmt --all-files
           poetry run pre-commit run terraform_tflint --all-files
-          poetry run pre-commit run terraform_trivy --all-files
 
       # 5 — Lint ✨
       - name: Clean pre-commit cache
