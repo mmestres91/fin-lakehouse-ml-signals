@@ -11,6 +11,9 @@ jobs:
     name: Python ${{ matrix.python-version }} • ${{ matrix.os }}
     runs-on: ubuntu-latest
 
+    env:
+      TRIVY_CACHE_DIR: /tmp/trivy-cache-${{ matrix.python-version || 'default' }}
+
     strategy:
       fail-fast: false
       matrix:
