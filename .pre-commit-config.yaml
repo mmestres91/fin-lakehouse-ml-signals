@@ -4,7 +4,9 @@ repos:
     hooks: [id: black]
   - repo: https://github.com/pycqa/isort
     rev: 5.13.2
-    hooks: [id: isort]
+    hooks:
+      - id: isort
+        args: ["--settings-path=pyproject.toml"]
   - repo: https://github.com/pycqa/flake8
     rev: 7.0.0
     hooks: [id: flake8]

@@ -73,6 +73,10 @@ jobs:
       - name: Clean pre-commit cache
         run: rm -rf ~/.cache/pre-commit
 
+      - name: Debug isort config in CI
+        run: |
+          poetry run isort dags/s3_ingestion_dag.py --show-config
+
       - name: Run pre-commit hooks
         run: poetry run pre-commit run --all-files --show-diff-on-failure
 
