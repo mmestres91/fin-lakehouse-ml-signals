@@ -1,0 +1,33 @@
+[2025-07-13T16:15:29.209+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: transform_market_data.transform_market_data manual__2025-07-13T16:10:16.601820+00:00 [queued]>
+[2025-07-13T16:15:29.220+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: transform_market_data.transform_market_data manual__2025-07-13T16:10:16.601820+00:00 [queued]>
+[2025-07-13T16:15:29.221+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 2
+[2025-07-13T16:15:29.243+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): transform_market_data> on 2025-07-13 16:10:16.601820+00:00
+[2025-07-13T16:15:29.251+0000] {standard_task_runner.py:60} INFO - Started process 1169 to run task
+[2025-07-13T16:15:29.257+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'transform_market_data', 'transform_market_data', 'manual__2025-07-13T16:10:16.601820+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/transform_market_data_dag.py', '--cfg-path', '/tmp/tmpiew32qfw']
+[2025-07-13T16:15:29.260+0000] {standard_task_runner.py:88} INFO - Job 28: Subtask transform_market_data
+[2025-07-13T16:15:29.331+0000] {task_command.py:423} INFO - Running <TaskInstance: transform_market_data.transform_market_data manual__2025-07-13T16:10:16.601820+00:00 [running]> on host 26c08c9ca2cf
+[2025-07-13T16:15:29.471+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='mark' AIRFLOW_CTX_DAG_ID='transform_market_data' AIRFLOW_CTX_TASK_ID='transform_market_data' AIRFLOW_CTX_EXECUTION_DATE='2025-07-13T16:10:16.601820+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-13T16:10:16.601820+00:00'
+[2025-07-13T16:15:29.517+0000] {credentials.py:1147} INFO - Found credentials in environment variables.
+[2025-07-13T16:15:29.838+0000] {warnings.py:109} WARNING - /opt/***/dags/transform_market_data_dag.py:16: UserWarning: Polars found a filename. Ensure you pass a path to the file instead of a python file object when possible for best performance.
+  df = pl.read_parquet(obj["Body"]).to_pandas()
+
+[2025-07-13T16:15:29.859+0000] {logging_mixin.py:188} INFO - Index(['('close', 'spy')', '('high', 'spy')', '('low', 'spy')',
+       '('open', 'spy')', '('volume', 'spy')', 'datetime'],
+      dtype='object')
+[2025-07-13T16:15:29.860+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/transform_market_data_dag.py", line 24, in transform_yfinance_data
+    df = df.drop_nulls()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/generic.py", line 5989, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'drop_nulls'
+[2025-07-13T16:15:29.874+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=transform_market_data, task_id=transform_market_data, execution_date=20250713T161016, start_date=20250713T161529, end_date=20250713T161529
+[2025-07-13T16:15:29.892+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 28 for task transform_market_data ('DataFrame' object has no attribute 'drop_nulls'; 1169)
+[2025-07-13T16:15:29.928+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-13T16:15:29.952+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

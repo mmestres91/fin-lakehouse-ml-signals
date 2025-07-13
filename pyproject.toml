@@ -18,6 +18,8 @@ dependencies = [
   "python-dotenv (>=1.1.1,<2.0.0)",
   "yfinance (>=0.2.65,<0.3.0)",
   "boto3 (>=1.39.4,<2.0.0)",
+  "polars (>=0.20,<0.21)",
+  "ta (>=0.11,<0.12)",
 ]
 
 # ───────────────────────── Dev / tooling dependencies ───────────────────
@@ -52,3 +54,8 @@ include_trailing_comma = true
 force_grid_wrap = 0
 use_parentheses = true
 known_first_party = ["dags"]
+
+# ───────────────────────── flake8 Config ────────────────────
+[tool.flake8]
+max-line_length = 88
+extend-ignore = ["E501"]

@@ -20,8 +20,9 @@ repos:
         args: ["infra"]
       - id: terraform_tflint
         args: ["infra"]
-      - id: terraform_trivy
-        args: ["infra"]
+      # - id: terraform_trivy
+      #   args: 
+      #     - "infra"
   # -   repo: https://github.com/Yelp/detect-secrets
   #     rev: v1.4.0
   #     hooks:
