@@ -48,6 +48,68 @@ fin-lakehouse-ml-signals/
 
 ---
 
+## Architecture overview
+
+```mermaid
+flowchart LR
+    %% === Left: Current ===
+    subgraph Current["`**Current**`"]
+        direction TB
+        A[fa:fa-cloud-download-alt<br/>Vendor API]
+        B@{ shape: cyl, label: "Raw S3 Bucket" }
+        C@{ shape: cyl, label: "Curated S3 Bucket" }
+        D@{ shape: doc, label: "Data Docs\ns3://ge-docs" }
+    end
+
+    %% === Right: Future ===
+    subgraph Future["`**Future**`"]
+        direction TB
+        E@{ shape: lin-rect, label: "`Feature Build DAG`\n(`build_ml_features`)" }
+        F@{ shape: cyl, label: "Feature Store" }
+        G@{ shape: lin-rect, label: "`Train ML Models DAG`\n(`train_ml_models`)" }
+        H@{ shape: docs, label: "Model Artifacts\nS3 / MLflow" }
+        I@{ icon: "fa:rocket", form: "circle", label: "Prediction API\nFastAPI + Lambda" }
+        J([BI / Dashboarding])
+    end
+
+    %% === Data and Process Flows ===
+    A -- "raw_market_ingest_dag" --> B
+    B -- "transform_market_data_dag" --> C
+    C -- "curated_market_dq_dag\n(Great Expectations)" --> D
+    C ==> E
+    E -- "Partitioned Parquet\nor Feast/DuckDB" --> F
+    F ==> G
+    G --> H
+    H --> I
+    C --> J
+
+    %% === Styling and Links ===
+    style Future fill:#f3e5f5,stroke:#6a1b9a,stroke-width:2.5px
+    style Current fill:#e3f2fd,stroke:#1565c0,stroke-width:2.5px
+
+    classDef dag fill:#fffde7,stroke:#fbc02d,stroke-width:1.5px
+    class E,G dag
+
+    classDef model fill:#f1f8e9,stroke:#388e3c,stroke-width:1.5px
+    class H model
+
+    classDef store fill:#ede7f6,stroke:#8e24aa,stroke-width:1.5px
+    class F store
+
+    %% Invisible link to keep ordering: Current left, Future right
+    Current ~~~ Future
+
+    %% Tooltips (examples)
+    click B "Raw S3 landing zone" "This is the raw S3 bucket for initial ingests"
+    click C "Curated data S3" "Validated/transformed data"
+    click D "GE Docs" "Great Expectations output docs stored in S3"
+    click F "Feature Store" "Storage for ML-ready features"
+    click H "Model Artifacts" "Trained model versions, stored in S3/MLflow"
+    click I "Prediction API" "Real-time predictions via FastAPI & Lambda"
+```
+
+---
+
 ## Quick‑start (local)
 
 ```bash
