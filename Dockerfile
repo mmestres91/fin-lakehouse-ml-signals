@@ -9,7 +9,8 @@ RUN pip install --no-cache-dir \
         boto3 \
         pandas \
         polars \
-        ta
+        ta \
+        great-expectations==0.18.15
 
 # 3️⃣ Health-check for best-practice
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \

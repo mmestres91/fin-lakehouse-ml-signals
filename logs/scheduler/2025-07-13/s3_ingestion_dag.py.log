@@ -4724,3 +4724,364 @@ ModuleNotFoundError: No module named 'yfinance'
 [2025-07-13T16:42:31.152+0000] {logging_mixin.py:188} INFO - [2025-07-13T16:42:31.149+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2025-07-13T16:42:31.191+0000] {logging_mixin.py:188} INFO - [2025-07-13T16:42:31.191+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
 [2025-07-13T16:42:31.220+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 1.953 seconds
+[2025-07-13T23:18:14.931+0000] {processor.py:161} INFO - Started process (PID=65) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:18:14.940+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:18:15.034+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:18:15.033+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:18:30.421+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:18:30.498+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:18:30.498+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:18:30.560+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:18:30.560+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:18:30.614+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 15.744 seconds
+[2025-07-13T23:19:01.330+0000] {processor.py:161} INFO - Started process (PID=132) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:19:01.332+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:19:01.335+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:19:01.334+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:19:03.859+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:19:03.908+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:19:03.907+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:19:03.961+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:19:03.960+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:19:04.010+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 2.685 seconds
+[2025-07-13T23:19:34.188+0000] {processor.py:161} INFO - Started process (PID=201) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:19:34.189+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:19:34.193+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:19:34.192+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:19:35.970+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:19:36.006+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:19:36.005+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:19:36.055+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:19:36.055+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:19:36.087+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 1.905 seconds
+[2025-07-13T23:20:06.341+0000] {processor.py:161} INFO - Started process (PID=270) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:20:06.344+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:20:06.361+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:20:06.360+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:20:10.078+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:20:10.131+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:20:10.131+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:20:10.206+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:20:10.205+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:20:10.263+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 3.927 seconds
+[2025-07-13T23:20:41.002+0000] {processor.py:161} INFO - Started process (PID=339) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:20:41.007+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:20:41.012+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:20:41.012+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:20:44.683+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:20:44.752+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:20:44.751+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:20:44.827+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:20:44.826+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:20:44.932+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 3.936 seconds
+[2025-07-13T23:21:15.045+0000] {processor.py:161} INFO - Started process (PID=407) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:21:15.047+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:21:15.049+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:21:15.049+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:21:17.125+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:21:17.160+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:21:17.159+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:21:17.236+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:21:17.236+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:21:17.286+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 2.248 seconds
+[2025-07-13T23:21:48.062+0000] {processor.py:161} INFO - Started process (PID=472) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:21:48.065+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:21:48.069+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:21:48.069+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:21:50.859+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:21:50.883+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:21:50.882+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:21:50.926+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:21:50.925+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:21:50.974+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 2.922 seconds
+[2025-07-13T23:22:21.395+0000] {processor.py:161} INFO - Started process (PID=539) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:22:21.396+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:22:21.399+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:22:21.398+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:22:23.179+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:22:23.234+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:22:23.233+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:22:23.281+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:22:23.281+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:22:23.313+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 1.922 seconds
+[2025-07-13T23:22:54.206+0000] {processor.py:161} INFO - Started process (PID=598) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:22:54.208+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:22:54.211+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:22:54.211+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:22:55.863+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:22:55.889+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:22:55.888+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:22:55.926+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:22:55.926+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:22:55.949+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 1.749 seconds
+[2025-07-13T23:23:26.632+0000] {processor.py:161} INFO - Started process (PID=660) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:23:26.634+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:23:26.638+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:23:26.638+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:23:28.996+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:23:29.025+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:23:29.025+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:23:29.060+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:23:29.059+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:23:29.092+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 2.468 seconds
+[2025-07-13T23:23:59.581+0000] {processor.py:161} INFO - Started process (PID=720) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:23:59.584+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:23:59.587+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:23:59.586+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:24:00.849+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:24:00.873+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:24:00.872+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:24:00.901+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:24:00.901+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:24:00.928+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 1.353 seconds
+[2025-07-13T23:24:31.397+0000] {processor.py:161} INFO - Started process (PID=780) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:24:31.400+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:24:31.403+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:24:31.402+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:24:33.066+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:24:33.090+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:24:33.089+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:24:33.127+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:24:33.127+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:24:33.155+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 1.763 seconds
+[2025-07-13T23:25:03.428+0000] {processor.py:161} INFO - Started process (PID=840) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:25:03.430+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:25:03.437+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:25:03.436+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:25:05.646+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:25:05.676+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:25:05.675+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:25:05.779+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:25:05.778+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:25:05.889+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 2.468 seconds
+[2025-07-13T23:25:36.517+0000] {processor.py:161} INFO - Started process (PID=908) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:25:36.529+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:25:36.537+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:25:36.536+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:25:43.166+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:25:43.254+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:25:43.253+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:25:43.400+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:25:43.397+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:25:43.468+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 6.965 seconds
+[2025-07-13T23:26:15.145+0000] {processor.py:161} INFO - Started process (PID=973) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:26:15.148+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:26:15.152+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:26:15.151+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:26:22.698+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:26:22.761+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:26:22.746+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:26:22.845+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:26:22.841+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:26:22.938+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 7.818 seconds
+[2025-07-13T23:26:53.028+0000] {processor.py:161} INFO - Started process (PID=1038) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:26:53.030+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:26:53.034+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:26:53.033+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:26:55.924+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:26:55.977+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:26:55.976+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:26:56.041+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:26:56.040+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:26:56.099+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 3.056 seconds
+[2025-07-13T23:27:26.745+0000] {processor.py:161} INFO - Started process (PID=1105) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:27:26.749+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:27:26.754+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:27:26.753+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:27:30.788+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:27:30.844+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:27:30.843+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:27:30.931+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:27:30.931+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:27:31.152+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 4.416 seconds
+[2025-07-13T23:28:06.046+0000] {processor.py:161} INFO - Started process (PID=1171) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:28:06.052+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:28:06.060+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:28:06.060+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:28:13.071+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:28:13.135+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:28:13.134+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:28:13.230+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:28:13.230+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:28:13.314+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 7.279 seconds
+[2025-07-13T23:28:43.817+0000] {processor.py:161} INFO - Started process (PID=1245) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:28:43.822+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:28:43.831+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:28:43.829+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:28:49.182+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:28:49.250+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:28:49.248+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:28:49.316+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:28:49.315+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:28:49.375+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 5.569 seconds
+[2025-07-13T23:29:19.655+0000] {processor.py:161} INFO - Started process (PID=1311) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:29:19.659+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:29:19.663+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:29:19.662+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:29:21.417+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:29:21.466+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:29:21.464+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:29:21.510+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:29:21.510+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:29:21.547+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 1.899 seconds
+[2025-07-13T23:29:52.059+0000] {processor.py:161} INFO - Started process (PID=1372) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:29:52.061+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:29:52.067+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:29:52.066+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:29:53.524+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:29:53.547+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:29:53.546+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:29:53.582+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:29:53.581+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:29:53.607+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 1.560 seconds
+[2025-07-13T23:30:24.160+0000] {processor.py:161} INFO - Started process (PID=1433) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:30:24.165+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:30:24.170+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:30:24.169+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:30:27.345+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:30:27.412+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:30:27.411+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:30:27.524+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:30:27.523+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:30:27.596+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 3.434 seconds
+[2025-07-13T23:30:57.741+0000] {processor.py:161} INFO - Started process (PID=1493) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:30:57.754+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:30:57.769+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:30:57.767+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:31:04.675+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:31:04.807+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:31:04.804+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:31:04.906+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:31:04.905+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:31:05.072+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 7.346 seconds
+[2025-07-13T23:31:35.547+0000] {processor.py:161} INFO - Started process (PID=1558) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:31:35.556+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:31:35.562+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:31:35.561+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:31:40.212+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:31:40.344+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:31:40.343+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:31:40.493+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:31:40.492+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:31:40.582+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 5.042 seconds
+[2025-07-13T23:32:11.108+0000] {processor.py:161} INFO - Started process (PID=1632) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:32:11.111+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:32:11.116+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:32:11.115+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:32:13.665+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:32:13.731+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:32:13.731+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:32:13.793+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:32:13.791+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:32:13.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 2.854 seconds
+[2025-07-13T23:32:44.091+0000] {processor.py:161} INFO - Started process (PID=1696) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:32:44.093+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:32:44.096+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:32:44.095+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:32:45.975+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:32:46.006+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:32:46.005+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:32:46.056+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:32:46.055+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:32:46.092+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 2.006 seconds
+[2025-07-13T23:33:16.239+0000] {processor.py:161} INFO - Started process (PID=1758) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:33:16.242+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:33:16.245+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:33:16.245+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:33:18.214+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:33:18.237+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:33:18.237+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:33:18.275+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:33:18.274+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:33:18.313+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 2.080 seconds
+[2025-07-13T23:33:48.884+0000] {processor.py:161} INFO - Started process (PID=1822) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:33:48.886+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:33:48.890+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:33:48.889+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:33:50.666+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:33:50.698+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:33:50.697+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:33:50.739+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:33:50.737+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:33:50.944+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 2.065 seconds
+[2025-07-13T23:34:21.122+0000] {processor.py:161} INFO - Started process (PID=1890) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:34:21.123+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:34:21.127+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:34:21.126+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:34:23.060+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:34:23.093+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:34:23.092+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:34:23.123+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:34:23.123+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:34:23.147+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 2.031 seconds
+[2025-07-13T23:34:54.459+0000] {processor.py:161} INFO - Started process (PID=1949) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:34:54.461+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:34:54.468+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:34:54.467+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:34:58.659+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:34:58.710+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:34:58.709+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:34:58.770+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:34:58.769+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:34:58.822+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 4.373 seconds
+[2025-07-13T23:35:28.960+0000] {processor.py:161} INFO - Started process (PID=2013) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:35:28.964+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:35:28.993+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:35:28.992+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:35:35.765+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:35:35.838+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:35:35.836+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:35:35.893+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:35:35.893+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:35:35.975+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 7.020 seconds
+[2025-07-13T23:36:06.811+0000] {processor.py:161} INFO - Started process (PID=2081) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:36:06.815+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:36:06.820+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:36:06.819+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:36:12.948+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:36:13.000+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:36:12.998+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:36:13.130+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:36:13.130+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:36:13.201+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 6.397 seconds
+[2025-07-13T23:36:43.736+0000] {processor.py:161} INFO - Started process (PID=2155) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:36:43.739+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:36:43.742+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:36:43.742+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:36:46.200+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:36:46.257+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:36:46.252+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:36:46.332+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:36:46.332+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:36:46.388+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 2.659 seconds
+[2025-07-13T23:37:16.645+0000] {processor.py:161} INFO - Started process (PID=2218) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:37:16.649+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:37:16.653+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:37:16.653+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:37:19.825+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:37:19.886+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:37:19.885+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:37:19.954+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:37:19.953+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:37:20.036+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 3.396 seconds
+[2025-07-13T23:37:50.484+0000] {processor.py:161} INFO - Started process (PID=2284) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:37:50.486+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:37:50.490+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:37:50.489+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:37:54.477+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:37:54.528+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:37:54.524+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:37:54.590+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:37:54.589+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:37:54.631+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 4.154 seconds
+[2025-07-13T23:38:25.233+0000] {processor.py:161} INFO - Started process (PID=2349) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:38:25.235+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:38:25.240+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:38:25.239+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:38:27.942+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:38:27.969+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:38:27.968+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:38:28.006+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:38:28.006+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:38:28.036+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 2.845 seconds
+[2025-07-13T23:38:58.335+0000] {processor.py:161} INFO - Started process (PID=2416) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:38:58.338+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:38:58.345+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:38:58.342+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:39:02.521+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:39:02.621+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:39:02.620+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:39:02.673+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:39:02.673+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:39:02.714+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 4.391 seconds
+[2025-07-13T23:39:33.081+0000] {processor.py:161} INFO - Started process (PID=2485) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:39:33.084+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:39:33.090+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:39:33.090+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:39:35.427+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:39:35.452+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:39:35.451+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:39:35.489+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:39:35.489+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:39:35.513+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 2.444 seconds
+[2025-07-13T23:40:06.017+0000] {processor.py:161} INFO - Started process (PID=2546) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:40:06.018+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:40:06.021+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:40:06.021+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:40:07.895+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:40:07.939+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:40:07.938+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:40:08.006+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:40:08.006+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:40:08.116+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 2.104 seconds
+[2025-07-13T23:40:38.621+0000] {processor.py:161} INFO - Started process (PID=2608) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:40:38.624+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:40:38.629+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:40:38.628+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:40:40.779+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:40:40.827+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:40:40.825+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:40:40.932+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:40:40.932+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:40:41.011+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 2.396 seconds
+[2025-07-13T23:41:11.550+0000] {processor.py:161} INFO - Started process (PID=2671) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:41:11.555+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:41:11.560+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:41:11.559+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:41:15.296+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:41:15.376+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:41:15.375+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:41:15.484+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:41:15.484+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:41:15.639+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 4.098 seconds
+[2025-07-13T23:41:46.191+0000] {processor.py:161} INFO - Started process (PID=2741) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:41:46.193+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:41:46.196+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:41:46.195+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:41:47.960+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:41:47.995+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:41:47.994+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:41:48.038+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:41:48.037+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:41:48.078+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 1.892 seconds
+[2025-07-13T23:42:18.624+0000] {processor.py:161} INFO - Started process (PID=2801) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:42:18.626+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:42:18.631+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:42:18.630+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:42:20.539+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:42:20.561+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:42:20.560+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:42:20.593+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:42:20.593+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:42:20.617+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 1.999 seconds
+[2025-07-13T23:42:50.762+0000] {processor.py:161} INFO - Started process (PID=2866) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:42:50.765+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:42:50.768+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:42:50.767+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:42:53.037+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:42:53.062+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:42:53.061+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:42:53.102+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:42:53.101+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:42:53.132+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 2.378 seconds
+[2025-07-13T23:43:23.467+0000] {processor.py:161} INFO - Started process (PID=2928) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:43:23.470+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:43:23.474+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:43:23.474+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:43:26.747+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:43:26.792+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:43:26.791+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:43:26.859+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:43:26.858+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:43:26.920+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 3.464 seconds
+[2025-07-13T23:43:57.389+0000] {processor.py:161} INFO - Started process (PID=2990) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:43:57.394+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:43:57.397+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:43:57.396+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:43:59.549+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:43:59.581+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:43:59.580+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:43:59.631+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:43:59.631+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:43:59.671+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 2.289 seconds
+[2025-07-13T23:44:29.932+0000] {processor.py:161} INFO - Started process (PID=3056) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:44:29.936+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:44:29.940+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:44:29.940+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:44:31.361+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:44:31.394+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:44:31.393+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:44:31.441+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:44:31.441+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:44:31.488+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 1.563 seconds
+[2025-07-13T23:45:01.650+0000] {processor.py:161} INFO - Started process (PID=3118) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:45:01.652+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:45:01.655+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:45:01.654+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:45:04.219+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:45:04.291+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:45:04.290+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:45:04.460+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:45:04.460+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:45:04.496+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 2.852 seconds
+[2025-07-13T23:45:34.986+0000] {processor.py:161} INFO - Started process (PID=3181) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:45:34.990+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:45:34.993+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:45:34.993+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:45:37.198+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:45:37.234+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:45:37.234+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:45:37.324+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:45:37.323+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:45:37.371+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 2.394 seconds
+[2025-07-13T23:46:07.713+0000] {processor.py:161} INFO - Started process (PID=3242) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:46:07.718+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:46:07.724+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:46:07.723+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:46:09.373+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:46:09.423+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:46:09.423+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:46:09.484+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:46:09.483+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:46:09.520+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 1.814 seconds
+[2025-07-13T23:46:39.738+0000] {processor.py:161} INFO - Started process (PID=3305) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:46:39.741+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:46:39.747+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:46:39.746+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:46:41.294+0000] {processor.py:840} INFO - DAG(s) 'spy_yfinance_parquet_ingestion' retrieved from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:46:41.324+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:46:41.323+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:46:41.376+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:46:41.375+0000] {dag.py:3823} INFO - Setting next_dagrun for spy_yfinance_parquet_ingestion to 2025-07-13 00:00:00+00:00, run_after=2025-07-14 00:00:00+00:00
+[2025-07-13T23:46:41.418+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/s3_ingestion_dag.py took 1.686 seconds
+[2025-07-13T23:47:12.214+0000] {processor.py:161} INFO - Started process (PID=3368) to work on /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:47:12.250+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/s3_ingestion_dag.py for tasks to queue
+[2025-07-13T23:47:12.315+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:47:12.314+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/s3_ingestion_dag.py
+[2025-07-13T23:47:18.658+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:47:18.657+0000] {process_utils.py:262} INFO - Waiting up to 5 seconds for processes to exit...

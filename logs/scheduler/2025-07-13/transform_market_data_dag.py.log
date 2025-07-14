@@ -1402,3 +1402,381 @@ TypeError: unsupported operand type(s) for |: 'type' and 'type'
 [2025-07-13T16:42:28.019+0000] {logging_mixin.py:188} INFO - [2025-07-13T16:42:28.019+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2025-07-13T16:42:28.050+0000] {logging_mixin.py:188} INFO - [2025-07-13T16:42:28.049+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
 [2025-07-13T16:42:28.087+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 0.962 seconds
+[2025-07-13T23:18:14.714+0000] {processor.py:161} INFO - Started process (PID=64) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:18:14.758+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:18:14.876+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:18:14.876+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:18:24.738+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:18:25.338+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:18:25.337+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:18:25.434+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:18:25.433+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:18:26.205+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 11.555 seconds
+[2025-07-13T23:18:56.946+0000] {processor.py:161} INFO - Started process (PID=124) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:18:56.947+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:18:56.950+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:18:56.950+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:18:58.035+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:18:58.062+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:18:58.061+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:18:58.083+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:18:58.083+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:18:58.115+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.174 seconds
+[2025-07-13T23:19:28.456+0000] {processor.py:161} INFO - Started process (PID=186) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:19:28.458+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:19:28.502+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:19:28.476+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:19:30.480+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:19:30.563+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:19:30.562+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:19:30.585+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:19:30.585+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:19:30.684+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 2.234 seconds
+[2025-07-13T23:20:00.819+0000] {processor.py:161} INFO - Started process (PID=248) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:20:00.821+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:20:00.823+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:20:00.823+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:20:01.886+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:20:01.937+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:20:01.936+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:20:01.973+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:20:01.973+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:20:02.101+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.287 seconds
+[2025-07-13T23:20:32.213+0000] {processor.py:161} INFO - Started process (PID=309) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:20:32.215+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:20:32.218+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:20:32.218+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:20:33.536+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:20:33.570+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:20:33.569+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:20:33.595+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:20:33.595+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:20:33.633+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.425 seconds
+[2025-07-13T23:21:03.778+0000] {processor.py:161} INFO - Started process (PID=370) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:21:03.781+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:21:03.784+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:21:03.784+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:21:05.323+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:21:05.355+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:21:05.355+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:21:05.382+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:21:05.381+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:21:05.425+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.655 seconds
+[2025-07-13T23:21:35.770+0000] {processor.py:161} INFO - Started process (PID=437) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:21:35.773+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:21:35.776+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:21:35.776+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:21:36.604+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:21:36.624+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:21:36.624+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:21:36.639+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:21:36.638+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:21:36.662+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 0.898 seconds
+[2025-07-13T23:22:07.551+0000] {processor.py:161} INFO - Started process (PID=500) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:22:07.554+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:22:07.558+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:22:07.557+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:22:08.544+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:22:08.574+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:22:08.573+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:22:08.594+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:22:08.593+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:22:08.629+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.084 seconds
+[2025-07-13T23:22:38.755+0000] {processor.py:161} INFO - Started process (PID=559) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:22:38.757+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:22:38.760+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:22:38.759+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:22:39.787+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:22:39.820+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:22:39.819+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:22:39.839+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:22:39.839+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:22:39.875+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.125 seconds
+[2025-07-13T23:23:09.931+0000] {processor.py:161} INFO - Started process (PID=622) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:23:09.933+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:23:09.938+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:23:09.937+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:23:12.351+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:23:12.419+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:23:12.418+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:23:12.448+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:23:12.448+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:23:12.514+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 2.589 seconds
+[2025-07-13T23:23:42.970+0000] {processor.py:161} INFO - Started process (PID=686) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:23:42.972+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:23:42.975+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:23:42.974+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:23:44.530+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:23:44.574+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:23:44.574+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:23:44.603+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:23:44.602+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:23:44.637+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.673 seconds
+[2025-07-13T23:24:15.184+0000] {processor.py:161} INFO - Started process (PID=749) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:24:15.185+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:24:15.188+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:24:15.188+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:24:16.650+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:24:16.727+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:24:16.726+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:24:16.754+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:24:16.753+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:24:16.798+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.620 seconds
+[2025-07-13T23:24:47.456+0000] {processor.py:161} INFO - Started process (PID=813) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:24:47.458+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:24:47.464+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:24:47.463+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:24:49.699+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:24:49.735+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:24:49.734+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:24:49.773+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:24:49.773+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:24:49.809+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 2.360 seconds
+[2025-07-13T23:25:20.086+0000] {processor.py:161} INFO - Started process (PID=877) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:25:20.092+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:25:20.113+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:25:20.112+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:25:21.754+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:25:21.789+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:25:21.788+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:25:21.811+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:25:21.809+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:25:21.852+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.778 seconds
+[2025-07-13T23:25:52.001+0000] {processor.py:161} INFO - Started process (PID=938) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:25:52.004+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:25:52.012+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:25:52.010+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:25:54.464+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:25:54.580+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:25:54.579+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:25:54.627+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:25:54.627+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:25:54.690+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 2.700 seconds
+[2025-07-13T23:26:29.348+0000] {processor.py:161} INFO - Started process (PID=998) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:26:29.352+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:26:29.363+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:26:29.362+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:26:31.980+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:26:32.126+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:26:32.125+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:26:32.275+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:26:32.275+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:26:32.368+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 3.032 seconds
+[2025-07-13T23:27:05.903+0000] {processor.py:161} INFO - Started process (PID=1059) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:27:05.917+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:27:05.926+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:27:05.925+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:27:09.878+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:27:09.925+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:27:09.924+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:27:09.955+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:27:09.955+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:27:10.004+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 4.121 seconds
+[2025-07-13T23:27:41.215+0000] {processor.py:161} INFO - Started process (PID=1129) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:27:41.219+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:27:41.240+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:27:41.239+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:27:47.650+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:27:47.724+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:27:47.723+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:27:48.032+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:27:48.026+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:27:48.552+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 7.347 seconds
+[2025-07-13T23:28:18.895+0000] {processor.py:161} INFO - Started process (PID=1193) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:28:18.898+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:28:18.905+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:28:18.905+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:28:21.057+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:28:21.099+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:28:21.098+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:28:21.167+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:28:21.167+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:28:21.252+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 2.364 seconds
+[2025-07-13T23:28:51.657+0000] {processor.py:161} INFO - Started process (PID=1255) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:28:51.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:28:51.665+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:28:51.664+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:28:59.420+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:28:59.507+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:28:59.506+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:28:59.569+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:28:59.568+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:28:59.637+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 8.019 seconds
+[2025-07-13T23:29:29.886+0000] {processor.py:161} INFO - Started process (PID=1318) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:29:29.889+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:29:29.893+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:29:29.892+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:29:30.945+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:29:30.975+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:29:30.974+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:29:30.992+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:29:30.992+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:29:31.022+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.142 seconds
+[2025-07-13T23:30:01.419+0000] {processor.py:161} INFO - Started process (PID=1381) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:30:01.425+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:30:01.447+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:30:01.446+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:30:06.006+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:30:06.147+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:30:06.146+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:30:06.212+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:30:06.208+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:30:06.375+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 4.991 seconds
+[2025-07-13T23:30:36.484+0000] {processor.py:161} INFO - Started process (PID=1447) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:30:36.490+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:30:36.501+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:30:36.500+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:30:37.984+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:30:38.034+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:30:38.034+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:30:38.083+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:30:38.081+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:30:38.152+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.677 seconds
+[2025-07-13T23:31:08.347+0000] {processor.py:161} INFO - Started process (PID=1509) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:31:08.351+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:31:08.360+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:31:08.357+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:31:11.423+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:31:11.478+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:31:11.477+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:31:11.544+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:31:11.544+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:31:11.615+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 3.287 seconds
+[2025-07-13T23:31:42.373+0000] {processor.py:161} INFO - Started process (PID=1577) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:31:42.376+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:31:42.379+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:31:42.379+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:31:44.257+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:31:44.363+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:31:44.361+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:31:44.423+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:31:44.423+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:31:44.548+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 2.182 seconds
+[2025-07-13T23:32:14.927+0000] {processor.py:161} INFO - Started process (PID=1641) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:32:14.934+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:32:14.941+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:32:14.940+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:32:16.299+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:32:16.341+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:32:16.341+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:32:16.368+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:32:16.368+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:32:16.401+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.490 seconds
+[2025-07-13T23:32:46.467+0000] {processor.py:161} INFO - Started process (PID=1703) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:32:46.470+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:32:46.476+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:32:46.473+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:32:47.621+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:32:47.672+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:32:47.671+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:32:47.702+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:32:47.702+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:32:47.754+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.297 seconds
+[2025-07-13T23:33:18.369+0000] {processor.py:161} INFO - Started process (PID=1764) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:33:18.371+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:33:18.377+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:33:18.376+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:33:19.415+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:33:19.440+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:33:19.439+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:33:19.454+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:33:19.453+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:33:19.496+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.137 seconds
+[2025-07-13T23:33:49.751+0000] {processor.py:161} INFO - Started process (PID=1828) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:33:49.752+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:33:49.755+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:33:49.754+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:33:50.657+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:33:50.690+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:33:50.690+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:33:50.712+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:33:50.712+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:33:50.747+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.001 seconds
+[2025-07-13T23:34:20.818+0000] {processor.py:161} INFO - Started process (PID=1887) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:34:20.820+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:34:20.823+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:34:20.822+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:34:21.808+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:34:21.836+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:34:21.835+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:34:21.853+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:34:21.852+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:34:21.894+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.081 seconds
+[2025-07-13T23:34:54.407+0000] {processor.py:161} INFO - Started process (PID=1948) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:34:54.411+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:34:54.414+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:34:54.413+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:34:56.830+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:34:56.886+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:34:56.886+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:34:56.924+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:34:56.923+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:34:57.098+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 2.702 seconds
+[2025-07-13T23:35:27.213+0000] {processor.py:161} INFO - Started process (PID=2008) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:35:27.216+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:35:27.221+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:35:27.221+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:35:29.783+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:35:29.865+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:35:29.863+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:35:29.932+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:35:29.930+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:35:30.120+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 2.912 seconds
+[2025-07-13T23:36:00.863+0000] {processor.py:161} INFO - Started process (PID=2070) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:36:00.866+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:36:00.875+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:36:00.875+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:36:01.932+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:36:01.959+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:36:01.958+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:36:01.983+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:36:01.983+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:36:02.019+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.168 seconds
+[2025-07-13T23:36:32.477+0000] {processor.py:161} INFO - Started process (PID=2129) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:36:32.482+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:36:32.491+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:36:32.490+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:36:33.882+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:36:33.922+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:36:33.922+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:36:33.948+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:36:33.948+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:36:33.991+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.526 seconds
+[2025-07-13T23:37:04.745+0000] {processor.py:161} INFO - Started process (PID=2191) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:37:04.747+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:37:04.756+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:37:04.755+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:37:05.920+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:37:05.975+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:37:05.972+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:37:06.034+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:37:06.033+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:37:06.094+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.358 seconds
+[2025-07-13T23:37:36.397+0000] {processor.py:161} INFO - Started process (PID=2253) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:37:36.400+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:37:36.403+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:37:36.403+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:37:37.436+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:37:37.457+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:37:37.456+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:37:37.472+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:37:37.472+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:37:37.499+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.109 seconds
+[2025-07-13T23:38:07.635+0000] {processor.py:161} INFO - Started process (PID=2316) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:38:07.638+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:38:07.644+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:38:07.642+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:38:08.469+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:38:08.494+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:38:08.493+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:38:08.513+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:38:08.513+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:38:08.544+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 0.914 seconds
+[2025-07-13T23:38:39.107+0000] {processor.py:161} INFO - Started process (PID=2376) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:38:39.110+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:38:39.115+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:38:39.114+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:38:40.526+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:38:40.552+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:38:40.551+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:38:40.569+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:38:40.568+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:38:40.598+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.497 seconds
+[2025-07-13T23:39:10.893+0000] {processor.py:161} INFO - Started process (PID=2437) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:39:10.905+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:39:10.912+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:39:10.912+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:39:12.480+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:39:12.509+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:39:12.508+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:39:12.546+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:39:12.545+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:39:12.590+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.709 seconds
+[2025-07-13T23:39:43.446+0000] {processor.py:161} INFO - Started process (PID=2499) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:39:43.448+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:39:43.456+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:39:43.453+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:39:44.919+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:39:44.958+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:39:44.957+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:39:44.988+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:39:44.988+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:39:45.065+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.625 seconds
+[2025-07-13T23:40:15.183+0000] {processor.py:161} INFO - Started process (PID=2567) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:40:15.185+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:40:15.194+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:40:15.193+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:40:16.617+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:40:16.678+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:40:16.677+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:40:16.713+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:40:16.712+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:40:16.933+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.762 seconds
+[2025-07-13T23:40:47.726+0000] {processor.py:161} INFO - Started process (PID=2628) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:40:47.729+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:40:47.732+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:40:47.731+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:40:48.760+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:40:48.791+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:40:48.790+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:40:48.817+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:40:48.816+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:40:48.868+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.149 seconds
+[2025-07-13T23:41:19.127+0000] {processor.py:161} INFO - Started process (PID=2689) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:41:19.130+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:41:19.135+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:41:19.134+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:41:20.230+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:41:20.255+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:41:20.254+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:41:20.269+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:41:20.269+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:41:20.302+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.183 seconds
+[2025-07-13T23:41:50.967+0000] {processor.py:161} INFO - Started process (PID=2752) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:41:50.971+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:41:50.974+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:41:50.974+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:41:52.072+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:41:52.102+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:41:52.102+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:41:52.120+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:41:52.120+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:41:52.150+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.190 seconds
+[2025-07-13T23:42:22.271+0000] {processor.py:161} INFO - Started process (PID=2811) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:42:22.273+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:42:22.276+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:42:22.276+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:42:23.043+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:42:23.070+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:42:23.069+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:42:23.090+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:42:23.089+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:42:23.123+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 0.858 seconds
+[2025-07-13T23:42:53.180+0000] {processor.py:161} INFO - Started process (PID=2871) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:42:53.181+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:42:53.185+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:42:53.184+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:42:53.984+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:42:54.018+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:42:54.017+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:42:54.042+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:42:54.042+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:42:54.075+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 0.901 seconds
+[2025-07-13T23:43:24.691+0000] {processor.py:161} INFO - Started process (PID=2931) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:43:24.700+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:43:24.705+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:43:24.704+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:43:26.922+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:43:26.993+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:43:26.992+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:43:27.039+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:43:27.039+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:43:27.085+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 2.410 seconds
+[2025-07-13T23:43:57.376+0000] {processor.py:161} INFO - Started process (PID=2989) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:43:57.378+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:43:57.381+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:43:57.381+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:43:58.310+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:43:58.363+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:43:58.362+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:43:58.391+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:43:58.391+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:43:58.427+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.058 seconds
+[2025-07-13T23:44:29.038+0000] {processor.py:161} INFO - Started process (PID=3049) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:44:29.044+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:44:29.050+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:44:29.049+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:44:29.912+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:44:29.952+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:44:29.951+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:44:29.975+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:44:29.975+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:44:30.011+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 0.981 seconds
+[2025-07-13T23:45:00.213+0000] {processor.py:161} INFO - Started process (PID=3113) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:45:00.216+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:45:00.221+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:45:00.220+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:45:01.190+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:45:01.264+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:45:01.264+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:45:01.307+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:45:01.307+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:45:01.469+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.263 seconds
+[2025-07-13T23:45:31.839+0000] {processor.py:161} INFO - Started process (PID=3173) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:45:31.841+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:45:31.846+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:45:31.845+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:45:33.059+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:45:33.094+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:45:33.094+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:45:33.114+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:45:33.114+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:45:33.149+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.319 seconds
+[2025-07-13T23:46:03.349+0000] {processor.py:161} INFO - Started process (PID=3233) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:46:03.352+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:46:03.355+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:46:03.355+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:46:04.210+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:46:04.237+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:46:04.236+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:46:04.253+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:46:04.253+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:46:04.281+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 0.938 seconds
+[2025-07-13T23:46:35.128+0000] {processor.py:161} INFO - Started process (PID=3295) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:46:35.133+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:46:35.136+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:46:35.136+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:46:35.866+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:46:35.897+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:46:35.896+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:46:35.915+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:46:35.915+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:46:35.946+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 0.828 seconds
+[2025-07-13T23:47:06.105+0000] {processor.py:161} INFO - Started process (PID=3356) to work on /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:47:06.108+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_market_data_dag.py for tasks to queue
+[2025-07-13T23:47:06.113+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:47:06.112+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:47:07.609+0000] {processor.py:840} INFO - DAG(s) 'transform_market_data' retrieved from /opt/airflow/dags/transform_market_data_dag.py
+[2025-07-13T23:47:07.673+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:47:07.672+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-13T23:47:07.724+0000] {logging_mixin.py:188} INFO - [2025-07-13T23:47:07.723+0000] {dag.py:3823} INFO - Setting next_dagrun for transform_market_data to None, run_after=None
+[2025-07-13T23:47:07.842+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_market_data_dag.py took 1.744 seconds

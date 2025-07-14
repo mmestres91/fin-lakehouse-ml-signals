@@ -34,6 +34,7 @@ detect-secrets = "^1.4"
 commitizen     = "^3.13"
 
 # ───────────────────────── Commitizen (Conventional Commits) ────────────
+great-expectations = "0.18.15"
 [tool.commitizen]
 name                       = "cz_conventional_commits"
 version                    = "0.1.0"
