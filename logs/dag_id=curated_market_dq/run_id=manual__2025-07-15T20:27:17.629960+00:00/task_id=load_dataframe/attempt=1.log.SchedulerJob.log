@@ -1,0 +1,1 @@
+[2025-07-15T20:27:22.121+0000] {scheduler_job_runner.py:781} ERROR - Executor reports task instance <TaskInstance: curated_market_dq.load_dataframe manual__2025-07-15T20:27:17.629960+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

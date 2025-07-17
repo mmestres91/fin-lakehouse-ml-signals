@@ -1,0 +1,34 @@
+[2025-07-15T23:45:03.646+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: curated_market_dq.validate_dataframe manual__2025-07-15T23:44:33.766954+00:00 [queued]>
+[2025-07-15T23:45:03.667+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: curated_market_dq.validate_dataframe manual__2025-07-15T23:44:33.766954+00:00 [queued]>
+[2025-07-15T23:45:03.671+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2025-07-15T23:45:03.699+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): validate_dataframe> on 2025-07-15 23:44:33.766954+00:00
+[2025-07-15T23:45:03.717+0000] {standard_task_runner.py:60} INFO - Started process 570 to run task
+[2025-07-15T23:45:03.725+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'curated_market_dq', 'validate_dataframe', 'manual__2025-07-15T23:44:33.766954+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/curated_market_dq_dag.py', '--cfg-path', '/tmp/tmpttowq3bf']
+[2025-07-15T23:45:03.729+0000] {standard_task_runner.py:88} INFO - Job 84: Subtask validate_dataframe
+[2025-07-15T23:45:03.846+0000] {task_command.py:423} INFO - Running <TaskInstance: curated_market_dq.validate_dataframe manual__2025-07-15T23:44:33.766954+00:00 [running]> on host 189e939b6cc2
+[2025-07-15T23:45:05.160+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-platform' AIRFLOW_CTX_DAG_ID='curated_market_dq' AIRFLOW_CTX_TASK_ID='validate_dataframe' AIRFLOW_CTX_EXECUTION_DATE='2025-07-15T23:44:33.766954+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-15T23:44:33.766954+00:00'
+[2025-07-15T23:45:05.480+0000] {file_data_context.py:222} INFO - FileDataContext loading fluent config
+[2025-07-15T23:45:05.497+0000] {config.py:187} INFO - Loading 'datasources' ->
+[{'assets': [...], 'name': 'local_pandas', 'type': 'pandas'}]
+[2025-07-15T23:45:05.513+0000] {fluent_base_model.py:276} INFO - _PandasDataAsset.dict() - missing `config_provider`, skipping config substitution
+[2025-07-15T23:45:05.743+0000] {abstract_data_context.py:5515} INFO - Loaded 'local_pandas' from fluent config
+[2025-07-15T23:45:05.748+0000] {file_data_context.py:174} INFO - Saving 1 Fluent Datasources to /opt/***/gx/great_expectations.yml
+[2025-07-15T23:45:05.752+0000] {fluent_base_model.py:276} INFO - DataFrameAsset.dict() - missing `config_provider`, skipping config substitution
+[2025-07-15T23:45:05.753+0000] {fluent_base_model.py:276} INFO - PandasDatasource.dict() - missing `config_provider`, skipping config substitution
+[2025-07-15T23:45:05.835+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/curated_market_dq_dag.py", line 70, in validate_dataframe
+    batch_request = asset.build_batch_request(
+TypeError: build_batch_request() got an unexpected keyword argument 'batch_data'
+[2025-07-15T23:45:05.905+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=curated_market_dq, task_id=validate_dataframe, execution_date=20250715T234433, start_date=20250715T234503, end_date=20250715T234505
+[2025-07-15T23:45:05.977+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 84 for task validate_dataframe (build_batch_request() got an unexpected keyword argument 'batch_data'; 570)
+[2025-07-15T23:45:06.046+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-15T23:45:06.166+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

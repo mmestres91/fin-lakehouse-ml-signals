@@ -1,0 +1,33 @@
+[2025-07-17T13:48:44.046+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: curated_market_dq.publish_docs manual__2025-07-17T13:36:51.273895+00:00 [queued]>
+[2025-07-17T13:48:44.065+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: curated_market_dq.publish_docs manual__2025-07-17T13:36:51.273895+00:00 [queued]>
+[2025-07-17T13:48:44.068+0000] {taskinstance.py:2170} INFO - Starting attempt 4 of 4
+[2025-07-17T13:48:44.106+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): publish_docs> on 2025-07-17 13:36:51.273895+00:00
+[2025-07-17T13:48:44.122+0000] {standard_task_runner.py:60} INFO - Started process 12196 to run task
+[2025-07-17T13:48:44.130+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'curated_market_dq', 'publish_docs', 'manual__2025-07-17T13:36:51.273895+00:00', '--job-id', '133', '--raw', '--subdir', 'DAGS_FOLDER/curated_market_dq_dag.py', '--cfg-path', '/tmp/tmp1so89y6w']
+[2025-07-17T13:48:44.133+0000] {standard_task_runner.py:88} INFO - Job 133: Subtask publish_docs
+[2025-07-17T13:48:44.221+0000] {task_command.py:423} INFO - Running <TaskInstance: curated_market_dq.publish_docs manual__2025-07-17T13:36:51.273895+00:00 [running]> on host 189e939b6cc2
+[2025-07-17T13:48:44.397+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-platform' AIRFLOW_CTX_DAG_ID='curated_market_dq' AIRFLOW_CTX_TASK_ID='publish_docs' AIRFLOW_CTX_EXECUTION_DATE='2025-07-17T13:36:51.273895+00:00' AIRFLOW_CTX_TRY_NUMBER='4' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-17T13:36:51.273895+00:00'
+[2025-07-17T13:48:44.436+0000] {credentials.py:1147} INFO - Found credentials in environment variables.
+[2025-07-17T13:48:44.759+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/curated_market_dq_dag.py", line 101, in publish_docs
+    for html_file in Path(local_site_path).rglob("*"):
+  File "/usr/local/lib/python3.8/pathlib.py", line 1042, in __new__
+    self = cls._from_parts(args, init=False)
+  File "/usr/local/lib/python3.8/pathlib.py", line 683, in _from_parts
+    drv, root, parts = self._parse_args(args)
+  File "/usr/local/lib/python3.8/pathlib.py", line 667, in _parse_args
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+[2025-07-17T13:48:44.791+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=curated_market_dq, task_id=publish_docs, execution_date=20250717T133651, start_date=20250717T134844, end_date=20250717T134844
+[2025-07-17T13:48:44.854+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 133 for task publish_docs (expected str, bytes or os.PathLike object, not NoneType; 12196)
+[2025-07-17T13:48:44.930+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-17T13:48:45.009+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

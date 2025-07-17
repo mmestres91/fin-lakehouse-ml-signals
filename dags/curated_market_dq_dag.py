@@ -7,6 +7,7 @@ from airflow.decorators import dag, task
 from airflow.models import Variable
 
 import great_expectations as gx
+
 import polars as pl
 import boto3
 from pathlib import Path
@@ -22,7 +23,7 @@ S3_PARQUET_TEMPLATE = (
     "s3://finlakehouse-curated-mmestres91/market/spy_transformed.parquet"
 )
 CHECKPOINT_NAME = "curated_market_ckpt"
-GE_PROJECT_ROOT = "/opt/airflow/great_expectations"  # inside the container
+# GE_PROJECT_ROOT = "/opt/airflow/gx"  # inside the container
 DATA_DOCS_BUCKET = "finlakehouse-logs-mmestres91"  # S3 bucket for HTML
 DATA_DOCS_PREFIX = "curated_market_ge"  # folder in that bucket
 AWS_CONN_ID = "aws_default"  # Airflow Conn (if using S3Hook)
@@ -40,8 +41,8 @@ AWS_CONN_ID = "aws_default"  # Airflow Conn (if using S3Hook)
         "owner": "data-platform",
         "retries": 2,
         "retry_delay": timedelta(minutes=5),
-        "email_on_failure": True,
-        "email": ["data-ops@example.com"],
+        # "email_on_failure": True,
+        # "email": ["data-ops@example.com"],
     },
     tags=["dq", "great_expectations"],
 )
@@ -59,23 +60,30 @@ def curated_market_dq():
     # ─────────────────────────────────────────────────────────────────────────
     # 2️⃣  Run Great Expectations checkpoint
     # ─────────────────────────────────────────────────────────────────────────
-    @task
+    @task()
     def validate_dataframe(df, run_date: str):
-        ctx = gx.get_context(project_root_dir=GE_PROJECT_ROOT)
+        ctx = gx.get_context()
 
-        # the checkpoint already knows datasource & asset
-        result = ctx.run_checkpoint(
-            checkpoint_name=CHECKPOINT_NAME,
-            batch_request={"dataframe": df},
-            run_name=run_date,
+        datasource_name = "local_pandas"
+        asset_name = "spy_sample"
+
+        # 1️⃣  get the DataFrameAsset object that was registered by create_expectations.py
+        asset = ctx.datasources[datasource_name].get_asset(asset_name)
+
+        # 2️⃣  build a proper DataFrameBatchRequest
+        batch_request = asset.build_batch_request(
+            dataframe=df,  # inline dataframe
+            # batch_identifiers={"run_date": run_date},   # any identifiers/tags you like
         )
 
+        # 3️⃣  run the checkpoint
+        result = ctx.run_checkpoint(
+            checkpoint_name="curated_market_ckpt",
+            batch_request=batch_request,
+            run_name=run_date,
+        )
         if not result["success"]:
-            raise ValueError("❌ Great Expectations validation FAILED ❌")
-
-        # render Data Docs to a temp directory
-        docs_path = ctx.build_data_docs()
-        return str(docs_path)  # path sent downstream
+            raise ValueError("❌ GE validation failed")
 
     # ─────────────────────────────────────────────────────────────────────────
     # 3️⃣  Ship HTML site up to S3 (optional but nice)

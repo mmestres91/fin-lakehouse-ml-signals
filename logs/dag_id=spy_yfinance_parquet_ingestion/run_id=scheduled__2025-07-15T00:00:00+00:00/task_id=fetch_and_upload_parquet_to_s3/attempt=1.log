@@ -1,0 +1,18 @@
+[2025-07-16T15:02:19.971+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spy_yfinance_parquet_ingestion.fetch_and_upload_parquet_to_s3 scheduled__2025-07-15T00:00:00+00:00 [queued]>
+[2025-07-16T15:02:20.009+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spy_yfinance_parquet_ingestion.fetch_and_upload_parquet_to_s3 scheduled__2025-07-15T00:00:00+00:00 [queued]>
+[2025-07-16T15:02:20.012+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-07-16T15:02:20.053+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): fetch_and_upload_parquet_to_s3> on 2025-07-15 00:00:00+00:00
+[2025-07-16T15:02:20.079+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'spy_yfinance_parquet_ingestion', 'fetch_and_upload_parquet_to_s3', 'scheduled__2025-07-15T00:00:00+00:00', '--job-id', '95', '--raw', '--subdir', 'DAGS_FOLDER/s3_ingestion_dag.py', '--cfg-path', '/tmp/tmpxewb16m6']
+[2025-07-16T15:02:20.084+0000] {standard_task_runner.py:88} INFO - Job 95: Subtask fetch_and_upload_parquet_to_s3
+[2025-07-16T15:02:20.076+0000] {standard_task_runner.py:60} INFO - Started process 75 to run task
+[2025-07-16T15:02:20.256+0000] {task_command.py:423} INFO - Running <TaskInstance: spy_yfinance_parquet_ingestion.fetch_and_upload_parquet_to_s3 scheduled__2025-07-15T00:00:00+00:00 [running]> on host 189e939b6cc2
+[2025-07-16T15:02:20.613+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='mark' AIRFLOW_CTX_DAG_ID='spy_yfinance_parquet_ingestion' AIRFLOW_CTX_TASK_ID='fetch_and_upload_parquet_to_s3' AIRFLOW_CTX_EXECUTION_DATE='2025-07-15T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-07-15T00:00:00+00:00'
+[2025-07-16T15:02:20.617+0000] {logging_mixin.py:188} INFO - YF.download() has changed argument auto_adjust default to True
+[2025-07-16T15:02:24.484+0000] {logging_mixin.py:188} WARNING - [*********************100%***********************]  1 of 1 completed
+[2025-07-16T15:02:24.486+0000] {multi.py:182} ERROR - 
+1 Failed download:
+[2025-07-16T15:02:24.488+0000] {multi.py:195} ERROR - ['SPY']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+[2025-07-16T15:02:25.024+0000] {credentials.py:1147} INFO - Found credentials in environment variables.
+[2025-07-16T15:02:27.123+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-07-16T15:02:27.146+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=spy_yfinance_parquet_ingestion, task_id=fetch_and_upload_parquet_to_s3, execution_date=20250715T000000, start_date=20250716T150219, end_date=20250716T150227
+[2025-07-16T15:02:27.265+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0

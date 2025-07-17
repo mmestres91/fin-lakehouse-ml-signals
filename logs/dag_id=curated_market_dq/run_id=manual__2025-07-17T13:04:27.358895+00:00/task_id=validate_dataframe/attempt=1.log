@@ -1,0 +1,62 @@
+[2025-07-17T13:04:58.703+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: curated_market_dq.validate_dataframe manual__2025-07-17T13:04:27.358895+00:00 [queued]>
+[2025-07-17T13:04:58.748+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: curated_market_dq.validate_dataframe manual__2025-07-17T13:04:27.358895+00:00 [queued]>
+[2025-07-17T13:04:58.749+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2025-07-17T13:04:58.788+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): validate_dataframe> on 2025-07-17 13:04:27.358895+00:00
+[2025-07-17T13:04:58.811+0000] {standard_task_runner.py:60} INFO - Started process 11417 to run task
+[2025-07-17T13:04:58.818+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'curated_market_dq', 'validate_dataframe', 'manual__2025-07-17T13:04:27.358895+00:00', '--job-id', '113', '--raw', '--subdir', 'DAGS_FOLDER/curated_market_dq_dag.py', '--cfg-path', '/tmp/tmprr1f3tri']
+[2025-07-17T13:04:58.820+0000] {standard_task_runner.py:88} INFO - Job 113: Subtask validate_dataframe
+[2025-07-17T13:04:58.918+0000] {task_command.py:423} INFO - Running <TaskInstance: curated_market_dq.validate_dataframe manual__2025-07-17T13:04:27.358895+00:00 [running]> on host 189e939b6cc2
+[2025-07-17T13:04:59.200+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-platform' AIRFLOW_CTX_DAG_ID='curated_market_dq' AIRFLOW_CTX_TASK_ID='validate_dataframe' AIRFLOW_CTX_EXECUTION_DATE='2025-07-17T13:04:27.358895+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-17T13:04:27.358895+00:00'
+[2025-07-17T13:04:59.380+0000] {file_data_context.py:222} INFO - FileDataContext loading fluent config
+[2025-07-17T13:04:59.390+0000] {config.py:187} INFO - Loading 'datasources' ->
+[{'assets': [...], 'name': 'local_pandas', 'type': 'pandas'}]
+[2025-07-17T13:04:59.393+0000] {fluent_base_model.py:276} INFO - _PandasDataAsset.dict() - missing `config_provider`, skipping config substitution
+[2025-07-17T13:04:59.490+0000] {abstract_data_context.py:5515} INFO - Loaded 'local_pandas' from fluent config
+[2025-07-17T13:04:59.491+0000] {file_data_context.py:174} INFO - Saving 1 Fluent Datasources to /opt/***/gx/great_expectations.yml
+[2025-07-17T13:04:59.493+0000] {fluent_base_model.py:276} INFO - DataFrameAsset.dict() - missing `config_provider`, skipping config substitution
+[2025-07-17T13:04:59.494+0000] {fluent_base_model.py:276} INFO - PandasDatasource.dict() - missing `config_provider`, skipping config substitution
+[2025-07-17T13:04:59.665+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/curated_market_dq_dag.py", line 81, in validate_dataframe
+    result = ctx.run_checkpoint(
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/core/usage_statistics/usage_statistics.py", line 266, in usage_statistics_wrapped_method
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/data_context/data_context/abstract_data_context.py", line 2108, in run_checkpoint
+    return self._run_checkpoint(
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/data_context/data_context/abstract_data_context.py", line 2152, in _run_checkpoint
+    result: CheckpointResult = checkpoint.run_with_runtime_args(
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/checkpoint/checkpoint.py", line 915, in run_with_runtime_args
+    return self.run(**checkpoint_run_arguments)
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/core/usage_statistics/usage_statistics.py", line 266, in usage_statistics_wrapped_method
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/checkpoint/checkpoint.py", line 315, in run
+    self._run_validation(
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/checkpoint/checkpoint.py", line 480, in _run_validation
+    validator: Validator = self._validator or self.data_context.get_validator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/data_context/data_context/abstract_data_context.py", line 2375, in get_validator
+    self.get_batch_list(
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/core/usage_statistics/usage_statistics.py", line 266, in usage_statistics_wrapped_method
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/data_context/data_context/abstract_data_context.py", line 2544, in get_batch_list
+    return self._get_batch_list(
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/data_context/data_context/abstract_data_context.py", line 2625, in _get_batch_list
+    return datasource.get_batch_list_from_batch_request(batch_request=result)
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/datasource/fluent/interfaces.py", line 474, in get_batch_list_from_batch_request
+    return data_asset.get_batch_list_from_batch_request(batch_request)
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/datasource/fluent/pandas_datasource.py", line 410, in get_batch_list_from_batch_request
+    self._validate_batch_request(batch_request)
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/datasource/fluent/pandas_datasource.py", line 201, in _validate_batch_request
+    and not batch_request.options
+AttributeError: 'RuntimeBatchRequest' object has no attribute 'options'
+[2025-07-17T13:04:59.763+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=curated_market_dq, task_id=validate_dataframe, execution_date=20250717T130427, start_date=20250717T130458, end_date=20250717T130459
+[2025-07-17T13:04:59.849+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 113 for task validate_dataframe ('RuntimeBatchRequest' object has no attribute 'options'; 11417)
+[2025-07-17T13:04:59.931+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-17T13:04:59.997+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

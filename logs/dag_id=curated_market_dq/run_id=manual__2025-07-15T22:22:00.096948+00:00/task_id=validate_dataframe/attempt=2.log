@@ -1,0 +1,63 @@
+[2025-07-15T22:27:49.592+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: curated_market_dq.validate_dataframe manual__2025-07-15T22:22:00.096948+00:00 [queued]>
+[2025-07-15T22:27:49.608+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: curated_market_dq.validate_dataframe manual__2025-07-15T22:22:00.096948+00:00 [queued]>
+[2025-07-15T22:27:49.609+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 3
+[2025-07-15T22:27:49.630+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): validate_dataframe> on 2025-07-15 22:22:00.096948+00:00
+[2025-07-15T22:27:49.646+0000] {standard_task_runner.py:60} INFO - Started process 218 to run task
+[2025-07-15T22:27:49.653+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'curated_market_dq', 'validate_dataframe', 'manual__2025-07-15T22:22:00.096948+00:00', '--job-id', '65', '--raw', '--subdir', 'DAGS_FOLDER/curated_market_dq_dag.py', '--cfg-path', '/tmp/tmpc6flc44x']
+[2025-07-15T22:27:49.656+0000] {standard_task_runner.py:88} INFO - Job 65: Subtask validate_dataframe
+[2025-07-15T22:27:49.737+0000] {task_command.py:423} INFO - Running <TaskInstance: curated_market_dq.validate_dataframe manual__2025-07-15T22:22:00.096948+00:00 [running]> on host 933e6b50c7ae
+[2025-07-15T22:27:49.961+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-platform' AIRFLOW_CTX_DAG_ID='curated_market_dq' AIRFLOW_CTX_TASK_ID='validate_dataframe' AIRFLOW_CTX_EXECUTION_DATE='2025-07-15T22:22:00.096948+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-15T22:22:00.096948+00:00'
+[2025-07-15T22:27:50.054+0000] {file_data_context.py:222} INFO - FileDataContext loading fluent config
+[2025-07-15T22:27:50.059+0000] {config.py:187} INFO - Loading 'datasources' ->
+[]
+[2025-07-15T22:27:50.144+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/data_context/store/tuple_store_backend.py", line 305, in _get
+    with open(filepath) as infile:
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/great_expectations/gx/checkpoints/curated_market_ckpt.yml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/data_context/store/checkpoint_store.py", line 154, in get_checkpoint
+    checkpoint_config: Optional[Any] = self.get(key=key)
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/data_context/store/store.py", line 207, in get
+    value = self._store_backend.get(self.key_to_tuple(key))
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/data_context/store/_store_backend.py", line 123, in get
+    value = self._get(key, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/data_context/store/tuple_store_backend.py", line 308, in _get
+    raise InvalidKeyError(
+great_expectations.exceptions.exceptions.InvalidKeyError: Unable to retrieve object from TupleFilesystemStoreBackend with the following Key: /opt/***/great_expectations/gx/checkpoints/curated_market_ckpt.yml
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/curated_market_dq_dag.py", line 67, in validate_dataframe
+    result = ctx.run_checkpoint(
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/core/usage_statistics/usage_statistics.py", line 266, in usage_statistics_wrapped_method
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/data_context/data_context/abstract_data_context.py", line 2108, in run_checkpoint
+    return self._run_checkpoint(
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/data_context/data_context/abstract_data_context.py", line 2148, in _run_checkpoint
+    checkpoint: Checkpoint = self.get_checkpoint(
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/data_context/data_context/abstract_data_context.py", line 1999, in get_checkpoint
+    checkpoint_config: CheckpointConfig = self.checkpoint_store.get_checkpoint(
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/data_context/store/checkpoint_store.py", line 159, in get_checkpoint
+    raise gx_exceptions.CheckpointNotFoundError(
+great_expectations.exceptions.exceptions.CheckpointNotFoundError: Non-existent Checkpoint configuration named "curated_market_ckpt".
+
+Details: Unable to retrieve object from TupleFilesystemStoreBackend with the following Key: /opt/***/great_expectations/gx/checkpoints/curated_market_ckpt.yml
+[2025-07-15T22:27:50.174+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=curated_market_dq, task_id=validate_dataframe, execution_date=20250715T222200, start_date=20250715T222749, end_date=20250715T222750
+[2025-07-15T22:27:50.191+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 65 for task validate_dataframe (Non-existent Checkpoint configuration named "curated_market_ckpt".
+
+Details: Unable to retrieve object from TupleFilesystemStoreBackend with the following Key: /opt/***/great_expectations/gx/checkpoints/curated_market_ckpt.yml; 218)
+[2025-07-15T22:27:50.244+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-15T22:27:50.306+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
