@@ -1,27 +1,56 @@
+# flake8: noqa: E501
 import io
 from datetime import datetime, timedelta
 
 import boto3
+import logging
+import polars as pl
 import yfinance as yf
 from airflow.operators.python import PythonOperator
+from airflow.exceptions import AirflowFailException
 
 from airflow import DAG  # type: ignore[attr-defined]
 
 
-def fetch_and_upload_parquet_to_s3():
-    # Fetch SPY data
-    df = yf.download("SPY", period="1d", interval="5m")
+def fetch_and_upload_parquet_to_s3(**context):
+    symbol = "SPY"
+    max_retries = 5
 
-    # Convert DataFrame to Parquet in memory
-    buffer = io.BytesIO()
-    df.to_parquet(buffer, engine="pyarrow", index=True)
-    buffer.seek(0)
+    for attempt in range(1, max_retries + 1):
+        try:
+            logging.info("Fetching %s (attempt %s/%s)", symbol, attempt, max_retries)
+            df = yf.download(
+                tickers=symbol,
+                threads=False,  # avoids hidden thread errors
+                progress=False,
+                auto_adjust=True,
+                interval="1d",
+                period="max",
+            )
 
-    # Upload to S3
-    s3 = boto3.client("s3")
-    s3.upload_fileobj(
-        buffer, "finlakehouse-raw-mmestres91", "ingestion/spy_intraday.parquet"
-    )
+            if df.empty:
+                raise ValueError("Yahoo returned 0 rows")
+
+            # ---- write Parquet in-memory ----
+            pl_df = pl.from_pandas(df.reset_index())
+            buf = io.BytesIO()
+            pl_df.write_parquet(buf, compression="snappy")
+            buf.seek(0)
+
+            s3 = boto3.client("s3")
+            key = f"raw/{symbol.lower()}_{context['ds']}.parquet"
+            s3.upload_fileobj(buf, "finlakehouse-raw-mmestres91", key)
+            logging.info(
+                "✅ uploaded %s rows → s3://finlakehouse-raw…/%s", len(df), key
+            )
+            return key  # exit ⬅︎ success
+
+        except Exception as e:
+            # Anything else is unrecoverable for this run
+            raise AirflowFailException(f"Ingest failed: {e}") from e
+
+    # exhausted retries
+    raise AirflowFailException("Exceeded retries – still rate-limited")
 
 
 default_args = {

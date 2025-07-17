@@ -1,0 +1,26 @@
+[2025-07-17T19:14:34.339+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: curated_market_dq.load_dataframe manual__2025-07-17T19:14:32.801966+00:00 [queued]>
+[2025-07-17T19:14:34.342+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: curated_market_dq.load_dataframe manual__2025-07-17T19:14:32.801966+00:00 [queued]>
+[2025-07-17T19:14:34.342+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2025-07-17T19:14:34.345+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): load_dataframe> on 2025-07-17 19:14:32.801966+00:00
+[2025-07-17T19:14:34.348+0000] {standard_task_runner.py:60} INFO - Started process 111 to run task
+[2025-07-17T19:14:34.350+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'curated_market_dq', 'load_dataframe', 'manual__2025-07-17T19:14:32.801966+00:00', '--job-id', '32', '--raw', '--subdir', 'DAGS_FOLDER/curated_market_dq_dag.py', '--cfg-path', '/tmp/tmpltgxv98z']
+[2025-07-17T19:14:34.351+0000] {standard_task_runner.py:88} INFO - Job 32: Subtask load_dataframe
+[2025-07-17T19:14:34.367+0000] {task_command.py:423} INFO - Running <TaskInstance: curated_market_dq.load_dataframe manual__2025-07-17T19:14:32.801966+00:00 [running]> on host b03a0574e2e2
+[2025-07-17T19:14:34.390+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-platform' AIRFLOW_CTX_DAG_ID='curated_market_dq' AIRFLOW_CTX_TASK_ID='load_dataframe' AIRFLOW_CTX_EXECUTION_DATE='2025-07-17T19:14:32.801966+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-17T19:14:32.801966+00:00'
+[2025-07-17T19:14:34.659+0000] {python.py:201} INFO - Done. Returned value was:           date       close        high  ...    volume        rsi      ema_20
+0   2024-07-17  550.088562  553.614651  ...  57119000        NaN         NaN
+1   2024-07-18  545.861145  552.636799  ...  56270400        NaN         NaN
+2   2024-07-19  542.236328  547.263738  ...  65509100        NaN         NaN
+3   2024-07-22  547.826782  548.439150  ...  43346700        NaN         NaN
+4   2024-07-23  546.967529  549.891077  ...  34439600        NaN         NaN
+..         ...         ...         ...  ...       ...        ...         ...
+246 2025-07-11  623.619995  624.859985  ...  63670200  68.448737  612.702729
+247 2025-07-14  624.809998  625.159973  ...  51898500  69.317680  613.855802
+248 2025-07-15  622.140015  627.859985  ...  74317300  64.992697  614.644775
+249 2025-07-16  624.219971  624.729980  ...  88837200  66.733989  615.556698
+250 2025-07-17  627.909973  628.140015  ...  42029380  69.620970  616.733201
+
+[251 rows x 8 columns]
+[2025-07-17T19:14:34.697+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=curated_market_dq, task_id=load_dataframe, execution_date=20250717T191432, start_date=20250717T191434, end_date=20250717T191434
+[2025-07-17T19:14:34.745+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-17T19:14:34.758+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

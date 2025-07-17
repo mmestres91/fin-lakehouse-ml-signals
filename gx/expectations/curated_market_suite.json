@@ -5,21 +5,21 @@
     {
       "expectation_type": "expect_column_to_exist",
       "kwargs": {
-        "column": "datetime"
+        "column": "date"
       },
       "meta": {}
     },
     {
       "expectation_type": "expect_column_values_to_not_be_null",
       "kwargs": {
-        "column": "datetime"
+        "column": "date"
       },
       "meta": {}
     },
     {
       "expectation_type": "expect_column_values_to_be_unique",
       "kwargs": {
-        "column": "datetime"
+        "column": "date"
       },
       "meta": {}
     },

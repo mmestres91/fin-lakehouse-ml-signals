@@ -85,6 +85,19 @@ def curated_market_dq():
         if not result["success"]:
             raise ValueError("❌ GE validation failed")
 
+        # 1️⃣ build docs (return value will be None → we ignore it)
+        ctx.build_data_docs(site_names=["local_site"])
+
+        # 2️⃣ determine where GE wrote the local site
+        docs_dir = (
+            Path(ctx.root_directory)  # /opt/airflow/gx
+            / "uncommitted"
+            / "data_docs"
+            / "local_site"
+        )
+
+        return str(docs_dir)  # hand to publish_docs()
+
     # ─────────────────────────────────────────────────────────────────────────
     # 3️⃣  Ship HTML site up to S3 (optional but nice)
     # ─────────────────────────────────────────────────────────────────────────

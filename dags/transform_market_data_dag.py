@@ -37,7 +37,7 @@ def transform_yfinance_data():
     # 1. Read from S3
     s3 = boto3.client("s3")
     bucket = "finlakehouse-raw-mmestres91"
-    key = "ingestion/spy_intraday.parquet"  # Adjust key if needed
+    key = "market_data/yfinance/SPY/year=2025/data.parquet"  # Adjust key if needed
 
     raw_obj = s3.get_object(Bucket=bucket, Key=key)
     df: pl.DataFrame = pl.read_parquet(raw_obj["Body"])

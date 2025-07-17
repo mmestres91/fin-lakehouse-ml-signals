@@ -1,0 +1,34 @@
+[2025-07-17T19:14:36.242+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: curated_market_dq.validate_dataframe manual__2025-07-17T19:14:32.801966+00:00 [queued]>
+[2025-07-17T19:14:36.244+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: curated_market_dq.validate_dataframe manual__2025-07-17T19:14:32.801966+00:00 [queued]>
+[2025-07-17T19:14:36.244+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2025-07-17T19:14:36.248+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): validate_dataframe> on 2025-07-17 19:14:32.801966+00:00
+[2025-07-17T19:14:36.250+0000] {standard_task_runner.py:60} INFO - Started process 144 to run task
+[2025-07-17T19:14:36.252+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'curated_market_dq', 'validate_dataframe', 'manual__2025-07-17T19:14:32.801966+00:00', '--job-id', '33', '--raw', '--subdir', 'DAGS_FOLDER/curated_market_dq_dag.py', '--cfg-path', '/tmp/tmpuqdu4lrg']
+[2025-07-17T19:14:36.253+0000] {standard_task_runner.py:88} INFO - Job 33: Subtask validate_dataframe
+[2025-07-17T19:14:36.269+0000] {task_command.py:423} INFO - Running <TaskInstance: curated_market_dq.validate_dataframe manual__2025-07-17T19:14:32.801966+00:00 [running]> on host b03a0574e2e2
+[2025-07-17T19:14:36.320+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-platform' AIRFLOW_CTX_DAG_ID='curated_market_dq' AIRFLOW_CTX_TASK_ID='validate_dataframe' AIRFLOW_CTX_EXECUTION_DATE='2025-07-17T19:14:32.801966+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-17T19:14:32.801966+00:00'
+[2025-07-17T19:14:36.339+0000] {file_data_context.py:222} INFO - FileDataContext loading fluent config
+[2025-07-17T19:14:36.340+0000] {config.py:187} INFO - Loading 'datasources' ->
+[{'assets': [...], 'name': 'local_pandas', 'type': 'pandas'}]
+[2025-07-17T19:14:36.340+0000] {fluent_base_model.py:276} INFO - _PandasDataAsset.dict() - missing `config_provider`, skipping config substitution
+[2025-07-17T19:14:36.352+0000] {abstract_data_context.py:5515} INFO - Loaded 'local_pandas' from fluent config
+[2025-07-17T19:14:36.353+0000] {file_data_context.py:174} INFO - Saving 1 Fluent Datasources to /opt/***/gx/great_expectations.yml
+[2025-07-17T19:14:36.354+0000] {fluent_base_model.py:276} INFO - DataFrameAsset.dict() - missing `config_provider`, skipping config substitution
+[2025-07-17T19:14:36.354+0000] {fluent_base_model.py:276} INFO - PandasDatasource.dict() - missing `config_provider`, skipping config substitution
+[2025-07-17T19:14:36.371+0000] {validator.py:1461} INFO - 	7 expectation(s) included in expectation_suite.
+[2025-07-17T19:14:36.401+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:   0%|          | 0/23 [00:00<?, ?it/s]
+[2025-07-17T19:14:36.401+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:   0%|          | 0/23 [00:00<?, ?it/s]
+[2025-07-17T19:14:36.402+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:   9%|8         | 2/23 [00:00<00:00, 5269.23it/s]
+[2025-07-17T19:14:36.407+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:   9%|8         | 2/23 [00:00<00:00, 337.77it/s] 
+[2025-07-17T19:14:36.407+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  13%|#3        | 3/23 [00:00<00:00, 490.05it/s]
+[2025-07-17T19:14:36.413+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  13%|#3        | 3/23 [00:00<00:00, 263.59it/s]
+[2025-07-17T19:14:36.414+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  30%|###       | 7/23 [00:00<00:00, 550.99it/s]
+[2025-07-17T19:14:36.418+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  30%|###       | 7/23 [00:00<00:00, 409.82it/s]
+[2025-07-17T19:14:36.423+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 23/23 [00:00<00:00, 1073.11it/s]
+[2025-07-17T19:14:36.424+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 23/23 [00:00<00:00, 989.15it/s] 
+[2025-07-17T19:14:36.425+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 23/23 [00:00<00:00, 982.78it/s]
+[2025-07-17T19:14:36.425+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 23/23 [00:00<00:00, 977.89it/s]
+[2025-07-17T19:14:36.553+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-07-17T19:14:36.560+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=curated_market_dq, task_id=validate_dataframe, execution_date=20250717T191432, start_date=20250717T191436, end_date=20250717T191436
+[2025-07-17T19:14:36.597+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-17T19:14:36.609+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

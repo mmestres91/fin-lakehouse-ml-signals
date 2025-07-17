@@ -10231,3 +10231,1263 @@ Please take a look at these docs to improve your DAG import time:
 [2025-07-17T14:44:10.041+0000] {processor.py:161} INFO - Started process (PID=15635) to work on /opt/airflow/dags/curated_market_dq_dag.py
 [2025-07-17T14:44:10.043+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
 [2025-07-17T14:44:10.045+0000] {logging_mixin.py:188} INFO - [2025-07-17T14:44:10.045+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:05:14.831+0000] {processor.py:161} INFO - Started process (PID=47) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:05:14.832+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:05:14.834+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:05:14.834+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:05:17.626+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:05:17.632+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:05:17.632+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:05:17.645+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:05:17.645+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-16 00:00:00+00:00, run_after=2025-07-17 00:00:00+00:00
+[2025-07-17T18:05:17.657+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 2.828 seconds
+[2025-07-17T18:05:47.985+0000] {processor.py:161} INFO - Started process (PID=162) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:05:47.985+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:05:47.987+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:05:47.986+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:05:49.064+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:05:49.095+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:05:49.095+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:05:49.102+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:05:49.102+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-16 00:00:00+00:00, run_after=2025-07-17 00:00:00+00:00
+[2025-07-17T18:05:49.108+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.125 seconds
+[2025-07-17T18:06:19.400+0000] {processor.py:161} INFO - Started process (PID=244) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:06:19.401+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:06:19.402+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:06:19.402+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:06:20.664+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:06:20.678+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:06:20.678+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:06:20.691+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:06:20.690+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:06:20.699+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.302 seconds
+[2025-07-17T18:06:50.790+0000] {processor.py:161} INFO - Started process (PID=318) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:06:50.791+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:06:50.793+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:06:50.793+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:06:51.834+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:06:51.840+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:06:51.840+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:06:51.847+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:06:51.847+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:06:51.852+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.068 seconds
+[2025-07-17T18:07:22.559+0000] {processor.py:161} INFO - Started process (PID=390) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:07:22.560+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:07:22.562+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:07:22.561+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:07:23.769+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:07:23.776+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:07:23.776+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:07:23.784+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:07:23.784+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:07:23.792+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.236 seconds
+[2025-07-17T18:07:54.462+0000] {processor.py:161} INFO - Started process (PID=462) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:07:54.463+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:07:54.465+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:07:54.464+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:07:55.511+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:07:55.517+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:07:55.517+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:07:55.524+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:07:55.524+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:07:55.529+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.072 seconds
+[2025-07-17T18:08:26.250+0000] {processor.py:161} INFO - Started process (PID=534) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:08:26.252+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:08:26.254+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:08:26.253+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:08:27.304+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:08:27.311+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:08:27.311+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:08:27.319+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:08:27.319+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:08:27.324+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.079 seconds
+[2025-07-17T18:08:58.034+0000] {processor.py:161} INFO - Started process (PID=606) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:08:58.035+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:08:58.037+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:08:58.036+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:08:59.167+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:08:59.177+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:08:59.177+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:08:59.186+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:08:59.186+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:08:59.192+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.162 seconds
+[2025-07-17T18:09:30.015+0000] {processor.py:161} INFO - Started process (PID=678) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:09:30.017+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:09:30.019+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:09:30.019+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:09:31.215+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:09:31.226+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:09:31.226+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:09:31.234+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:09:31.234+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:09:31.241+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.230 seconds
+[2025-07-17T18:10:01.852+0000] {processor.py:161} INFO - Started process (PID=750) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:10:01.853+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:10:01.854+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:10:01.854+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:10:02.845+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:10:02.851+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:10:02.851+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:10:02.858+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:10:02.858+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:10:02.863+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.012 seconds
+[2025-07-17T18:10:33.591+0000] {processor.py:161} INFO - Started process (PID=822) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:10:33.592+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:10:33.596+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:10:33.595+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:10:34.841+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:10:34.849+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:10:34.849+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:10:34.864+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:10:34.863+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:10:34.870+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.284 seconds
+[2025-07-17T18:11:05.390+0000] {processor.py:161} INFO - Started process (PID=894) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:11:05.391+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:11:05.392+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:11:05.392+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:11:06.430+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:11:06.437+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:11:06.437+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:11:06.444+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:11:06.444+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:11:06.450+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.061 seconds
+[2025-07-17T18:11:37.198+0000] {processor.py:161} INFO - Started process (PID=966) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:11:37.198+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:11:37.200+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:11:37.200+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:11:38.317+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:11:38.327+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:11:38.327+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:11:38.335+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:11:38.335+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:11:38.341+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.146 seconds
+[2025-07-17T18:12:08.920+0000] {processor.py:161} INFO - Started process (PID=1038) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:12:08.921+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:12:08.923+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:12:08.923+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:12:09.964+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:12:09.971+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:12:09.971+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:12:09.979+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:12:09.979+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:12:09.984+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.068 seconds
+[2025-07-17T18:12:40.733+0000] {processor.py:161} INFO - Started process (PID=1110) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:12:40.734+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:12:40.736+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:12:40.736+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:12:41.720+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:12:41.726+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:12:41.726+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:12:41.733+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:12:41.733+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:12:41.739+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.009 seconds
+[2025-07-17T18:13:12.564+0000] {processor.py:161} INFO - Started process (PID=1182) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:13:12.565+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:13:12.567+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:13:12.567+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:13:13.633+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:13:13.641+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:13:13.641+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:13:13.648+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:13:13.648+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:13:13.654+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.094 seconds
+[2025-07-17T18:13:43.746+0000] {processor.py:161} INFO - Started process (PID=1254) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:13:43.747+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:13:43.748+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:13:43.748+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:13:44.933+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:13:44.940+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:13:44.940+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:13:44.948+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:13:44.947+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:13:44.953+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.209 seconds
+[2025-07-17T18:14:15.430+0000] {processor.py:161} INFO - Started process (PID=1326) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:14:15.430+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:14:15.431+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:14:15.431+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:14:16.485+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:14:16.494+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:14:16.493+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:14:16.501+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:14:16.501+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:14:16.507+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.079 seconds
+[2025-07-17T18:14:47.320+0000] {processor.py:161} INFO - Started process (PID=1398) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:14:47.321+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:14:47.322+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:14:47.322+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:14:48.427+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:14:48.435+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:14:48.434+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:14:48.449+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:14:48.449+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:14:48.458+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.142 seconds
+[2025-07-17T18:15:18.489+0000] {processor.py:161} INFO - Started process (PID=1470) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:15:18.490+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:15:18.492+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:15:18.492+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:15:19.667+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:15:19.675+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:15:19.674+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:15:19.683+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:15:19.683+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:15:19.689+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.202 seconds
+[2025-07-17T18:15:50.315+0000] {processor.py:161} INFO - Started process (PID=1548) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:15:50.317+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:15:50.320+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:15:50.319+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:15:51.345+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:15:51.352+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:15:51.352+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:15:51.361+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:15:51.361+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:15:51.366+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.055 seconds
+[2025-07-17T18:16:22.084+0000] {processor.py:161} INFO - Started process (PID=1620) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:16:22.085+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:16:22.088+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:16:22.088+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:16:23.148+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:16:23.155+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:16:23.155+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:16:23.162+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:16:23.162+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:16:23.168+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.090 seconds
+[2025-07-17T18:16:53.960+0000] {processor.py:161} INFO - Started process (PID=1692) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:16:53.962+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:16:53.965+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:16:53.965+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:16:55.014+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:16:55.021+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:16:55.021+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:16:55.030+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:16:55.030+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:16:55.036+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.082 seconds
+[2025-07-17T18:17:25.068+0000] {processor.py:161} INFO - Started process (PID=1764) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:17:25.069+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:17:25.072+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:17:25.071+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:17:26.138+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:17:26.145+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:17:26.145+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:17:26.152+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:17:26.152+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:17:26.158+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.095 seconds
+[2025-07-17T18:17:56.187+0000] {processor.py:161} INFO - Started process (PID=1836) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:17:56.189+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:17:56.190+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:17:56.190+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:17:57.220+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:17:57.227+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:17:57.227+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:17:57.234+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:17:57.234+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:17:57.239+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.055 seconds
+[2025-07-17T18:18:28.170+0000] {processor.py:161} INFO - Started process (PID=1908) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:18:28.171+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:18:28.174+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:18:28.173+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:18:29.166+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:18:29.171+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:18:29.171+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:18:29.178+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:18:29.178+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:18:29.184+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.018 seconds
+[2025-07-17T18:18:59.319+0000] {processor.py:161} INFO - Started process (PID=1980) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:18:59.320+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:18:59.322+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:18:59.321+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:19:00.339+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:19:00.345+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:19:00.345+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:19:00.352+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:19:00.352+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:19:00.358+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.042 seconds
+[2025-07-17T18:19:30.404+0000] {processor.py:161} INFO - Started process (PID=2052) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:19:30.405+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:19:30.407+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:19:30.406+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:19:31.539+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:19:31.548+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:19:31.548+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:19:31.556+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:19:31.555+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:19:31.564+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.164 seconds
+[2025-07-17T18:20:01.678+0000] {processor.py:161} INFO - Started process (PID=2124) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:20:01.679+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:20:01.681+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:20:01.681+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:20:02.740+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:20:02.748+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:20:02.748+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:20:02.756+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:20:02.756+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:20:02.762+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.089 seconds
+[2025-07-17T18:20:33.301+0000] {processor.py:161} INFO - Started process (PID=2196) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:20:33.302+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:20:33.305+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:20:33.304+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:20:34.522+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:20:34.531+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:20:34.531+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:20:34.539+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:20:34.539+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:20:34.551+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.254 seconds
+[2025-07-17T18:21:05.003+0000] {processor.py:161} INFO - Started process (PID=2268) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:21:05.004+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:21:05.007+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:21:05.006+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:21:06.224+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:21:06.234+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:21:06.234+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:21:06.241+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:21:06.241+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:21:06.248+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.251 seconds
+[2025-07-17T18:21:36.551+0000] {processor.py:161} INFO - Started process (PID=2340) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:21:36.553+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:21:36.555+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:21:36.554+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:21:37.868+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:21:37.875+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:21:37.875+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:21:37.883+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:21:37.883+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:21:37.889+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.343 seconds
+[2025-07-17T18:22:08.307+0000] {processor.py:161} INFO - Started process (PID=2412) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:22:08.308+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:22:08.309+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:22:08.309+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:22:09.407+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:22:09.414+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:22:09.414+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:22:09.422+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:22:09.422+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:22:09.429+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.124 seconds
+[2025-07-17T18:22:40.115+0000] {processor.py:161} INFO - Started process (PID=2484) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:22:40.117+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:22:40.120+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:22:40.119+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:22:41.438+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:22:41.445+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:22:41.445+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:22:41.452+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:22:41.452+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:22:41.458+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.348 seconds
+[2025-07-17T18:23:11.679+0000] {processor.py:161} INFO - Started process (PID=2556) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:23:11.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:23:11.682+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:23:11.682+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:23:12.880+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:23:12.889+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:23:12.888+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:23:12.896+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:23:12.896+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:23:12.902+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.228 seconds
+[2025-07-17T18:23:43.287+0000] {processor.py:161} INFO - Started process (PID=2628) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:23:43.288+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:23:43.291+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:23:43.291+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:23:44.381+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:23:44.388+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:23:44.388+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:23:44.395+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:23:44.395+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:23:44.401+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.120 seconds
+[2025-07-17T18:24:15.093+0000] {processor.py:161} INFO - Started process (PID=2705) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:24:15.095+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:24:15.097+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:24:15.097+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:24:16.138+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:24:16.143+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:24:16.143+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:24:16.149+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:24:16.149+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:24:16.156+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.065 seconds
+[2025-07-17T18:24:46.745+0000] {processor.py:161} INFO - Started process (PID=2781) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:24:46.746+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:24:46.747+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:24:46.747+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:24:47.904+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:24:47.910+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:24:47.909+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:24:47.917+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:24:47.917+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:24:47.925+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.184 seconds
+[2025-07-17T18:25:18.355+0000] {processor.py:161} INFO - Started process (PID=2867) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:25:18.356+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:25:18.358+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:25:18.358+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:25:19.623+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:25:19.628+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:25:19.628+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:25:19.636+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:25:19.636+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:25:19.648+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.294 seconds
+[2025-07-17T18:25:50.075+0000] {processor.py:161} INFO - Started process (PID=2956) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:25:50.075+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:25:50.077+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:25:50.077+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:25:51.299+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:25:51.305+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:25:51.305+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:25:51.312+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:25:51.312+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:25:51.317+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.244 seconds
+[2025-07-17T18:26:21.885+0000] {processor.py:161} INFO - Started process (PID=3048) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:26:21.886+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:26:21.888+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:26:21.887+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:26:22.866+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:26:22.874+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:26:22.873+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:26:22.880+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:26:22.880+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:26:22.887+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.005 seconds
+[2025-07-17T18:26:53.687+0000] {processor.py:161} INFO - Started process (PID=3120) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:26:53.688+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:26:53.689+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:26:53.689+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:26:54.898+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:26:54.909+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:26:54.909+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:26:54.919+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:26:54.918+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:26:54.925+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.242 seconds
+[2025-07-17T18:27:25.436+0000] {processor.py:161} INFO - Started process (PID=3192) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:27:25.437+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:27:25.439+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:27:25.439+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:27:26.539+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:27:26.546+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:27:26.546+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:27:26.555+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:27:26.555+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:27:26.562+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.129 seconds
+[2025-07-17T18:27:57.198+0000] {processor.py:161} INFO - Started process (PID=3264) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:27:57.198+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:27:57.199+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:27:57.199+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:27:58.412+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:27:58.418+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:27:58.418+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:27:58.426+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:27:58.426+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:27:58.432+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.236 seconds
+[2025-07-17T18:28:29.079+0000] {processor.py:161} INFO - Started process (PID=3336) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:28:29.080+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:28:29.082+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:28:29.082+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:28:30.253+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:28:30.261+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:28:30.260+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:28:30.269+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:28:30.269+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:28:30.275+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.200 seconds
+[2025-07-17T18:29:00.977+0000] {processor.py:161} INFO - Started process (PID=3408) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:29:00.978+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:29:00.980+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:29:00.979+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:29:02.106+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:29:02.114+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:29:02.114+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:29:02.122+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:29:02.121+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:29:02.127+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.154 seconds
+[2025-07-17T18:29:32.677+0000] {processor.py:161} INFO - Started process (PID=3480) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:29:32.678+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:29:32.679+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:29:32.679+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:29:33.698+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:29:33.704+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:29:33.704+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:29:33.711+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:29:33.711+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:29:33.716+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.043 seconds
+[2025-07-17T18:30:04.376+0000] {processor.py:161} INFO - Started process (PID=3552) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:30:04.377+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:30:04.379+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:30:04.379+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:30:05.603+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:30:05.610+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:30:05.610+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:30:05.620+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:30:05.620+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:30:05.626+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.255 seconds
+[2025-07-17T18:30:36.207+0000] {processor.py:161} INFO - Started process (PID=3624) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:30:36.208+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:30:36.209+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:30:36.209+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:30:37.446+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:30:37.453+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:30:37.453+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:30:37.461+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:30:37.461+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:30:37.467+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.262 seconds
+[2025-07-17T18:31:08.005+0000] {processor.py:161} INFO - Started process (PID=3696) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:31:08.006+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:31:08.008+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:31:08.007+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:31:09.169+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:31:09.176+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:31:09.176+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:31:09.184+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:31:09.184+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:31:09.189+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.187 seconds
+[2025-07-17T18:31:39.685+0000] {processor.py:161} INFO - Started process (PID=3768) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:31:39.685+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:31:39.687+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:31:39.687+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:31:40.813+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:31:40.821+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:31:40.821+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:31:40.831+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:31:40.831+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:31:40.837+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.155 seconds
+[2025-07-17T18:32:11.491+0000] {processor.py:161} INFO - Started process (PID=3840) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:32:11.492+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:32:11.494+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:32:11.494+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:32:12.623+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:32:12.630+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:32:12.630+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:32:12.637+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:32:12.637+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:32:12.642+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.155 seconds
+[2025-07-17T18:32:43.167+0000] {processor.py:161} INFO - Started process (PID=3912) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:32:43.169+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:32:43.171+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:32:43.171+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:32:44.272+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:32:44.279+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:32:44.279+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:32:44.286+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:32:44.286+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:32:44.292+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.129 seconds
+[2025-07-17T18:33:14.908+0000] {processor.py:161} INFO - Started process (PID=3984) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:33:14.910+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:33:14.912+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:33:14.911+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:33:15.937+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:33:15.944+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:33:15.944+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:33:15.952+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:33:15.951+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:33:15.958+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.055 seconds
+[2025-07-17T18:33:46.726+0000] {processor.py:161} INFO - Started process (PID=4056) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:33:46.728+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:33:46.730+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:33:46.729+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:33:47.924+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:33:47.932+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:33:47.932+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:33:47.939+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:33:47.939+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:33:47.944+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.223 seconds
+[2025-07-17T18:34:18.589+0000] {processor.py:161} INFO - Started process (PID=4128) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:34:18.591+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:34:18.593+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:34:18.593+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:34:19.780+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:34:19.789+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:34:19.789+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:34:19.797+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:34:19.796+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:34:19.804+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.218 seconds
+[2025-07-17T18:34:50.365+0000] {processor.py:161} INFO - Started process (PID=4200) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:34:50.366+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:34:50.368+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:34:50.368+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:34:51.615+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:34:51.622+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:34:51.622+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:34:51.629+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:34:51.629+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:34:51.635+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.275 seconds
+[2025-07-17T18:35:22.104+0000] {processor.py:161} INFO - Started process (PID=4278) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:35:22.105+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:35:22.107+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:35:22.107+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:35:23.215+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:35:23.222+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:35:23.222+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:35:23.229+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:35:23.229+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:35:23.235+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.137 seconds
+[2025-07-17T18:35:53.946+0000] {processor.py:161} INFO - Started process (PID=4350) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:35:53.948+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:35:53.951+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:35:53.951+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:35:55.195+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:35:55.204+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:35:55.204+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:35:55.212+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:35:55.212+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:35:55.219+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.282 seconds
+[2025-07-17T18:36:25.709+0000] {processor.py:161} INFO - Started process (PID=4422) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:36:25.710+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:36:25.713+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:36:25.713+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:36:27.002+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:36:27.014+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:36:27.014+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:36:27.023+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:36:27.023+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:36:27.030+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.327 seconds
+[2025-07-17T18:36:57.548+0000] {processor.py:161} INFO - Started process (PID=4494) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:36:57.550+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:36:57.552+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:36:57.551+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:36:58.765+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:36:58.774+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:36:58.774+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:36:58.782+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:36:58.782+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:36:58.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.243 seconds
+[2025-07-17T18:37:29.369+0000] {processor.py:161} INFO - Started process (PID=4566) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:37:29.370+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:37:29.373+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:37:29.372+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:37:30.609+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:37:30.618+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:37:30.618+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:37:30.625+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:37:30.625+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:37:30.631+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.266 seconds
+[2025-07-17T18:38:01.098+0000] {processor.py:161} INFO - Started process (PID=4639) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:38:01.100+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:38:01.102+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:38:01.101+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:38:02.291+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:38:02.299+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:38:02.299+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:38:02.307+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:38:02.307+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:38:02.312+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.220 seconds
+[2025-07-17T18:38:32.815+0000] {processor.py:161} INFO - Started process (PID=4711) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:38:32.816+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:38:32.820+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:38:32.819+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:38:33.854+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:38:33.861+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:38:33.861+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:38:33.867+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:38:33.867+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:38:33.873+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.062 seconds
+[2025-07-17T18:39:04.539+0000] {processor.py:161} INFO - Started process (PID=4783) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:39:04.541+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:39:04.542+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:39:04.542+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:39:05.613+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:39:05.621+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:39:05.621+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:39:05.630+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:39:05.630+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:39:05.635+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.101 seconds
+[2025-07-17T18:39:36.265+0000] {processor.py:161} INFO - Started process (PID=4855) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:39:36.266+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:39:36.268+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:39:36.268+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:39:37.479+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:39:37.490+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:39:37.490+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:39:37.499+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:39:37.499+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:39:37.508+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.248 seconds
+[2025-07-17T18:40:08.520+0000] {processor.py:161} INFO - Started process (PID=4931) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:40:08.520+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:40:08.522+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:40:08.522+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:40:09.831+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:40:09.841+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:40:09.841+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:40:09.850+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:40:09.850+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:40:09.858+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.340 seconds
+[2025-07-17T18:40:40.843+0000] {processor.py:161} INFO - Started process (PID=5030) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:40:40.845+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:40:40.847+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:40:40.847+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:40:42.095+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:40:42.101+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:40:42.101+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:40:42.108+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:40:42.107+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:40:42.113+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.274 seconds
+[2025-07-17T18:41:12.129+0000] {processor.py:161} INFO - Started process (PID=5124) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:41:12.130+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:41:12.130+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:41:12.130+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:41:13.293+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:41:13.300+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:41:13.300+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:41:13.309+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:41:13.309+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:41:13.315+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.187 seconds
+[2025-07-17T18:41:44.055+0000] {processor.py:161} INFO - Started process (PID=5196) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:41:44.057+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:41:44.058+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:41:44.058+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:41:45.210+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:41:45.216+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:41:45.216+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:41:45.223+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:41:45.223+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:41:45.228+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.178 seconds
+[2025-07-17T18:42:16.046+0000] {processor.py:161} INFO - Started process (PID=5268) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:42:16.047+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:42:16.048+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:42:16.048+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:42:17.252+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:42:17.261+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:42:17.261+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:42:17.268+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:42:17.268+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:42:17.274+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.230 seconds
+[2025-07-17T18:42:47.869+0000] {processor.py:161} INFO - Started process (PID=5340) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:42:47.870+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:42:47.872+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:42:47.872+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:42:48.985+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:42:48.994+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:42:48.994+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:42:49.003+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:42:49.003+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:42:49.010+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.144 seconds
+[2025-07-17T18:43:19.550+0000] {processor.py:161} INFO - Started process (PID=5412) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:43:19.552+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:43:19.554+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:43:19.553+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:43:20.631+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:43:20.638+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:43:20.638+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:43:20.645+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:43:20.645+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:43:20.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.105 seconds
+[2025-07-17T18:43:51.584+0000] {processor.py:161} INFO - Started process (PID=5486) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:43:51.586+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:43:51.587+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:43:51.586+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:43:52.653+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:43:52.659+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:43:52.659+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:43:52.665+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:43:52.665+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:43:52.670+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.091 seconds
+[2025-07-17T18:44:23.397+0000] {processor.py:161} INFO - Started process (PID=5564) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:44:23.398+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:44:23.399+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:44:23.399+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:44:24.436+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:44:24.444+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:44:24.444+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:44:24.456+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:44:24.456+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:44:24.468+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.075 seconds
+[2025-07-17T18:45:31.249+0000] {processor.py:161} INFO - Started process (PID=47) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:45:31.249+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:45:31.250+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:45:31.250+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:45:33.508+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:45:33.516+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:45:33.516+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:45:33.524+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:45:33.524+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:45:33.530+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 2.284 seconds
+[2025-07-17T18:46:03.593+0000] {processor.py:161} INFO - Started process (PID=156) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:46:03.594+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:46:03.598+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:46:03.598+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:46:04.656+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:46:04.684+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:46:04.684+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:46:04.690+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:46:04.690+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:46:04.695+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.103 seconds
+[2025-07-17T18:46:34.876+0000] {processor.py:161} INFO - Started process (PID=237) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:46:34.877+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:46:34.879+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:46:34.878+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:46:35.898+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:46:35.904+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:46:35.904+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:46:35.910+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:46:35.910+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:46:35.916+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.043 seconds
+[2025-07-17T18:47:06.629+0000] {processor.py:161} INFO - Started process (PID=318) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:47:06.630+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:47:06.632+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:47:06.632+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:47:07.624+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:47:07.631+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:47:07.631+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:47:07.638+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:47:07.638+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:47:07.643+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.018 seconds
+[2025-07-17T18:47:49.363+0000] {processor.py:161} INFO - Started process (PID=390) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:47:49.363+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:47:49.364+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:47:49.364+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:47:50.484+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:47:50.491+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:47:50.491+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:47:50.500+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:47:50.500+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:47:50.506+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.144 seconds
+[2025-07-17T18:48:21.271+0000] {processor.py:161} INFO - Started process (PID=462) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:48:21.272+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:48:21.274+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:48:21.274+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:48:22.296+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:48:22.302+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:48:22.302+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:48:22.309+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:48:22.309+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:48:22.314+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.048 seconds
+[2025-07-17T18:48:53.052+0000] {processor.py:161} INFO - Started process (PID=537) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:48:53.053+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:48:53.055+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:48:53.055+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:48:54.137+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:48:54.144+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:48:54.144+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:48:54.151+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:48:54.151+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:48:54.156+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.108 seconds
+[2025-07-17T18:49:24.858+0000] {processor.py:161} INFO - Started process (PID=610) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:49:24.860+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:49:24.862+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:49:24.862+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:49:25.930+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:49:25.937+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:49:25.937+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:49:25.944+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:49:25.944+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:49:25.949+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.095 seconds
+[2025-07-17T18:49:56.583+0000] {processor.py:161} INFO - Started process (PID=683) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:49:56.585+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:49:56.587+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:49:56.586+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:49:57.547+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:49:57.553+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:49:57.553+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:49:57.559+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:49:57.559+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:49:57.564+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 0.986 seconds
+[2025-07-17T18:50:27.712+0000] {processor.py:161} INFO - Started process (PID=759) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:50:27.713+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:50:27.715+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:50:27.715+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:50:28.764+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:50:28.773+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:50:28.772+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:50:28.780+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:50:28.780+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:50:28.786+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.079 seconds
+[2025-07-17T18:50:59.617+0000] {processor.py:161} INFO - Started process (PID=832) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:50:59.619+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:50:59.621+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:50:59.620+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:51:00.629+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:51:00.636+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:51:00.636+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:51:00.644+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:51:00.644+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:51:00.650+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.037 seconds
+[2025-07-17T18:51:31.329+0000] {processor.py:161} INFO - Started process (PID=905) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:51:31.329+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:51:31.330+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:51:31.330+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:51:32.352+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:51:32.358+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:51:32.358+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:51:32.365+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:51:32.364+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:51:32.370+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.042 seconds
+[2025-07-17T18:52:03.105+0000] {processor.py:161} INFO - Started process (PID=977) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:52:03.106+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:52:03.109+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:52:03.108+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:52:04.189+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:52:04.197+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:52:04.197+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:52:04.205+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:52:04.205+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:52:04.210+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.109 seconds
+[2025-07-17T18:52:34.834+0000] {processor.py:161} INFO - Started process (PID=1049) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:52:34.835+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:52:34.837+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:52:34.836+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:52:35.797+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:52:35.803+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:52:35.803+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:52:35.810+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:52:35.810+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:52:35.815+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 0.984 seconds
+[2025-07-17T18:53:06.243+0000] {processor.py:161} INFO - Started process (PID=1121) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:53:06.244+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:53:06.246+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:53:06.246+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:53:07.205+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:53:07.211+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:53:07.211+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:53:07.217+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:53:07.217+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:53:07.222+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 0.983 seconds
+[2025-07-17T18:53:37.809+0000] {processor.py:161} INFO - Started process (PID=1193) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:53:37.811+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:53:37.812+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:53:37.812+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:53:38.889+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:53:38.896+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:53:38.896+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:53:38.903+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:53:38.903+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:53:38.909+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.103 seconds
+[2025-07-17T18:54:09.337+0000] {processor.py:161} INFO - Started process (PID=1265) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:54:09.338+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:54:09.340+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:54:09.339+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:54:10.297+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:54:10.303+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:54:10.303+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:54:10.309+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:54:10.309+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:54:10.315+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 0.981 seconds
+[2025-07-17T18:54:40.965+0000] {processor.py:161} INFO - Started process (PID=1337) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:54:40.967+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:54:40.969+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:54:40.969+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:54:42.030+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:54:42.036+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:54:42.036+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:54:42.043+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:54:42.043+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:54:42.048+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.087 seconds
+[2025-07-17T18:55:12.826+0000] {processor.py:161} INFO - Started process (PID=1409) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:55:12.827+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:55:12.828+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:55:12.828+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:55:13.833+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:55:13.840+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:55:13.840+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:55:13.848+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:55:13.848+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:55:13.854+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.030 seconds
+[2025-07-17T18:55:44.479+0000] {processor.py:161} INFO - Started process (PID=1484) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:55:44.481+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:55:44.482+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:55:44.482+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:55:45.700+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:55:45.706+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:55:45.706+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:55:45.716+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:55:45.716+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:55:45.725+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.248 seconds
+[2025-07-17T18:56:16.360+0000] {processor.py:161} INFO - Started process (PID=1569) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:56:16.361+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:56:16.364+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:56:16.364+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:56:17.517+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:56:17.535+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:56:17.535+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:56:17.544+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:56:17.543+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:56:17.550+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.195 seconds
+[2025-07-17T18:56:47.607+0000] {processor.py:161} INFO - Started process (PID=1657) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:56:47.608+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:56:47.610+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:56:47.609+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:56:48.733+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:56:48.739+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:56:48.739+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:56:48.746+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:56:48.746+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:56:48.751+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.146 seconds
+[2025-07-17T18:57:18.806+0000] {processor.py:161} INFO - Started process (PID=1755) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:57:18.806+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:57:18.807+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:57:18.807+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:57:19.924+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:57:19.932+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:57:19.932+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:57:19.940+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:57:19.940+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:57:19.946+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.141 seconds
+[2025-07-17T18:57:50.231+0000] {processor.py:161} INFO - Started process (PID=1828) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:57:50.232+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:57:50.234+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:57:50.234+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:57:51.350+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:57:51.358+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:57:51.357+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:57:51.365+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:57:51.365+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:57:51.371+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.144 seconds
+[2025-07-17T18:58:21.869+0000] {processor.py:161} INFO - Started process (PID=1901) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:58:21.870+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:58:21.872+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:58:21.872+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:58:22.991+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:58:22.998+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:58:22.998+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:58:23.005+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:58:23.005+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:58:23.011+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.146 seconds
+[2025-07-17T18:58:53.558+0000] {processor.py:161} INFO - Started process (PID=1974) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:58:53.559+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:58:53.560+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:58:53.560+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:58:54.759+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:58:54.766+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:58:54.766+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:58:54.773+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:58:54.773+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:58:54.778+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.223 seconds
+[2025-07-17T18:59:25.481+0000] {processor.py:161} INFO - Started process (PID=2047) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:59:25.481+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:59:25.482+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:59:25.482+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:59:26.572+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:59:26.579+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:59:26.579+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:59:26.587+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:59:26.586+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:59:26.593+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.115 seconds
+[2025-07-17T18:59:57.123+0000] {processor.py:161} INFO - Started process (PID=2120) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:59:57.125+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T18:59:57.126+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:59:57.126+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:59:58.217+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T18:59:58.224+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:59:58.224+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T18:59:58.231+0000] {logging_mixin.py:188} INFO - [2025-07-17T18:59:58.231+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T18:59:58.236+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.116 seconds
+[2025-07-17T19:00:28.640+0000] {processor.py:161} INFO - Started process (PID=2193) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:00:28.641+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:00:28.642+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:00:28.642+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:00:29.672+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:00:29.679+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:00:29.679+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:00:29.685+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:00:29.685+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:00:29.691+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.054 seconds
+[2025-07-17T19:01:00.173+0000] {processor.py:161} INFO - Started process (PID=2266) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:01:00.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:01:00.175+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:01:00.175+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:01:01.286+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:01:01.293+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:01:01.293+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:01:01.300+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:01:01.300+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:01:01.305+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.135 seconds
+[2025-07-17T19:01:31.989+0000] {processor.py:161} INFO - Started process (PID=2342) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:01:31.990+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:01:31.992+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:01:31.991+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:01:33.064+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:01:33.071+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:01:33.071+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:01:33.078+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:01:33.078+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:01:33.085+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.099 seconds
+[2025-07-17T19:02:03.843+0000] {processor.py:161} INFO - Started process (PID=2415) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:02:03.845+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:02:03.846+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:02:03.846+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:02:05.004+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:02:05.013+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:02:05.012+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:02:05.021+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:02:05.020+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:02:05.029+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.190 seconds
+[2025-07-17T19:02:35.581+0000] {processor.py:161} INFO - Started process (PID=2489) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:02:35.583+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:02:35.585+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:02:35.585+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:02:36.592+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:02:36.599+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:02:36.598+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:02:36.605+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:02:36.605+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:02:36.610+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.031 seconds
+[2025-07-17T19:03:07.081+0000] {processor.py:161} INFO - Started process (PID=2564) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:03:07.082+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:03:07.083+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:03:07.083+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:03:08.104+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:03:08.110+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:03:08.110+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:03:08.117+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:03:08.117+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:03:08.122+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.044 seconds
+[2025-07-17T19:03:38.623+0000] {processor.py:161} INFO - Started process (PID=2637) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:03:38.624+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:03:38.627+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:03:38.626+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:03:39.685+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:03:39.695+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:03:39.695+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:03:39.705+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:03:39.705+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:03:39.711+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.091 seconds
+[2025-07-17T19:04:10.166+0000] {processor.py:161} INFO - Started process (PID=2710) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:04:10.167+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:04:10.169+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:04:10.169+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:04:11.235+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:04:11.241+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:04:11.241+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:04:11.248+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:04:11.248+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:04:11.255+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.093 seconds
+[2025-07-17T19:04:41.819+0000] {processor.py:161} INFO - Started process (PID=2785) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:04:41.820+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:04:41.821+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:04:41.821+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:04:42.858+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:04:42.865+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:04:42.865+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:04:42.873+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:04:42.873+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:04:42.879+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.063 seconds
+[2025-07-17T19:05:13.257+0000] {processor.py:161} INFO - Started process (PID=2858) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:05:13.258+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:05:13.261+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:05:13.260+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:05:14.350+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:05:14.357+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:05:14.356+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:05:14.363+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:05:14.363+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:05:14.369+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.117 seconds
+[2025-07-17T19:05:44.924+0000] {processor.py:161} INFO - Started process (PID=2931) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:05:44.925+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:05:44.927+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:05:44.927+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:05:46.210+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:05:46.219+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:05:46.218+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:05:46.228+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:05:46.228+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:05:46.234+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.315 seconds
+[2025-07-17T19:06:16.579+0000] {processor.py:161} INFO - Started process (PID=3004) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:06:16.580+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:06:16.582+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:06:16.582+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:06:17.683+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:06:17.690+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:06:17.690+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:06:17.698+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:06:17.698+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:06:17.704+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.129 seconds
+[2025-07-17T19:06:48.217+0000] {processor.py:161} INFO - Started process (PID=3083) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:06:48.219+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:06:48.222+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:06:48.222+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:06:49.635+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:06:49.643+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:06:49.643+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:06:49.650+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:06:49.650+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:06:49.656+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.445 seconds
+[2025-07-17T19:07:19.801+0000] {processor.py:161} INFO - Started process (PID=3156) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:07:19.801+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:07:19.802+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:07:19.802+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:07:21.114+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:07:21.120+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:07:21.120+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:07:21.127+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:07:21.127+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:07:21.132+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.333 seconds
+[2025-07-17T19:07:51.630+0000] {processor.py:161} INFO - Started process (PID=3232) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:07:51.631+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:07:51.632+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:07:51.632+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:07:52.655+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:07:52.664+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:07:52.664+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:07:52.671+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:07:52.671+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:07:52.677+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.048 seconds
+[2025-07-17T19:08:23.165+0000] {processor.py:161} INFO - Started process (PID=3305) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:08:23.166+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:08:23.167+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:08:23.167+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:08:24.188+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:08:24.194+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:08:24.194+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:08:24.201+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:08:24.201+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:08:24.206+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.045 seconds
+[2025-07-17T19:08:54.761+0000] {processor.py:161} INFO - Started process (PID=3378) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:08:54.762+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:08:54.764+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:08:54.764+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:08:55.793+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:08:55.799+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:08:55.799+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:08:55.809+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:08:55.809+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:08:55.814+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.057 seconds
+[2025-07-17T19:09:26.263+0000] {processor.py:161} INFO - Started process (PID=3451) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:09:26.264+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:09:26.266+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:09:26.266+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:09:27.336+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:09:27.342+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:09:27.342+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:09:27.349+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:09:27.349+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:09:27.355+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.097 seconds
+[2025-07-17T19:09:57.792+0000] {processor.py:161} INFO - Started process (PID=3524) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:09:57.793+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:09:57.795+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:09:57.795+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:09:58.829+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:09:58.835+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:09:58.835+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:09:58.841+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:09:58.841+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:09:58.847+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.059 seconds
+[2025-07-17T19:10:29.370+0000] {processor.py:161} INFO - Started process (PID=3597) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:10:29.372+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:10:29.375+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:10:29.375+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:10:30.500+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:10:30.509+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:10:30.509+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:10:30.517+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:10:30.517+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:10:30.524+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.158 seconds
+[2025-07-17T19:11:01.080+0000] {processor.py:161} INFO - Started process (PID=3670) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:11:01.081+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:11:01.082+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:11:01.082+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:11:02.305+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:11:02.313+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:11:02.313+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:11:02.321+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:11:02.321+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:11:02.331+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.255 seconds
+[2025-07-17T19:11:32.741+0000] {processor.py:161} INFO - Started process (PID=3743) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:11:32.742+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:11:32.743+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:11:32.743+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:11:33.977+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:11:33.986+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:11:33.986+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:11:33.994+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:11:33.994+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:11:33.999+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.260 seconds
+[2025-07-17T19:12:04.414+0000] {processor.py:161} INFO - Started process (PID=3826) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:12:04.415+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:12:04.416+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:12:04.416+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:12:05.380+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:12:05.386+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:12:05.386+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:12:05.393+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:12:05.393+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:12:05.399+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 0.988 seconds
+[2025-07-17T19:12:35.840+0000] {processor.py:161} INFO - Started process (PID=3900) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:12:35.841+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:12:35.843+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:12:35.843+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:12:36.953+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:12:36.961+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:12:36.961+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:12:36.970+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:12:36.970+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:12:36.977+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.141 seconds
+[2025-07-17T19:13:23.219+0000] {processor.py:161} INFO - Started process (PID=48) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:13:23.220+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:13:23.221+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:13:23.220+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:13:25.366+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:13:25.376+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:13:25.376+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:13:25.390+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:13:25.389+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:13:25.402+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 2.184 seconds
+[2025-07-17T19:13:55.520+0000] {processor.py:161} INFO - Started process (PID=152) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:13:55.520+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:13:55.521+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:13:55.521+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:13:56.679+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:13:56.709+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:13:56.708+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:13:56.716+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:13:56.715+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:13:56.721+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.203 seconds
+[2025-07-17T19:14:27.248+0000] {processor.py:161} INFO - Started process (PID=241) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:14:27.248+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:14:27.249+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:14:27.249+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:14:28.557+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:14:28.564+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:14:28.564+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:14:28.573+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:14:28.572+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:14:28.578+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.333 seconds
+[2025-07-17T19:14:59.120+0000] {processor.py:161} INFO - Started process (PID=322) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:14:59.121+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:14:59.122+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:14:59.122+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:15:00.143+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:15:00.150+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:15:00.150+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:15:00.159+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:15:00.159+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:15:00.166+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.051 seconds
+[2025-07-17T19:15:30.849+0000] {processor.py:161} INFO - Started process (PID=395) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:15:30.850+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:15:30.851+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:15:30.851+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:15:31.919+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:15:31.926+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:15:31.926+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:15:31.934+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:15:31.933+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:15:31.940+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.094 seconds
+[2025-07-17T19:16:02.644+0000] {processor.py:161} INFO - Started process (PID=468) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:16:02.645+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:16:02.646+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:16:02.646+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:16:03.861+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:16:03.876+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:16:03.875+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:16:03.885+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:16:03.885+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:16:03.891+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.251 seconds
+[2025-07-17T19:16:34.484+0000] {processor.py:161} INFO - Started process (PID=541) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:16:34.484+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:16:34.486+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:16:34.486+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:16:35.558+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:16:35.564+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:16:35.564+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:16:35.572+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:16:35.571+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:16:35.578+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.097 seconds
+[2025-07-17T19:17:06.158+0000] {processor.py:161} INFO - Started process (PID=614) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:17:06.159+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:17:06.161+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:17:06.161+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:17:07.200+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:17:07.207+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:17:07.206+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:17:07.213+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:17:07.213+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:17:07.219+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.065 seconds
+[2025-07-17T19:17:37.253+0000] {processor.py:161} INFO - Started process (PID=687) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:17:37.254+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:17:37.256+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:17:37.255+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:17:38.418+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:17:38.427+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:17:38.426+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:17:38.436+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:17:38.436+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:17:38.443+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.195 seconds
+[2025-07-17T19:18:01.414+0000] {processor.py:161} INFO - Started process (PID=734) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:18:01.415+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:18:01.415+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:18:01.415+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:18:02.624+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:18:02.630+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:18:02.630+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:18:02.637+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:18:02.637+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:18:02.643+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.231 seconds
+[2025-07-17T19:18:14.752+0000] {processor.py:161} INFO - Started process (PID=772) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:18:14.754+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:18:14.755+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:18:14.755+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:18:15.781+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:18:15.788+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:18:15.788+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:18:15.795+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:18:15.795+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:18:15.801+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.052 seconds
+[2025-07-17T19:18:45.886+0000] {processor.py:161} INFO - Started process (PID=845) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:18:45.887+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:18:45.889+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:18:45.889+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:18:46.939+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:18:46.945+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:18:46.945+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:18:46.952+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:18:46.952+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:18:46.957+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.076 seconds
+[2025-07-17T19:19:17.676+0000] {processor.py:161} INFO - Started process (PID=918) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:19:17.677+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:19:17.679+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:19:17.679+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:19:18.830+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:19:18.838+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:19:18.838+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:19:18.846+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:19:18.846+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:19:18.852+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.179 seconds
+[2025-07-17T19:19:49.701+0000] {processor.py:161} INFO - Started process (PID=991) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:19:49.702+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:19:49.704+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:19:49.704+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:19:50.832+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:19:50.839+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:19:50.839+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:19:50.846+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:19:50.846+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:19:50.852+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.156 seconds
+[2025-07-17T19:19:56.757+0000] {processor.py:161} INFO - Started process (PID=1009) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:19:56.758+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:19:56.759+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:19:56.759+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:19:57.786+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:19:57.793+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:19:57.793+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:19:57.799+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:19:57.799+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:19:57.806+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.051 seconds
+[2025-07-17T19:20:28.450+0000] {processor.py:161} INFO - Started process (PID=1082) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:20:28.451+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:20:28.453+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:20:28.452+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:20:29.501+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:20:29.508+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:20:29.508+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:20:29.515+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:20:29.515+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:20:29.521+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.075 seconds
+[2025-07-17T19:21:00.260+0000] {processor.py:161} INFO - Started process (PID=1155) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:21:00.262+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:21:00.265+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:21:00.265+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:21:01.313+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:21:01.320+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:21:01.320+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:21:01.327+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:21:01.327+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:21:01.333+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.078 seconds
+[2025-07-17T19:21:31.992+0000] {processor.py:161} INFO - Started process (PID=1228) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:21:31.993+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:21:31.995+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:21:31.995+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:21:33.198+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:21:33.206+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:21:33.206+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:21:33.213+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:21:33.213+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:21:33.219+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.231 seconds
+[2025-07-17T19:22:03.899+0000] {processor.py:161} INFO - Started process (PID=1301) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:22:03.900+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:22:03.904+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:22:03.903+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:22:04.940+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:22:04.946+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:22:04.946+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:22:04.953+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:22:04.953+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:22:04.958+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.066 seconds
+[2025-07-17T19:22:17.537+0000] {processor.py:161} INFO - Started process (PID=1368) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:22:17.538+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:22:17.540+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:22:17.539+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:22:18.671+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:22:18.679+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:22:18.679+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:22:18.686+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:22:18.686+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:22:18.694+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.162 seconds
+[2025-07-17T19:22:48.808+0000] {processor.py:161} INFO - Started process (PID=1441) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:22:48.809+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:22:48.810+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:22:48.810+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:22:49.801+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:22:49.808+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:22:49.808+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:22:49.815+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:22:49.815+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:22:49.821+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.016 seconds
+[2025-07-17T19:23:19.884+0000] {processor.py:161} INFO - Started process (PID=1514) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:23:19.885+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:23:19.886+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:23:19.886+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:23:21.025+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:23:21.033+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:23:21.032+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:23:21.040+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:23:21.040+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:23:21.046+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.166 seconds
+[2025-07-17T19:23:51.273+0000] {processor.py:161} INFO - Started process (PID=1587) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:23:51.274+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:23:51.276+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:23:51.275+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:23:52.371+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:23:52.381+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:23:52.380+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:23:52.390+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:23:52.390+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:23:52.396+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.126 seconds
+[2025-07-17T19:24:23.172+0000] {processor.py:161} INFO - Started process (PID=1659) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:24:23.173+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:24:23.175+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:24:23.174+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:24:24.179+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:24:24.186+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:24:24.186+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:24:24.193+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:24:24.193+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:24:24.199+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.030 seconds
+[2025-07-17T19:24:54.323+0000] {processor.py:161} INFO - Started process (PID=1732) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:24:54.325+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:24:54.328+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:24:54.327+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:24:55.387+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:24:55.394+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:24:55.394+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:24:55.400+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:24:55.400+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:24:55.406+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.086 seconds
+[2025-07-17T19:25:25.576+0000] {processor.py:161} INFO - Started process (PID=1805) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:25:25.577+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:25:25.579+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:25:25.579+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:25:26.729+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:25:26.748+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:25:26.748+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:25:26.758+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:25:26.758+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:25:26.764+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.192 seconds
+[2025-07-17T19:25:57.247+0000] {processor.py:161} INFO - Started process (PID=1878) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:25:57.248+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:25:57.249+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:25:57.249+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:25:58.511+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:25:58.531+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:25:58.531+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:25:58.543+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:25:58.543+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:25:58.556+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.312 seconds
+[2025-07-17T19:26:28.783+0000] {processor.py:161} INFO - Started process (PID=1956) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:26:28.783+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:26:28.785+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:26:28.785+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:26:30.002+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:26:30.011+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:26:30.011+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:26:30.021+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:26:30.021+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:26:30.027+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.247 seconds
+[2025-07-17T19:27:00.064+0000] {processor.py:161} INFO - Started process (PID=2029) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:27:00.065+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:27:00.068+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:27:00.067+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:27:01.275+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:27:01.284+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:27:01.283+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:27:01.291+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:27:01.291+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:27:01.296+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.238 seconds
+[2025-07-17T19:27:32.077+0000] {processor.py:161} INFO - Started process (PID=2102) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:27:32.078+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:27:32.079+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:27:32.079+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:27:33.133+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:27:33.139+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:27:33.139+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:27:33.145+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:27:33.145+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:27:33.151+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.076 seconds
+[2025-07-17T19:28:03.805+0000] {processor.py:161} INFO - Started process (PID=2175) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:28:03.806+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:28:03.808+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:28:03.808+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:28:04.888+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:28:04.895+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:28:04.895+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:28:04.902+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:28:04.902+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:28:04.907+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.107 seconds
+[2025-07-17T19:28:35.584+0000] {processor.py:161} INFO - Started process (PID=2248) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:28:35.585+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:28:35.587+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:28:35.587+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:28:36.697+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:28:36.705+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:28:36.705+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:28:36.712+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:28:36.712+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:28:36.718+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.140 seconds
+[2025-07-17T19:29:07.291+0000] {processor.py:161} INFO - Started process (PID=2321) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:29:07.292+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:29:07.298+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:29:07.297+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:29:08.498+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:29:08.505+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:29:08.505+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:29:08.512+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:29:08.512+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:29:08.518+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.230 seconds
+[2025-07-17T19:29:39.076+0000] {processor.py:161} INFO - Started process (PID=2394) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:29:39.077+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:29:39.080+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:29:39.079+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:29:40.262+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:29:40.270+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:29:40.270+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:29:40.277+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:29:40.277+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:29:40.283+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.213 seconds
+[2025-07-17T19:30:10.818+0000] {processor.py:161} INFO - Started process (PID=2467) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:30:10.819+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:30:10.823+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:30:10.822+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:30:12.008+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:30:12.017+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:30:12.017+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:30:12.024+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:30:12.024+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:30:12.030+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.218 seconds
+[2025-07-17T19:30:42.567+0000] {processor.py:161} INFO - Started process (PID=2540) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:30:42.570+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:30:42.572+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:30:42.572+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:30:43.629+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:30:43.637+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:30:43.637+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:30:43.644+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:30:43.643+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:30:43.650+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.087 seconds
+[2025-07-17T19:31:14.282+0000] {processor.py:161} INFO - Started process (PID=2613) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:31:14.284+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:31:14.286+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:31:14.286+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:31:15.347+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:31:15.354+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:31:15.354+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:31:15.361+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:31:15.361+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:31:15.368+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.091 seconds
+[2025-07-17T19:31:46.265+0000] {processor.py:161} INFO - Started process (PID=2686) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:31:46.267+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:31:46.268+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:31:46.268+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:31:47.510+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:31:47.518+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:31:47.518+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:31:47.526+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:31:47.526+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:31:47.533+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.270 seconds
+[2025-07-17T19:32:18.277+0000] {processor.py:161} INFO - Started process (PID=2759) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:32:18.279+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:32:18.281+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:32:18.281+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:32:19.293+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:32:19.299+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:32:19.299+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:32:19.306+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:32:19.306+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:32:19.311+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.038 seconds
+[2025-07-17T19:32:50.017+0000] {processor.py:161} INFO - Started process (PID=2832) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:32:50.018+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:32:50.021+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:32:50.020+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:32:51.292+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:32:51.307+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:32:51.307+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:32:51.315+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:32:51.315+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:32:51.322+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.309 seconds
+[2025-07-17T19:33:21.892+0000] {processor.py:161} INFO - Started process (PID=2905) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:33:21.893+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:33:21.894+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:33:21.894+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:33:23.054+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:33:23.061+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:33:23.061+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:33:23.068+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:33:23.068+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:33:23.075+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.186 seconds
+[2025-07-17T19:33:53.980+0000] {processor.py:161} INFO - Started process (PID=2978) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:33:53.981+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:33:53.983+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:33:53.983+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:33:55.166+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:33:55.172+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:33:55.172+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:33:55.185+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:33:55.185+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:33:55.192+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.216 seconds
+[2025-07-17T19:34:25.836+0000] {processor.py:161} INFO - Started process (PID=3051) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:34:25.838+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:34:25.839+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:34:25.839+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:34:26.984+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:34:26.994+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:34:26.993+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:34:27.001+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:34:27.001+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:34:27.008+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.176 seconds
+[2025-07-17T19:34:57.119+0000] {processor.py:161} INFO - Started process (PID=3127) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:34:57.120+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:34:57.123+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:34:57.122+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:34:58.677+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:34:58.685+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:34:58.685+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:34:58.693+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:34:58.693+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:34:58.699+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.585 seconds
+[2025-07-17T19:35:29.096+0000] {processor.py:161} INFO - Started process (PID=3211) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:35:29.098+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:35:29.100+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:35:29.099+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:35:30.242+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:35:30.251+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:35:30.251+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:35:30.258+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:35:30.258+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:35:30.263+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.172 seconds
+[2025-07-17T19:36:00.323+0000] {processor.py:161} INFO - Started process (PID=3287) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:36:00.325+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:36:00.327+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:36:00.327+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:36:01.683+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:36:01.690+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:36:01.690+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:36:01.698+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:36:01.698+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:36:01.707+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.389 seconds
+[2025-07-17T19:36:32.208+0000] {processor.py:161} INFO - Started process (PID=3392) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:36:32.208+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:36:32.209+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:36:32.209+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:36:33.354+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:36:33.360+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:36:33.360+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:36:33.367+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:36:33.367+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:36:33.373+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.166 seconds
+[2025-07-17T19:36:48.527+0000] {processor.py:161} INFO - Started process (PID=3416) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:36:48.528+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:36:48.529+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:36:48.529+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:36:49.674+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:36:49.681+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:36:49.681+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:36:49.689+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:36:49.689+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:36:49.696+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.172 seconds
+[2025-07-17T19:37:20.491+0000] {processor.py:161} INFO - Started process (PID=3492) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:37:20.492+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:37:20.494+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:37:20.493+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:37:21.574+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:37:21.580+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:37:21.580+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:37:21.587+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:37:21.587+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:37:21.593+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.106 seconds
+[2025-07-17T19:37:52.100+0000] {processor.py:161} INFO - Started process (PID=3565) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:37:52.101+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:37:52.103+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:37:52.103+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:37:53.131+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:37:53.140+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:37:53.140+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:37:53.150+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:37:53.150+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:37:53.157+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.062 seconds
+[2025-07-17T19:38:23.841+0000] {processor.py:161} INFO - Started process (PID=3639) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:38:23.842+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:38:23.843+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:38:23.843+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:38:24.925+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:38:24.931+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:38:24.931+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:38:24.938+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:38:24.938+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:38:24.943+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.105 seconds
+[2025-07-17T19:38:55.518+0000] {processor.py:161} INFO - Started process (PID=3714) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:38:55.520+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:38:55.522+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:38:55.521+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:38:56.532+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:38:56.539+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:38:56.539+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:38:56.546+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:38:56.546+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:38:56.552+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.037 seconds
+[2025-07-17T19:39:27.078+0000] {processor.py:161} INFO - Started process (PID=3787) to work on /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:39:27.079+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/curated_market_dq_dag.py for tasks to queue
+[2025-07-17T19:39:27.080+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:39:27.079+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:39:28.101+0000] {processor.py:840} INFO - DAG(s) 'curated_market_dq' retrieved from /opt/airflow/dags/curated_market_dq_dag.py
+[2025-07-17T19:39:28.107+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:39:28.107+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-17T19:39:28.115+0000] {logging_mixin.py:188} INFO - [2025-07-17T19:39:28.115+0000] {dag.py:3823} INFO - Setting next_dagrun for curated_market_dq to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-17T19:39:28.120+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/curated_market_dq_dag.py took 1.045 seconds

@@ -1,0 +1,14 @@
+[2025-07-17T19:22:29.261+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: curated_market_dq.publish_docs manual__2025-07-17T19:20:22.485222+00:00 [queued]>
+[2025-07-17T19:22:29.264+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: curated_market_dq.publish_docs manual__2025-07-17T19:20:22.485222+00:00 [queued]>
+[2025-07-17T19:22:29.264+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2025-07-17T19:22:29.268+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): publish_docs> on 2025-07-17 19:20:22.485222+00:00
+[2025-07-17T19:22:29.272+0000] {standard_task_runner.py:60} INFO - Started process 483 to run task
+[2025-07-17T19:22:29.275+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'curated_market_dq', 'publish_docs', 'manual__2025-07-17T19:20:22.485222+00:00', '--job-id', '42', '--raw', '--subdir', 'DAGS_FOLDER/curated_market_dq_dag.py', '--cfg-path', '/tmp/tmp_l2uifr_']
+[2025-07-17T19:22:29.276+0000] {standard_task_runner.py:88} INFO - Job 42: Subtask publish_docs
+[2025-07-17T19:22:29.306+0000] {task_command.py:423} INFO - Running <TaskInstance: curated_market_dq.publish_docs manual__2025-07-17T19:20:22.485222+00:00 [running]> on host b03a0574e2e2
+[2025-07-17T19:22:29.339+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-platform' AIRFLOW_CTX_DAG_ID='curated_market_dq' AIRFLOW_CTX_TASK_ID='publish_docs' AIRFLOW_CTX_EXECUTION_DATE='2025-07-17T19:20:22.485222+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-17T19:20:22.485222+00:00'
+[2025-07-17T19:22:29.345+0000] {credentials.py:1147} INFO - Found credentials in environment variables.
+[2025-07-17T19:22:33.453+0000] {python.py:201} INFO - Done. Returned value was: s3://finlakehouse-logs-mmestres91/curated_market_ge/2025-07-17/index.html
+[2025-07-17T19:22:33.467+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=curated_market_dq, task_id=publish_docs, execution_date=20250717T192022, start_date=20250717T192229, end_date=20250717T192233
+[2025-07-17T19:22:33.495+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-17T19:22:33.506+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

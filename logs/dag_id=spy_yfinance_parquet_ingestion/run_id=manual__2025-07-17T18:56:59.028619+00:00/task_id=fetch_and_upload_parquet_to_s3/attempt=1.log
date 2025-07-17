@@ -1,0 +1,32 @@
+[2025-07-17T18:57:00.811+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spy_yfinance_parquet_ingestion.fetch_and_upload_parquet_to_s3 manual__2025-07-17T18:56:59.028619+00:00 [queued]>
+[2025-07-17T18:57:00.813+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spy_yfinance_parquet_ingestion.fetch_and_upload_parquet_to_s3 manual__2025-07-17T18:56:59.028619+00:00 [queued]>
+[2025-07-17T18:57:00.813+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-07-17T18:57:00.817+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): fetch_and_upload_parquet_to_s3> on 2025-07-17 18:56:59.028619+00:00
+[2025-07-17T18:57:00.819+0000] {standard_task_runner.py:60} INFO - Started process 241 to run task
+[2025-07-17T18:57:00.821+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'spy_yfinance_parquet_ingestion', 'fetch_and_upload_parquet_to_s3', 'manual__2025-07-17T18:56:59.028619+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/s3_ingestion_dag.py', '--cfg-path', '/tmp/tmpe33bqv24']
+[2025-07-17T18:57:00.821+0000] {standard_task_runner.py:88} INFO - Job 19: Subtask fetch_and_upload_parquet_to_s3
+[2025-07-17T18:57:00.845+0000] {task_command.py:423} INFO - Running <TaskInstance: spy_yfinance_parquet_ingestion.fetch_and_upload_parquet_to_s3 manual__2025-07-17T18:56:59.028619+00:00 [running]> on host 2758917a23bd
+[2025-07-17T18:57:00.880+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='mark' AIRFLOW_CTX_DAG_ID='spy_yfinance_parquet_ingestion' AIRFLOW_CTX_TASK_ID='fetch_and_upload_parquet_to_s3' AIRFLOW_CTX_EXECUTION_DATE='2025-07-17T18:56:59.028619+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-17T18:56:59.028619+00:00'
+[2025-07-17T18:57:00.880+0000] {s3_ingestion_dag.py:18} INFO - Fetching SPY (attempt 1/5)
+[2025-07-17T18:57:01.666+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/opt/airflow/dags/s3_ingestion_dag.py", line 32, in fetch_and_upload_parquet_to_s3
+    pl_df  = pl.from_pandas(df.reset_index())
+NameError: name 'pl' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/s3_ingestion_dag.py", line 46, in fetch_and_upload_parquet_to_s3
+    raise AirflowFailException(f"Ingest failed: {e}") from e
+airflow.exceptions.AirflowFailException: Ingest failed: name 'pl' is not defined
+[2025-07-17T18:57:01.670+0000] {taskinstance.py:1138} INFO - Immediate failure requested. Marking task as FAILED. dag_id=spy_yfinance_parquet_ingestion, task_id=fetch_and_upload_parquet_to_s3, execution_date=20250717T185659, start_date=20250717T185700, end_date=20250717T185701
+[2025-07-17T18:57:01.674+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 19 for task fetch_and_upload_parquet_to_s3 (Ingest failed: name 'pl' is not defined; 241)
+[2025-07-17T18:57:01.698+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-17T18:57:01.705+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

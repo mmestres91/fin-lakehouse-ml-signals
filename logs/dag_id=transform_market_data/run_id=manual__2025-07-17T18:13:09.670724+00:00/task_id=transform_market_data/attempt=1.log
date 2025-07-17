@@ -1,0 +1,18 @@
+[2025-07-17T18:13:10.570+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: transform_market_data.transform_market_data manual__2025-07-17T18:13:09.670724+00:00 [queued]>
+[2025-07-17T18:13:10.572+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: transform_market_data.transform_market_data manual__2025-07-17T18:13:09.670724+00:00 [queued]>
+[2025-07-17T18:13:10.572+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-07-17T18:13:10.576+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): transform_market_data> on 2025-07-17 18:13:09.670724+00:00
+[2025-07-17T18:13:10.578+0000] {standard_task_runner.py:60} INFO - Started process 291 to run task
+[2025-07-17T18:13:10.580+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'transform_market_data', 'transform_market_data', 'manual__2025-07-17T18:13:09.670724+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/transform_market_data_dag.py', '--cfg-path', '/tmp/tmp0e2o7tdy']
+[2025-07-17T18:13:10.581+0000] {standard_task_runner.py:88} INFO - Job 9: Subtask transform_market_data
+[2025-07-17T18:13:10.597+0000] {task_command.py:423} INFO - Running <TaskInstance: transform_market_data.transform_market_data manual__2025-07-17T18:13:09.670724+00:00 [running]> on host 631ad56c707c
+[2025-07-17T18:13:10.622+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='mark' AIRFLOW_CTX_DAG_ID='transform_market_data' AIRFLOW_CTX_TASK_ID='transform_market_data' AIRFLOW_CTX_EXECUTION_DATE='2025-07-17T18:13:09.670724+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-17T18:13:09.670724+00:00'
+[2025-07-17T18:13:10.628+0000] {credentials.py:1147} INFO - Found credentials in environment variables.
+[2025-07-17T18:13:10.805+0000] {warnings.py:109} WARNING - /opt/***/dags/transform_market_data_dag.py:43: UserWarning: Polars found a filename. Ensure you pass a path to the file instead of a python file object when possible for best performance.
+  df: pl.DataFrame = pl.read_parquet(raw_obj["Body"])
+
+[2025-07-17T18:13:10.809+0000] {logging_mixin.py:188} INFO - Flattened columns: ['adj close', 'close', 'high', 'low', 'open', 'volume', 'date']
+[2025-07-17T18:13:11.190+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-07-17T18:13:11.203+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=transform_market_data, task_id=transform_market_data, execution_date=20250717T181309, start_date=20250717T181310, end_date=20250717T181311
+[2025-07-17T18:13:11.229+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-17T18:13:11.237+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
