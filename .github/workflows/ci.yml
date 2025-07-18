@@ -77,7 +77,7 @@ jobs:
 
       # 5 — Tests
       - name: Run pytest
-        run: poetry run pytest -q
+        run: poetry run python -m pytest 
 
       # 7 — Static typing
       - name: Run mypy
