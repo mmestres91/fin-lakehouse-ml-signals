@@ -9,7 +9,31 @@ A reproducible data‑quality and ML‑feature pipeline for equities‑market si
 * **Great Expectations 0.18** (Fluent API) for data‑quality rules
 * **Apache Airflow 2.6+** for daily orchestration
 * **Terraform ≥ 1.8** (+ AWS provider 5.x) to provision encrypted S3 buckets, logging targets, and KMS keys
-* **AWS S3** as the curated storage & documentation bucket
+* **AWS S3** as storage for raw, curated, and feature data
+
+---
+
+## 🚀 Completed work
+
+1. **Raw data ingestion**
+   - `spy_yfinance_parquet_ingestion` DAG: pulls SPY prices (via yfinance) and writes Parquet to the **raw S3 bucket**
+2. **Data transformation**
+   - `transform_market_data_dag`: Polars transforms raw Parquet → curated schema, outputs to **curated S3 bucket**
+3. **Data-quality checks**
+   - Great Expectations Fluent config in `gx/`
+   - `create_expectations.py` + `create_checkpoint.py` helpers
+   - `curated_market_dq_dag`: daily @00:00 UTC, runs checkpoint **curated\_market\_ckpt**, syncs HTML Data Docs to S3
+   - Current rules: `datetime` exists/not-null/unique; `close` exists/not-null/>0; row count 1–10 000
+4. **Infrastructure as code**
+   - Terraform modules under `infra/` for S3 buckets (raw, curated, features, logs) and KMS keys
+   - CI hook (`.github/workflows/precommit.yml`) enforces `terraform fmt` and linting
+5. **Local & CI validation**
+   - `scripts/validate_curated.py` for CLI/CI check against any Parquet path
+   - Pre-commit & GitHub Actions integrate linting, type checks, and DQ validation on PRs
+6. **Feature engineering & testing**
+   - `features/features_v1.py`: calculates core signals (momentum variants, EMA 9/20, ATR, RSI, MACD, time features)
+   - `tests/test_features_v1_duckdb.py`: DuckDB-based PyTest suite to validate feature outputs
+   - `poetry run pytest` runs feature tests alongside other CI checks
 
 ---
 
@@ -17,33 +41,31 @@ A reproducible data‑quality and ML‑feature pipeline for equities‑market si
 
 ```text
 fin-lakehouse-ml-signals/
-├── dags/                         # Airflow DAGs (TaskFlow style)
-│   ├── raw_market_ingest_dag.py      # pulls hourly/daily raw market data from vendor API
-│   ├── transform_market_data_dag.py  # Polars → curated Parquet transformation
-│   └── curated_market_dq_dag.py      # Great Expectations validation
-├── infra/                        # IaC — Terraform modules & env configs
-│   ├── main.tf                   # root module (buckets, KMS, etc.)
-│   ├── variables.tf              # shared variables
+├── dags/                         # Airflow TaskFlow DAGs
+│   ├── spy_yfinance_parquet_ingestion.py  # raw ingest to S3
+│   ├── transform_market_data_dag.py       # Polars transform → curated Parquet
+│   └── curated_market_dq_dag.py           # Great Expectations validation
+├── features/                     # Feature engineering code
+│   └── features_v1.py            # initial feature calculations (momentum, ATR, RSI, MACD, time features)
+├── infra/                        # Terraform modules & configs
+│   ├── main.tf                   # root module (buckets, KMS)
+│   ├── variables.tf              # shared inputs
 │   ├── terraform.tfvars.example  # sample values
 │   └── modules/
-│       └── bucket_curated/       # reusable S3/KMS sub‑module
-│           ├── main.tf
-│           └── variables.tf
-├── great_expectations/           # GE project (auto‑generated)
+│       └── s3_bucket/            # reusable S3 + logging + encryption sub-module
+├── gx/                           # Great Expectations project
+│   ├── great_expectations.yml
 │   ├── expectations/
-│   │   └── curated_market_suite.json
 │   └── checkpoints/
-│       └── curated_market_ckpt.yml
-├── scripts/
-│   ├── create_expectations.py    # one‑off helper to build the suite
-│   ├── create_checkpoint.py      # one‑off helper to register checkpoint
-│   └── validate_curated.py       # CLI/CI runner for the checkpoint
+├── scripts/                      # one-off helpers & CLI
+│   ├── create_expectations.py
+│   ├── create_checkpoint.py
+│   └── validate_curated.py
+├── tests/                        # pytest tests (DuckDB & feature checks)
+│   └── test_features_v1_duckdb.py
 ├── .github/workflows/            # CI pipelines
-│   ├── precommit.yml             # lint, type‑check, Terraform fmt
-│   ├── dq_validation.yml         # run GE validation on PRs
-│   └── trigger_airflow.yml       # launch prod DAG after merge
-├── pyproject.toml                # Poetry deps + tool config
-└── README.md                     # ← you are here
+├── pyproject.toml                # Poetry deps + config
+└── README.md                     # this file
 ```
 
 ---
@@ -118,13 +140,21 @@ git clone git@github.com:mmestres91/fin-lakehouse-ml-signals.git
 cd fin-lakehouse-ml-signals
 poetry install
 
-# create or update GE artifacts
+# provision infra (raw/curated/features/log buckets + KMS)
+cd infra
+terraform init && terraform apply
+cd ..
+
+# build or update GE artifacts
+eventuate=2025-07-17
 poetry run python scripts/create_expectations.py
 poetry run python scripts/create_checkpoint.py
 
-# validate the current curated Parquet
-poetry run python scripts/validate_curated.py \
-  --path s3://finlakehouse-curated-mmestres91/market/spy_transformed.parquet
+# run validation locally
+echo "2025-07-17" | xargs -I{} poetry run python scripts/validate_curated.py --path s3://finlakehouse-curated-mmestres91/market/spy_transformed.parquet --run_date {}
+
+# run feature tests
+poetry run pytest
 ```
 
 If expectations fail the script exits non‑zero, making it CI‑friendly.
