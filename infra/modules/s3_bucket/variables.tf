@@ -1,5 +1,5 @@
 variable "bucket_name" {
-  description = "Name of the raw S3 bucket"
+  description = "The name of the S3 bucket to create"
   type        = string
   default     = "dummy-curated" # <─ placeholder for scanners only
 }
@@ -13,4 +13,10 @@ variable "enable_versioning" {
   description = "Enable versioning?"
   type        = bool
   default     = true
+}
+
+variable "log_bucket_name" {
+  type        = string
+  description = "Optional target bucket for server‑access logs"
+  default     = "finlakehouse-logs-mmestres91"
 }

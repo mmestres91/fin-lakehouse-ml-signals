@@ -3,5 +3,5 @@ terraform {
 }
 
 output "bucket_name" {
-  value = aws_s3_bucket.curated.bucket
+  value = aws_s3_bucket.this.bucket
 }

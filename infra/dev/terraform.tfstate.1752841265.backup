@@ -1,0 +1,817 @@
+{
+  "version": 4,
+  "terraform_version": "1.8.5",
+  "serial": 30,
+  "lineage": "98bee874-f6a6-a31e-b211-7f6158b86608",
+  "outputs": {
+    "raw_bucket_name": {
+      "value": "finlakehouse-raw-mmestres91",
+      "type": "string"
+    }
+  },
+  "resources": [
+    {
+      "module": "module.bucket_curated",
+      "mode": "data",
+      "type": "aws_kms_alias",
+      "name": "s3_cmk",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "arn": "arn:aws:kms:us-east-1:686116998228:alias/s3-cmk",
+            "id": "arn:aws:kms:us-east-1:686116998228:alias/s3-cmk",
+            "name": "alias/s3-cmk",
+            "target_key_arn": "arn:aws:kms:us-east-1:686116998228:key/4f54ff6c-b116-42b9-9fcd-fabac7920336",
+            "target_key_id": "4f54ff6c-b116-42b9-9fcd-fabac7920336"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "module": "module.bucket_curated",
+      "mode": "managed",
+      "type": "aws_s3_bucket_public_access_block",
+      "name": "curated",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "block_public_acls": true,
+            "block_public_policy": true,
+            "bucket": "finlakehouse-curated-mmestres91",
+            "id": "finlakehouse-curated-mmestres91",
+            "ignore_public_acls": true,
+            "restrict_public_buckets": true
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA=="
+        }
+      ]
+    },
+    {
+      "module": "module.bucket_curated",
+      "mode": "managed",
+      "type": "aws_s3_bucket_server_side_encryption_configuration",
+      "name": "this",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "bucket": "finlakehouse-curated-mmestres91",
+            "expected_bucket_owner": "",
+            "id": "finlakehouse-curated-mmestres91",
+            "rule": [
+              {
+                "apply_server_side_encryption_by_default": [
+                  {
+                    "kms_master_key_id": "arn:aws:kms:us-east-1:686116998228:alias/s3-cmk",
+                    "sse_algorithm": "aws:kms"
+                  }
+                ],
+                "bucket_key_enabled": null
+              }
+            ]
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA=="
+        }
+      ]
+    },
+    {
+      "module": "module.bucket_curated",
+      "mode": "managed",
+      "type": "aws_s3_bucket_versioning",
+      "name": "this",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "bucket": "finlakehouse-curated-mmestres91",
+            "expected_bucket_owner": "",
+            "id": "finlakehouse-curated-mmestres91",
+            "mfa": null,
+            "versioning_configuration": [
+              {
+                "mfa_delete": "",
+                "status": "Enabled"
+              }
+            ]
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA=="
+        }
+      ]
+    },
+    {
+      "module": "module.bucket_features",
+      "mode": "data",
+      "type": "aws_kms_alias",
+      "name": "s3_cmk",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "arn": "arn:aws:kms:us-east-1:686116998228:alias/s3-cmk",
+            "id": "arn:aws:kms:us-east-1:686116998228:alias/s3-cmk",
+            "name": "alias/s3-cmk",
+            "target_key_arn": "arn:aws:kms:us-east-1:686116998228:key/4f54ff6c-b116-42b9-9fcd-fabac7920336",
+            "target_key_id": "4f54ff6c-b116-42b9-9fcd-fabac7920336"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "module": "module.bucket_features",
+      "mode": "managed",
+      "type": "aws_s3_bucket",
+      "name": "curated",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "acceleration_status": "",
+            "acl": null,
+            "arn": "arn:aws:s3:::finlakehouse-features-mmestres91",
+            "bucket": "finlakehouse-features-mmestres91",
+            "bucket_domain_name": "finlakehouse-features-mmestres91.s3.amazonaws.com",
+            "bucket_prefix": "",
+            "bucket_regional_domain_name": "finlakehouse-features-mmestres91.s3.us-east-1.amazonaws.com",
+            "cors_rule": [],
+            "force_destroy": true,
+            "grant": [
+              {
+                "id": "dac4632c2620ac9add04ef7a2b6126079086841ecd3c5bc0488a9b5a16f4cd76",
+                "permissions": [
+                  "FULL_CONTROL"
+                ],
+                "type": "CanonicalUser",
+                "uri": ""
+              }
+            ],
+            "hosted_zone_id": "Z3AQBSTGFYJSTF",
+            "id": "finlakehouse-features-mmestres91",
+            "lifecycle_rule": [],
+            "logging": [
+              {
+                "target_bucket": "finlakehouse-logs-mmestres91",
+                "target_prefix": "curated/"
+              }
+            ],
+            "object_lock_configuration": [],
+            "object_lock_enabled": false,
+            "policy": "",
+            "region": "us-east-1",
+            "replication_configuration": [],
+            "request_payer": "BucketOwner",
+            "server_side_encryption_configuration": [
+              {
+                "rule": [
+                  {
+                    "apply_server_side_encryption_by_default": [
+                      {
+                        "kms_master_key_id": "arn:aws:kms:us-east-1:686116998228:alias/s3-cmk",
+                        "sse_algorithm": "aws:kms"
+                      }
+                    ],
+                    "bucket_key_enabled": false
+                  }
+                ]
+              }
+            ],
+            "tags": {
+              "Environment": "dev",
+              "Terraform": "true"
+            },
+            "tags_all": {
+              "Environment": "dev",
+              "Terraform": "true"
+            },
+            "timeouts": null,
+            "versioning": [
+              {
+                "enabled": true,
+                "mfa_delete": false
+              }
+            ],
+            "website": [],
+            "website_domain": null,
+            "website_endpoint": null
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjM2MDAwMDAwMDAwMDAsInJlYWQiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19"
+        }
+      ]
+    },
+    {
+      "module": "module.bucket_features",
+      "mode": "managed",
+      "type": "aws_s3_bucket_public_access_block",
+      "name": "curated",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "block_public_acls": true,
+            "block_public_policy": true,
+            "bucket": "finlakehouse-features-mmestres91",
+            "id": "finlakehouse-features-mmestres91",
+            "ignore_public_acls": true,
+            "restrict_public_buckets": true
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "module.bucket_features.aws_s3_bucket.curated"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.bucket_features",
+      "mode": "managed",
+      "type": "aws_s3_bucket_server_side_encryption_configuration",
+      "name": "this",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "bucket": "finlakehouse-features-mmestres91",
+            "expected_bucket_owner": "",
+            "id": "finlakehouse-features-mmestres91",
+            "rule": [
+              {
+                "apply_server_side_encryption_by_default": [
+                  {
+                    "kms_master_key_id": "arn:aws:kms:us-east-1:686116998228:alias/s3-cmk",
+                    "sse_algorithm": "aws:kms"
+                  }
+                ],
+                "bucket_key_enabled": false
+              }
+            ]
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "module.bucket_features.aws_s3_bucket.curated",
+            "module.bucket_features.data.aws_kms_alias.s3_cmk"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.bucket_features",
+      "mode": "managed",
+      "type": "aws_s3_bucket_versioning",
+      "name": "this",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "bucket": "finlakehouse-features-mmestres91",
+            "expected_bucket_owner": "",
+            "id": "finlakehouse-features-mmestres91",
+            "mfa": null,
+            "versioning_configuration": [
+              {
+                "mfa_delete": "",
+                "status": "Enabled"
+              }
+            ]
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "module.bucket_features.aws_s3_bucket.curated"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.bucket_raw",
+      "mode": "managed",
+      "type": "aws_kms_key",
+      "name": "s3_cmk",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "arn": "arn:aws:kms:us-east-1:686116998228:key/fe1cedd3-f9ca-4f71-bb45-935016f9d298",
+            "bypass_policy_lockout_safety_check": false,
+            "custom_key_store_id": "",
+            "customer_master_key_spec": "SYMMETRIC_DEFAULT",
+            "deletion_window_in_days": 7,
+            "description": "CMK for S3 bucket encryption",
+            "enable_key_rotation": true,
+            "id": "fe1cedd3-f9ca-4f71-bb45-935016f9d298",
+            "is_enabled": true,
+            "key_id": "fe1cedd3-f9ca-4f71-bb45-935016f9d298",
+            "key_usage": "ENCRYPT_DECRYPT",
+            "multi_region": false,
+            "policy": "{\"Id\":\"key-default-1\",\"Statement\":[{\"Action\":\"kms:*\",\"Effect\":\"Allow\",\"Principal\":{\"AWS\":\"arn:aws:iam::686116998228:root\"},\"Resource\":\"*\",\"Sid\":\"Enable IAM User Permissions\"}],\"Version\":\"2012-10-17\"}",
+            "rotation_period_in_days": 365,
+            "tags": {},
+            "tags_all": {},
+            "timeouts": null,
+            "xks_key_id": ""
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDB9fQ=="
+        }
+      ]
+    },
+    {
+      "module": "module.bucket_raw",
+      "mode": "managed",
+      "type": "aws_s3_bucket",
+      "name": "log_target",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "acceleration_status": "",
+            "acl": null,
+            "arn": "arn:aws:s3:::finlakehouse-logs-mmestres91",
+            "bucket": "finlakehouse-logs-mmestres91",
+            "bucket_domain_name": "finlakehouse-logs-mmestres91.s3.amazonaws.com",
+            "bucket_prefix": "",
+            "bucket_regional_domain_name": "finlakehouse-logs-mmestres91.s3.us-east-1.amazonaws.com",
+            "cors_rule": [],
+            "force_destroy": true,
+            "grant": [
+              {
+                "id": "dac4632c2620ac9add04ef7a2b6126079086841ecd3c5bc0488a9b5a16f4cd76",
+                "permissions": [
+                  "FULL_CONTROL"
+                ],
+                "type": "CanonicalUser",
+                "uri": ""
+              }
+            ],
+            "hosted_zone_id": "Z3AQBSTGFYJSTF",
+            "id": "finlakehouse-logs-mmestres91",
+            "lifecycle_rule": [],
+            "logging": [
+              {
+                "target_bucket": "finlakehouse-logs-mmestres91",
+                "target_prefix": "log/"
+              }
+            ],
+            "object_lock_configuration": [],
+            "object_lock_enabled": false,
+            "policy": "{\"Statement\":[{\"Action\":\"s3:GetObject\",\"Effect\":\"Allow\",\"Principal\":\"*\",\"Resource\":\"arn:aws:s3:::finlakehouse-logs-mmestres91/*\",\"Sid\":\"PublicReadGetObject\"}],\"Version\":\"2012-10-17\"}",
+            "region": "us-east-1",
+            "replication_configuration": [],
+            "request_payer": "BucketOwner",
+            "server_side_encryption_configuration": [
+              {
+                "rule": [
+                  {
+                    "apply_server_side_encryption_by_default": [
+                      {
+                        "kms_master_key_id": "arn:aws:kms:us-east-1:686116998228:key/4f54ff6c-b116-42b9-9fcd-fabac7920336",
+                        "sse_algorithm": "aws:kms"
+                      }
+                    ],
+                    "bucket_key_enabled": false
+                  }
+                ]
+              }
+            ],
+            "tags": {},
+            "tags_all": {},
+            "timeouts": null,
+            "versioning": [
+              {
+                "enabled": true,
+                "mfa_delete": false
+              }
+            ],
+            "website": [
+              {
+                "error_document": "",
+                "index_document": "index.html",
+                "redirect_all_requests_to": "",
+                "routing_rules": ""
+              }
+            ],
+            "website_domain": "s3-website-us-east-1.amazonaws.com",
+            "website_endpoint": "finlakehouse-logs-mmestres91.s3-website-us-east-1.amazonaws.com"
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjM2MDAwMDAwMDAwMDAsInJlYWQiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19"
+        }
+      ]
+    },
+    {
+      "module": "module.bucket_raw",
+      "mode": "managed",
+      "type": "aws_s3_bucket",
+      "name": "raw",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "acceleration_status": "",
+            "acl": null,
+            "arn": "arn:aws:s3:::finlakehouse-raw-mmestres91",
+            "bucket": "finlakehouse-raw-mmestres91",
+            "bucket_domain_name": "finlakehouse-raw-mmestres91.s3.amazonaws.com",
+            "bucket_prefix": "",
+            "bucket_regional_domain_name": "finlakehouse-raw-mmestres91.s3.us-east-1.amazonaws.com",
+            "cors_rule": [],
+            "force_destroy": true,
+            "grant": [
+              {
+                "id": "dac4632c2620ac9add04ef7a2b6126079086841ecd3c5bc0488a9b5a16f4cd76",
+                "permissions": [
+                  "FULL_CONTROL"
+                ],
+                "type": "CanonicalUser",
+                "uri": ""
+              }
+            ],
+            "hosted_zone_id": "Z3AQBSTGFYJSTF",
+            "id": "finlakehouse-raw-mmestres91",
+            "lifecycle_rule": [],
+            "logging": [
+              {
+                "target_bucket": "finlakehouse-logs-mmestres91",
+                "target_prefix": "log/"
+              }
+            ],
+            "object_lock_configuration": [],
+            "object_lock_enabled": false,
+            "policy": "",
+            "region": "us-east-1",
+            "replication_configuration": [],
+            "request_payer": "BucketOwner",
+            "server_side_encryption_configuration": [
+              {
+                "rule": [
+                  {
+                    "apply_server_side_encryption_by_default": [
+                      {
+                        "kms_master_key_id": "arn:aws:kms:us-east-1:686116998228:key/4f54ff6c-b116-42b9-9fcd-fabac7920336",
+                        "sse_algorithm": "aws:kms"
+                      }
+                    ],
+                    "bucket_key_enabled": false
+                  }
+                ]
+              }
+            ],
+            "tags": {
+              "Environment": "dev",
+              "Terraform": "true"
+            },
+            "tags_all": {
+              "Environment": "dev",
+              "Terraform": "true"
+            },
+            "timeouts": null,
+            "versioning": [
+              {
+                "enabled": true,
+                "mfa_delete": false
+              }
+            ],
+            "website": [],
+            "website_domain": null,
+            "website_endpoint": null
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjM2MDAwMDAwMDAwMDAsInJlYWQiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19"
+        }
+      ]
+    },
+    {
+      "module": "module.bucket_raw",
+      "mode": "managed",
+      "type": "aws_s3_bucket_logging",
+      "name": "log_target",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "bucket": "finlakehouse-logs-mmestres91",
+            "expected_bucket_owner": "",
+            "id": "finlakehouse-logs-mmestres91",
+            "target_bucket": "finlakehouse-logs-mmestres91",
+            "target_grant": [],
+            "target_object_key_format": [],
+            "target_prefix": "log/"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "module.bucket_raw.aws_s3_bucket.log_target"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.bucket_raw",
+      "mode": "managed",
+      "type": "aws_s3_bucket_logging",
+      "name": "raw",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "bucket": "finlakehouse-raw-mmestres91",
+            "expected_bucket_owner": "",
+            "id": "finlakehouse-raw-mmestres91",
+            "target_bucket": "finlakehouse-logs-mmestres91",
+            "target_grant": [],
+            "target_object_key_format": [],
+            "target_prefix": "log/"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "module.bucket_raw.aws_s3_bucket.log_target",
+            "module.bucket_raw.aws_s3_bucket.raw"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.bucket_raw",
+      "mode": "managed",
+      "type": "aws_s3_bucket_public_access_block",
+      "name": "log_target",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "block_public_acls": true,
+            "block_public_policy": true,
+            "bucket": "finlakehouse-logs-mmestres91",
+            "id": "finlakehouse-logs-mmestres91",
+            "ignore_public_acls": true,
+            "restrict_public_buckets": true
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "module.bucket_raw.aws_s3_bucket.log_target"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.bucket_raw",
+      "mode": "managed",
+      "type": "aws_s3_bucket_public_access_block",
+      "name": "raw",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "block_public_acls": true,
+            "block_public_policy": true,
+            "bucket": "finlakehouse-raw-mmestres91",
+            "id": "finlakehouse-raw-mmestres91",
+            "ignore_public_acls": true,
+            "restrict_public_buckets": true
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "module.bucket_raw.aws_s3_bucket.raw"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.bucket_raw",
+      "mode": "managed",
+      "type": "aws_s3_bucket_server_side_encryption_configuration",
+      "name": "log_target",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "bucket": "finlakehouse-logs-mmestres91",
+            "expected_bucket_owner": "",
+            "id": "finlakehouse-logs-mmestres91",
+            "rule": [
+              {
+                "apply_server_side_encryption_by_default": [
+                  {
+                    "kms_master_key_id": "arn:aws:kms:us-east-1:686116998228:key/fe1cedd3-f9ca-4f71-bb45-935016f9d298",
+                    "sse_algorithm": "aws:kms"
+                  }
+                ],
+                "bucket_key_enabled": null
+              }
+            ]
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "module.bucket_raw.aws_kms_key.s3_cmk",
+            "module.bucket_raw.aws_s3_bucket.log_target"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.bucket_raw",
+      "mode": "managed",
+      "type": "aws_s3_bucket_server_side_encryption_configuration",
+      "name": "this",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "bucket": "finlakehouse-raw-mmestres91",
+            "expected_bucket_owner": "",
+            "id": "finlakehouse-raw-mmestres91",
+            "rule": [
+              {
+                "apply_server_side_encryption_by_default": [
+                  {
+                    "kms_master_key_id": "arn:aws:kms:us-east-1:686116998228:key/fe1cedd3-f9ca-4f71-bb45-935016f9d298",
+                    "sse_algorithm": "aws:kms"
+                  }
+                ],
+                "bucket_key_enabled": null
+              }
+            ]
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "module.bucket_raw.aws_kms_key.s3_cmk",
+            "module.bucket_raw.aws_s3_bucket.raw"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.bucket_raw",
+      "mode": "managed",
+      "type": "aws_s3_bucket_versioning",
+      "name": "log_target",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "bucket": "finlakehouse-logs-mmestres91",
+            "expected_bucket_owner": "",
+            "id": "finlakehouse-logs-mmestres91",
+            "mfa": null,
+            "versioning_configuration": [
+              {
+                "mfa_delete": "",
+                "status": "Enabled"
+              }
+            ]
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "module.bucket_raw.aws_s3_bucket.log_target"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.bucket_raw",
+      "mode": "managed",
+      "type": "aws_s3_bucket_versioning",
+      "name": "this",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "bucket": "finlakehouse-raw-mmestres91",
+            "expected_bucket_owner": "",
+            "id": "finlakehouse-raw-mmestres91",
+            "mfa": null,
+            "versioning_configuration": [
+              {
+                "mfa_delete": "",
+                "status": "Enabled"
+              }
+            ]
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA==",
+          "dependencies": [
+            "module.bucket_raw.aws_s3_bucket.raw"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.curated",
+      "mode": "managed",
+      "type": "aws_s3_bucket",
+      "name": "this",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "acceleration_status": "",
+            "acl": null,
+            "arn": "arn:aws:s3:::finlakehouse-curated-mmestres91",
+            "bucket": "finlakehouse-curated-mmestres91",
+            "bucket_domain_name": "finlakehouse-curated-mmestres91.s3.amazonaws.com",
+            "bucket_prefix": "",
+            "bucket_regional_domain_name": "finlakehouse-curated-mmestres91.s3.us-east-1.amazonaws.com",
+            "cors_rule": [],
+            "force_destroy": true,
+            "grant": [
+              {
+                "id": "dac4632c2620ac9add04ef7a2b6126079086841ecd3c5bc0488a9b5a16f4cd76",
+                "permissions": [
+                  "FULL_CONTROL"
+                ],
+                "type": "CanonicalUser",
+                "uri": ""
+              }
+            ],
+            "hosted_zone_id": "Z3AQBSTGFYJSTF",
+            "id": "finlakehouse-curated-mmestres91",
+            "lifecycle_rule": [],
+            "logging": [
+              {
+                "target_bucket": "finlakehouse-logs-mmestres91",
+                "target_prefix": "curated/"
+              }
+            ],
+            "object_lock_configuration": [],
+            "object_lock_enabled": false,
+            "policy": "",
+            "region": "us-east-1",
+            "replication_configuration": [],
+            "request_payer": "BucketOwner",
+            "server_side_encryption_configuration": [
+              {
+                "rule": [
+                  {
+                    "apply_server_side_encryption_by_default": [
+                      {
+                        "kms_master_key_id": "arn:aws:kms:us-east-1:686116998228:alias/s3-cmk",
+                        "sse_algorithm": "aws:kms"
+                      }
+                    ],
+                    "bucket_key_enabled": false
+                  }
+                ]
+              }
+            ],
+            "tags": {
+              "Environment": "dev",
+              "Terraform": "true"
+            },
+            "tags_all": {
+              "Environment": "dev",
+              "Terraform": "true"
+            },
+            "timeouts": null,
+            "versioning": [
+              {
+                "enabled": true,
+                "mfa_delete": false
+              }
+            ],
+            "website": [],
+            "website_domain": null,
+            "website_endpoint": null
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjM2MDAwMDAwMDAwMDAsInJlYWQiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19"
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}

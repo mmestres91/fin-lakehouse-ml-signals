@@ -1,0 +1,35 @@
+[2025-07-18T12:59:39.759+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spy_yfinance_parquet_ingestion.fetch_and_upload_parquet_to_s3 scheduled__2025-07-17T00:00:00+00:00 [queued]>
+[2025-07-18T12:59:39.764+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spy_yfinance_parquet_ingestion.fetch_and_upload_parquet_to_s3 scheduled__2025-07-17T00:00:00+00:00 [queued]>
+[2025-07-18T12:59:39.764+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-07-18T12:59:39.770+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): fetch_and_upload_parquet_to_s3> on 2025-07-17 00:00:00+00:00
+[2025-07-18T12:59:39.772+0000] {standard_task_runner.py:60} INFO - Started process 68 to run task
+[2025-07-18T12:59:39.775+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'spy_yfinance_parquet_ingestion', 'fetch_and_upload_parquet_to_s3', 'scheduled__2025-07-17T00:00:00+00:00', '--job-id', '51', '--raw', '--subdir', 'DAGS_FOLDER/s3_ingestion_dag.py', '--cfg-path', '/tmp/tmp5x63fbgd']
+[2025-07-18T12:59:39.776+0000] {standard_task_runner.py:88} INFO - Job 51: Subtask fetch_and_upload_parquet_to_s3
+[2025-07-18T12:59:39.800+0000] {task_command.py:423} INFO - Running <TaskInstance: spy_yfinance_parquet_ingestion.fetch_and_upload_parquet_to_s3 scheduled__2025-07-17T00:00:00+00:00 [running]> on host b03a0574e2e2
+[2025-07-18T12:59:39.832+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='mark' AIRFLOW_CTX_DAG_ID='spy_yfinance_parquet_ingestion' AIRFLOW_CTX_TASK_ID='fetch_and_upload_parquet_to_s3' AIRFLOW_CTX_EXECUTION_DATE='2025-07-17T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-07-17T00:00:00+00:00'
+[2025-07-18T12:59:39.833+0000] {s3_ingestion_dag.py:21} INFO - Fetching SPY (attempt 1/5)
+[2025-07-18T12:59:40.787+0000] {multi.py:182} ERROR - 
+1 Failed download:
+[2025-07-18T12:59:40.787+0000] {multi.py:195} ERROR - ['SPY']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+[2025-07-18T12:59:40.795+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/opt/airflow/dags/s3_ingestion_dag.py", line 32, in fetch_and_upload_parquet_to_s3
+    raise ValueError("Yahoo returned 0 rows")
+ValueError: Yahoo returned 0 rows
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/s3_ingestion_dag.py", line 50, in fetch_and_upload_parquet_to_s3
+    raise AirflowFailException(f"Ingest failed: {e}") from e
+airflow.exceptions.AirflowFailException: Ingest failed: Yahoo returned 0 rows
+[2025-07-18T12:59:40.799+0000] {taskinstance.py:1138} INFO - Immediate failure requested. Marking task as FAILED. dag_id=spy_yfinance_parquet_ingestion, task_id=fetch_and_upload_parquet_to_s3, execution_date=20250717T000000, start_date=20250718T125939, end_date=20250718T125940
+[2025-07-18T12:59:40.804+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 51 for task fetch_and_upload_parquet_to_s3 (Ingest failed: Yahoo returned 0 rows; 68)
+[2025-07-18T12:59:40.846+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-18T12:59:40.852+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

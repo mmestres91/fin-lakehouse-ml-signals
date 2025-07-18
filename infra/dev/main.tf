@@ -2,17 +2,34 @@ provider "aws" {
   region = var.aws_region
 }
 
-module "bucket_raw" {
-  source            = "../modules/bucket_raw"
+module "raw" {
+  source            = "../modules/s3_bucket"
   bucket_name       = var.bucket_name_raw
   env               = "dev"
   enable_versioning = true
+  log_bucket_name   = module.logs.bucket_name
 }
 
-module "bucket_curated" {
-  source            = "../modules/bucket_curated"
+module "curated" {
+  source            = "../modules/s3_bucket"
   bucket_name       = var.bucket_name_curated
-  log_bucket_name   = "finlakehouse-logs-mmestres91"
   env               = "dev"
   enable_versioning = true
+  log_bucket_name   = module.logs.bucket_name
+}
+
+module "features" {
+  source            = "../modules/s3_bucket"
+  bucket_name       = var.bucket_name_features
+  env               = "dev"
+  enable_versioning = true
+  log_bucket_name   = module.logs.bucket_name
+}
+
+module "logs" {
+  source            = "../modules/s3_bucket"
+  bucket_name       = var.bucket_name_logs
+  env               = var.env
+  enable_versioning = true
+  log_bucket_name   = ""
 }
