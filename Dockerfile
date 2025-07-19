@@ -35,6 +35,7 @@ ENV PYTHONPATH=/opt/airflow \
     AWS_DEFAULT_REGION=us-east-1   
 COPY ./features /opt/airflow/features
 ENV PYTHONPATH="/opt/airflow:${PYTHONPATH}"
+ENV CF_GE_DOCS_DOMAIN=https://d3jtnxcxvzwdr.cloudfront.net
 
 ##############################
 # Switch to airflow user

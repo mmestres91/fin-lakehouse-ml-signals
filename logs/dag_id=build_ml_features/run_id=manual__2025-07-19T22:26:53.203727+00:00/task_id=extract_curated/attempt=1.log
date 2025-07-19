@@ -1,0 +1,13 @@
+[2025-07-19T22:26:54.799+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: build_ml_features.extract_curated manual__2025-07-19T22:26:53.203727+00:00 [queued]>
+[2025-07-19T22:26:54.801+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: build_ml_features.extract_curated manual__2025-07-19T22:26:53.203727+00:00 [queued]>
+[2025-07-19T22:26:54.802+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-07-19T22:26:54.805+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): extract_curated> on 2025-07-19 22:26:53.203727+00:00
+[2025-07-19T22:26:54.808+0000] {standard_task_runner.py:60} INFO - Started process 229 to run task
+[2025-07-19T22:26:54.810+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'build_ml_features', 'extract_curated', 'manual__2025-07-19T22:26:53.203727+00:00', '--job-id', '187', '--raw', '--subdir', 'DAGS_FOLDER/build_ml_features_dag.py', '--cfg-path', '/tmp/tmp6te3ach4']
+[2025-07-19T22:26:54.811+0000] {standard_task_runner.py:88} INFO - Job 187: Subtask extract_curated
+[2025-07-19T22:26:54.827+0000] {task_command.py:423} INFO - Running <TaskInstance: build_ml_features.extract_curated manual__2025-07-19T22:26:53.203727+00:00 [running]> on host bc2a27ae9be1
+[2025-07-19T22:26:54.851+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-platform' AIRFLOW_CTX_DAG_ID='build_ml_features' AIRFLOW_CTX_TASK_ID='extract_curated' AIRFLOW_CTX_EXECUTION_DATE='2025-07-19T22:26:53.203727+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-19T22:26:53.203727+00:00'
+[2025-07-19T22:26:55.055+0000] {python.py:201} INFO - Done. Returned value was: /tmp/curated.parquet
+[2025-07-19T22:26:55.071+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=build_ml_features, task_id=extract_curated, execution_date=20250719T222653, start_date=20250719T222654, end_date=20250719T222655
+[2025-07-19T22:26:55.116+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-19T22:26:55.133+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

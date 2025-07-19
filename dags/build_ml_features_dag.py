@@ -7,7 +7,10 @@ from datetime import datetime, timedelta
 from pathlib import Path
 import tempfile
 
+import shutil
+
 import boto3
+import os
 import polars as pl
 from airflow.decorators import dag, task
 
@@ -23,7 +26,9 @@ from features.features_v1 import (
 
 import great_expectations as gx
 
-# --------------------------------------------------------------------------- #
+###############################################################################
+#  DAG-level constants (edit as needed)
+###############################################################################
 DAG_ID = "build_ml_features"
 S3 = boto3.client("s3")
 CURATED_S3 = "finlakehouse-curated-mmestres91"
@@ -32,10 +37,15 @@ FEATURES_S3_TMPL = (
     "s3://finlakehouse-features-mmestres91/market/spy/{run_date}/features.parquet"
 )
 CHECKPOINT_NAME = "feature_checkpoint"  # gx/checkpoints/feature_checkpoint.yml
+DATA_DOCS_BUCKET = "finlakehouse-logs-mmestres91"  # S3 bucket for HTML
+DATA_DOCS_PREFIX = "curated_market_ge"  # folder in that bucket
 AWS_PROFILE = None  # or use instance‑/task‑role creds
 # --------------------------------------------------------------------------- #
 
 
+###############################################################################
+#  DAG definition
+###############################################################################
 @dag(
     dag_id=DAG_ID,
     schedule="@daily",
@@ -84,20 +94,49 @@ def build_ml_features():
     # ─────────────────────────────────────────────────────────────────────────
     @task
     def validate_features(feature_path: str, run_date: str):
-        ctx = gx.get_context()  # GREAT_EXPECTATIONS_HOME already set in image
+        ctx = gx.get_context()
         pandas_df = pl.read_parquet(feature_path).to_pandas()
         asset = ctx.datasources["local_pandas"].get_asset("features_v1")
+
         batch_request = asset.build_batch_request(dataframe=pandas_df)
 
-        result = ctx.run_checkpoint(
-            checkpoint_name="feature_checkpoint",
-            batch_request=batch_request,
-            run_name=run_date,
-        )
-        # ctx.build_data_docs(site_name="local_site")
+        try:
+            result = ctx.run_checkpoint(
+                checkpoint_name="feature_checkpoint",
+                batch_request=batch_request,
+                run_name=run_date,
+            )
+
+        finally:
+            index_paths = ctx.build_data_docs(site_name="s3_cloudfront")
+            docs_index = (
+                index_paths[0] if isinstance(index_paths, list) else index_paths
+            )
 
         if not result["success"]:
             raise ValueError("❌ Feature DQ checks failed")
+
+        return docs_index
+
+    @task(trigger_rule="all_done")
+    def publish_docs(local_site_path: str, run_date: str):
+        """
+        Sync generated Data Docs HTML to S3
+        so analysts can browse results at
+        https://{bucket}.s3.amazonaws.com/{prefix}/{run_date}/index.html
+        """
+        s3 = boto3.client("s3")
+        dest_prefix = f"{DATA_DOCS_PREFIX}/{run_date}/"
+
+        for html_file in Path(local_site_path).rglob("*"):
+            if html_file.is_file():
+                rel = html_file.relative_to(local_site_path)
+                s3_key = f"{dest_prefix}{rel.as_posix()}"
+                s3.upload_file(str(html_file), DATA_DOCS_BUCKET, s3_key)
+
+        # clean up workspace
+        shutil.rmtree(local_site_path)
+        return f"s3://{DATA_DOCS_BUCKET}/{dest_prefix}index.html"
 
     # ─────────────────────────────────────────────────────────────────────────
     # 4️⃣  Load to S3 as Parquet (Polars write + boto3 upload)
@@ -114,8 +153,11 @@ def build_ml_features():
     run_dt = "{{ ds }}"
     curated_path = extract_curated(run_dt)
     features_path = transform_features(curated_path)
-    validate_features(features_path, run_dt)
-    load_features(features_path, run_dt)
+    docs_dir = validate_features(features_path, run_dt)
+    docs_url = publish_docs(docs_dir, run_dt)
+    load_ok = load_features(features_path, run_dt)
+
+    docs_url >> load_ok  # ensure docs before load
 
 
 ml_feature_dag = build_ml_features()

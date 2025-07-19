@@ -12,7 +12,6 @@ import polars as pl
 import boto3
 from pathlib import Path
 import shutil
-import subprocess
 
 
 ###############################################################################
@@ -73,7 +72,6 @@ def curated_market_dq():
         # 2️⃣  build a proper DataFrameBatchRequest
         batch_request = asset.build_batch_request(
             dataframe=df,  # inline dataframe
-            # batch_identifiers={"run_date": run_date},   # any identifiers/tags you like
         )
 
         # 3️⃣  run the checkpoint

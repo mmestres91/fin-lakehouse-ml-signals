@@ -92,6 +92,14 @@ data_docs_sites:
       base_directory: uncommitted/data_docs/local_site/
     site_index_builder:
       class_name: DefaultSiteIndexBuilder
+    s3_cloudfront:                # NEW
+      class_name: S3DataDocsSite
+      bucket: finlakehouse-logs-mmestres91
+      prefix: ge_docs
+      store_backend:
+        class_name: TupleS3StoreBackend
+        bucket: finlakehouse-logs-mmestres91
+        prefix: ge_docs
 
 anonymous_usage_statistics:
   data_context_id: 54f9e684-8f26-4333-9e35-cb53bfbae018

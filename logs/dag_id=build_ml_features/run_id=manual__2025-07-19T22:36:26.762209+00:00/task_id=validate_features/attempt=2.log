@@ -1,0 +1,50 @@
+[2025-07-19T22:41:35.143+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: build_ml_features.validate_features manual__2025-07-19T22:36:26.762209+00:00 [queued]>
+[2025-07-19T22:41:35.148+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: build_ml_features.validate_features manual__2025-07-19T22:36:26.762209+00:00 [queued]>
+[2025-07-19T22:41:35.148+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 2
+[2025-07-19T22:41:35.157+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): validate_features> on 2025-07-19 22:36:26.762209+00:00
+[2025-07-19T22:41:35.166+0000] {standard_task_runner.py:60} INFO - Started process 634 to run task
+[2025-07-19T22:41:35.169+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'build_ml_features', 'validate_features', 'manual__2025-07-19T22:36:26.762209+00:00', '--job-id', '194', '--raw', '--subdir', 'DAGS_FOLDER/build_ml_features_dag.py', '--cfg-path', '/tmp/tmpjxlx8ly7']
+[2025-07-19T22:41:35.170+0000] {standard_task_runner.py:88} INFO - Job 194: Subtask validate_features
+[2025-07-19T22:41:35.191+0000] {task_command.py:423} INFO - Running <TaskInstance: build_ml_features.validate_features manual__2025-07-19T22:36:26.762209+00:00 [running]> on host bc2a27ae9be1
+[2025-07-19T22:41:35.228+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-platform' AIRFLOW_CTX_DAG_ID='build_ml_features' AIRFLOW_CTX_TASK_ID='validate_features' AIRFLOW_CTX_EXECUTION_DATE='2025-07-19T22:36:26.762209+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-19T22:36:26.762209+00:00'
+[2025-07-19T22:41:35.249+0000] {file_data_context.py:222} INFO - FileDataContext loading fluent config
+[2025-07-19T22:41:35.250+0000] {config.py:187} INFO - Loading 'datasources' ->
+[{'assets': [...], 'name': 'local_pandas', 'type': 'pandas'}]
+[2025-07-19T22:41:35.250+0000] {fluent_base_model.py:276} INFO - _PandasDataAsset.dict() - missing `config_provider`, skipping config substitution
+[2025-07-19T22:41:35.251+0000] {fluent_base_model.py:276} INFO - _PandasDataAsset.dict() - missing `config_provider`, skipping config substitution
+[2025-07-19T22:41:35.263+0000] {abstract_data_context.py:5515} INFO - Loaded 'local_pandas' from fluent config
+[2025-07-19T22:41:35.263+0000] {file_data_context.py:174} INFO - Saving 1 Fluent Datasources to /opt/***/gx/great_expectations.yml
+[2025-07-19T22:41:35.264+0000] {fluent_base_model.py:276} INFO - DataFrameAsset.dict() - missing `config_provider`, skipping config substitution
+[2025-07-19T22:41:35.264+0000] {fluent_base_model.py:276} INFO - DataFrameAsset.dict() - missing `config_provider`, skipping config substitution
+[2025-07-19T22:41:35.264+0000] {fluent_base_model.py:276} INFO - PandasDatasource.dict() - missing `config_provider`, skipping config substitution
+[2025-07-19T22:41:35.294+0000] {validator.py:1461} INFO - 	12 expectation(s) included in expectation_suite.
+[2025-07-19T22:41:35.364+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:   0%|          | 0/62 [00:00<?, ?it/s]
+[2025-07-19T22:41:35.364+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:   0%|          | 0/62 [00:00<?, ?it/s]
+[2025-07-19T22:41:35.365+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:   3%|3         | 2/62 [00:00<00:00, 4130.28it/s]
+[2025-07-19T22:41:35.379+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:   3%|3         | 2/62 [00:00<00:00, 136.67it/s] 
+[2025-07-19T22:41:35.384+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:   5%|4         | 3/62 [00:00<00:00, 152.35it/s]
+[2025-07-19T22:41:35.416+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:   5%|4         | 3/62 [00:00<00:01, 57.97it/s] 
+[2025-07-19T22:41:35.428+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  26%|##5       | 16/62 [00:00<00:00, 250.61it/s]
+[2025-07-19T22:41:35.455+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  26%|##5       | 16/62 [00:00<00:00, 177.75it/s]
+[2025-07-19T22:41:35.471+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 62/62 [00:00<00:00, 580.51it/s]
+[2025-07-19T22:41:35.471+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 62/62 [00:00<00:00, 580.51it/s]
+[2025-07-19T22:41:35.476+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 62/62 [00:00<00:00, 580.51it/s]
+[2025-07-19T22:41:35.476+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 62/62 [00:00<00:00, 580.51it/s]
+[2025-07-19T22:41:35.476+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 62/62 [00:00<00:00, 554.74it/s]
+[2025-07-19T22:41:35.626+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/build_ml_features_dag.py", line 116, in validate_features
+    raise ValueError("❌ Feature DQ checks failed")
+ValueError: ❌ Feature DQ checks failed
+[2025-07-19T22:41:35.631+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=build_ml_features, task_id=validate_features, execution_date=20250719T223626, start_date=20250719T224135, end_date=20250719T224135
+[2025-07-19T22:41:35.640+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 194 for task validate_features (❌ Feature DQ checks failed; 634)
+[2025-07-19T22:41:35.651+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-19T22:41:35.662+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check
