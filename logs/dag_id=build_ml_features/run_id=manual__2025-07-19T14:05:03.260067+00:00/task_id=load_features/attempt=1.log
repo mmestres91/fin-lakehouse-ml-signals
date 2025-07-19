@@ -1,0 +1,13 @@
+[2025-07-19T14:05:09.506+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: build_ml_features.load_features manual__2025-07-19T14:05:03.260067+00:00 [queued]>
+[2025-07-19T14:05:09.510+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: build_ml_features.load_features manual__2025-07-19T14:05:03.260067+00:00 [queued]>
+[2025-07-19T14:05:09.510+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-07-19T14:05:09.514+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): load_features> on 2025-07-19 14:05:03.260067+00:00
+[2025-07-19T14:05:09.517+0000] {standard_task_runner.py:60} INFO - Started process 154 to run task
+[2025-07-19T14:05:09.519+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'build_ml_features', 'load_features', 'manual__2025-07-19T14:05:03.260067+00:00', '--job-id', '92', '--raw', '--subdir', 'DAGS_FOLDER/build_ml_features_dag.py', '--cfg-path', '/tmp/tmp9h251y0u']
+[2025-07-19T14:05:09.520+0000] {standard_task_runner.py:88} INFO - Job 92: Subtask load_features
+[2025-07-19T14:05:09.547+0000] {task_command.py:423} INFO - Running <TaskInstance: build_ml_features.load_features manual__2025-07-19T14:05:03.260067+00:00 [running]> on host f0ff35199671
+[2025-07-19T14:05:09.583+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-platform' AIRFLOW_CTX_DAG_ID='build_ml_features' AIRFLOW_CTX_TASK_ID='load_features' AIRFLOW_CTX_EXECUTION_DATE='2025-07-19T14:05:03.260067+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-19T14:05:03.260067+00:00'
+[2025-07-19T14:05:09.789+0000] {python.py:201} INFO - Done. Returned value was: s3://finlakehouse-features-mmestres91/market/spy/2025-07-19/features.parquet
+[2025-07-19T14:05:09.800+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=build_ml_features, task_id=load_features, execution_date=20250719T140503, start_date=20250719T140509, end_date=20250719T140509
+[2025-07-19T14:05:09.828+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-19T14:05:09.835+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

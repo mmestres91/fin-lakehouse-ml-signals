@@ -1,0 +1,161 @@
+[2025-07-19T14:53:57.282+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: build_ml_features.validate_features manual__2025-07-19T14:53:51.036871+00:00 [queued]>
+[2025-07-19T14:53:57.285+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: build_ml_features.validate_features manual__2025-07-19T14:53:51.036871+00:00 [queued]>
+[2025-07-19T14:53:57.285+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-07-19T14:53:57.289+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): validate_features> on 2025-07-19 14:53:51.036871+00:00
+[2025-07-19T14:53:57.295+0000] {standard_task_runner.py:60} INFO - Started process 315 to run task
+[2025-07-19T14:53:57.297+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'build_ml_features', 'validate_features', 'manual__2025-07-19T14:53:51.036871+00:00', '--job-id', '135', '--raw', '--subdir', 'DAGS_FOLDER/build_ml_features_dag.py', '--cfg-path', '/tmp/tmpa18qs8pi']
+[2025-07-19T14:53:57.298+0000] {standard_task_runner.py:88} INFO - Job 135: Subtask validate_features
+[2025-07-19T14:53:57.321+0000] {task_command.py:423} INFO - Running <TaskInstance: build_ml_features.validate_features manual__2025-07-19T14:53:51.036871+00:00 [running]> on host 78a06dccabbd
+[2025-07-19T14:53:57.358+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-platform' AIRFLOW_CTX_DAG_ID='build_ml_features' AIRFLOW_CTX_TASK_ID='validate_features' AIRFLOW_CTX_EXECUTION_DATE='2025-07-19T14:53:51.036871+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-19T14:53:51.036871+00:00'
+[2025-07-19T14:53:57.379+0000] {file_data_context.py:222} INFO - FileDataContext loading fluent config
+[2025-07-19T14:53:57.380+0000] {config.py:187} INFO - Loading 'datasources' ->
+[{'assets': [...], 'name': 'local_pandas', 'type': 'pandas'}]
+[2025-07-19T14:53:57.380+0000] {fluent_base_model.py:276} INFO - _PandasDataAsset.dict() - missing `config_provider`, skipping config substitution
+[2025-07-19T14:53:57.381+0000] {fluent_base_model.py:276} INFO - _PandasDataAsset.dict() - missing `config_provider`, skipping config substitution
+[2025-07-19T14:53:57.394+0000] {abstract_data_context.py:5515} INFO - Loaded 'local_pandas' from fluent config
+[2025-07-19T14:53:57.394+0000] {file_data_context.py:174} INFO - Saving 1 Fluent Datasources to /opt/***/gx/great_expectations.yml
+[2025-07-19T14:53:57.394+0000] {fluent_base_model.py:276} INFO - DataFrameAsset.dict() - missing `config_provider`, skipping config substitution
+[2025-07-19T14:53:57.394+0000] {fluent_base_model.py:276} INFO - DataFrameAsset.dict() - missing `config_provider`, skipping config substitution
+[2025-07-19T14:53:57.394+0000] {fluent_base_model.py:276} INFO - PandasDatasource.dict() - missing `config_provider`, skipping config substitution
+[2025-07-19T14:53:57.427+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/great_expectations/expectations/expectation.py:1518: UserWarning: `result_format` configured at the Validator-level will not be persisted. Please add the configuration to your Checkpoint config or checkpoint_run() method instead.
+  warnings.warn(
+
+[2025-07-19T14:53:57.433+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:   0%|          | 0/6 [00:00<?, ?it/s]
+[2025-07-19T14:53:57.433+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:   0%|          | 0/6 [00:00<?, ?it/s]
+[2025-07-19T14:53:57.434+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  33%|###3      | 2/6 [00:00<00:00, 4848.91it/s]
+[2025-07-19T14:53:57.434+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  33%|###3      | 2/6 [00:00<00:00, 1704.66it/s]
+[2025-07-19T14:53:57.435+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  50%|#####     | 3/6 [00:00<00:00, 2245.34it/s]
+[2025-07-19T14:53:57.435+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  50%|#####     | 3/6 [00:00<00:00, 1473.41it/s]
+[2025-07-19T14:53:57.436+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  67%|######6   | 4/6 [00:00<00:00, 1635.68it/s]
+[2025-07-19T14:53:57.436+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  67%|######6   | 4/6 [00:00<00:00, 1310.00it/s]
+[2025-07-19T14:53:57.437+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 6/6 [00:00<00:00, 1560.38it/s]
+[2025-07-19T14:53:57.437+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 6/6 [00:00<00:00, 1428.66it/s]
+[2025-07-19T14:53:57.438+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 6/6 [00:00<00:00, 1382.81it/s]
+[2025-07-19T14:53:57.438+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 6/6 [00:00<00:00, 1343.47it/s]
+[2025-07-19T14:53:57.439+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/great_expectations/expectations/expectation.py:1518: UserWarning: `result_format` configured at the Validator-level will not be persisted. Please add the configuration to your Checkpoint config or checkpoint_run() method instead.
+  warnings.warn(
+
+[2025-07-19T14:53:57.442+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:   0%|          | 0/6 [00:00<?, ?it/s]
+[2025-07-19T14:53:57.442+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:   0%|          | 0/6 [00:00<?, ?it/s]
+[2025-07-19T14:53:57.442+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  33%|###3      | 2/6 [00:00<00:00, 6949.97it/s]
+[2025-07-19T14:53:57.443+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  33%|###3      | 2/6 [00:00<00:00, 1913.90it/s]
+[2025-07-19T14:53:57.443+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  50%|#####     | 3/6 [00:00<00:00, 2417.93it/s]
+[2025-07-19T14:53:57.444+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  50%|#####     | 3/6 [00:00<00:00, 1556.52it/s]
+[2025-07-19T14:53:57.444+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  67%|######6   | 4/6 [00:00<00:00, 1758.25it/s]
+[2025-07-19T14:53:57.445+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  67%|######6   | 4/6 [00:00<00:00, 1409.85it/s]
+[2025-07-19T14:53:57.445+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 6/6 [00:00<00:00, 1772.62it/s]
+[2025-07-19T14:53:57.446+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 6/6 [00:00<00:00, 1619.53it/s]
+[2025-07-19T14:53:57.446+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 6/6 [00:00<00:00, 1579.78it/s]
+[2025-07-19T14:53:57.446+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 6/6 [00:00<00:00, 1542.87it/s]
+[2025-07-19T14:53:57.447+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/great_expectations/expectations/expectation.py:1518: UserWarning: `result_format` configured at the Validator-level will not be persisted. Please add the configuration to your Checkpoint config or checkpoint_run() method instead.
+  warnings.warn(
+
+[2025-07-19T14:53:57.450+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:   0%|          | 0/6 [00:00<?, ?it/s]
+[2025-07-19T14:53:57.450+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:   0%|          | 0/6 [00:00<?, ?it/s]
+[2025-07-19T14:53:57.450+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  33%|###3      | 2/6 [00:00<00:00, 8208.03it/s]
+[2025-07-19T14:53:57.451+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  33%|###3      | 2/6 [00:00<00:00, 2063.11it/s]
+[2025-07-19T14:53:57.451+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  50%|#####     | 3/6 [00:00<00:00, 2675.51it/s]
+[2025-07-19T14:53:57.452+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  50%|#####     | 3/6 [00:00<00:00, 1339.04it/s]
+[2025-07-19T14:53:57.453+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  67%|######6   | 4/6 [00:00<00:00, 1488.79it/s]
+[2025-07-19T14:53:57.454+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  67%|######6   | 4/6 [00:00<00:00, 1095.62it/s]
+[2025-07-19T14:53:57.455+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 6/6 [00:00<00:00, 1289.50it/s]
+[2025-07-19T14:53:57.455+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 6/6 [00:00<00:00, 1148.91it/s]
+[2025-07-19T14:53:57.455+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 6/6 [00:00<00:00, 1113.78it/s]
+[2025-07-19T14:53:57.455+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 6/6 [00:00<00:00, 1082.45it/s]
+[2025-07-19T14:53:57.457+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/great_expectations/expectations/expectation.py:1518: UserWarning: `result_format` configured at the Validator-level will not be persisted. Please add the configuration to your Checkpoint config or checkpoint_run() method instead.
+  warnings.warn(
+
+[2025-07-19T14:53:57.462+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:   0%|          | 0/6 [00:00<?, ?it/s]
+[2025-07-19T14:53:57.462+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:   0%|          | 0/6 [00:00<?, ?it/s]
+[2025-07-19T14:53:57.463+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  33%|###3      | 2/6 [00:00<00:00, 5339.66it/s]
+[2025-07-19T14:53:57.464+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  33%|###3      | 2/6 [00:00<00:00, 1424.21it/s]
+[2025-07-19T14:53:57.464+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  50%|#####     | 3/6 [00:00<00:00, 1809.71it/s]
+[2025-07-19T14:53:57.465+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  50%|#####     | 3/6 [00:00<00:00, 1211.18it/s]
+[2025-07-19T14:53:57.465+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  67%|######6   | 4/6 [00:00<00:00, 1326.89it/s]
+[2025-07-19T14:53:57.467+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  67%|######6   | 4/6 [00:00<00:00, 950.01it/s] 
+[2025-07-19T14:53:57.468+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 6/6 [00:00<00:00, 1035.46it/s]
+[2025-07-19T14:53:57.468+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 6/6 [00:00<00:00, 956.66it/s] 
+[2025-07-19T14:53:57.469+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 6/6 [00:00<00:00, 933.24it/s]
+[2025-07-19T14:53:57.469+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 6/6 [00:00<00:00, 905.90it/s]
+[2025-07-19T14:53:57.470+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/great_expectations/expectations/expectation.py:1518: UserWarning: `result_format` configured at the Validator-level will not be persisted. Please add the configuration to your Checkpoint config or checkpoint_run() method instead.
+  warnings.warn(
+
+[2025-07-19T14:53:57.476+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:   0%|          | 0/6 [00:00<?, ?it/s]
+[2025-07-19T14:53:57.476+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:   0%|          | 0/6 [00:00<?, ?it/s]
+[2025-07-19T14:53:57.477+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  33%|###3      | 2/6 [00:00<00:00, 5336.26it/s]
+[2025-07-19T14:53:57.477+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  33%|###3      | 2/6 [00:00<00:00, 1583.95it/s]
+[2025-07-19T14:53:57.478+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  50%|#####     | 3/6 [00:00<00:00, 1963.63it/s]
+[2025-07-19T14:53:57.479+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  50%|#####     | 3/6 [00:00<00:00, 1249.92it/s]
+[2025-07-19T14:53:57.479+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  67%|######6   | 4/6 [00:00<00:00, 1318.03it/s]
+[2025-07-19T14:53:57.480+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  67%|######6   | 4/6 [00:00<00:00, 997.52it/s] 
+[2025-07-19T14:53:57.481+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 6/6 [00:00<00:00, 1268.12it/s]
+[2025-07-19T14:53:57.481+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 6/6 [00:00<00:00, 1171.76it/s]
+[2025-07-19T14:53:57.482+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 6/6 [00:00<00:00, 1129.73it/s]
+[2025-07-19T14:53:57.482+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 6/6 [00:00<00:00, 1096.74it/s]
+[2025-07-19T14:53:57.483+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/great_expectations/expectations/expectation.py:1518: UserWarning: `result_format` configured at the Validator-level will not be persisted. Please add the configuration to your Checkpoint config or checkpoint_run() method instead.
+  warnings.warn(
+
+[2025-07-19T14:53:57.490+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:   0%|          | 0/8 [00:00<?, ?it/s]
+[2025-07-19T14:53:57.490+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:   0%|          | 0/8 [00:00<?, ?it/s]
+[2025-07-19T14:53:57.491+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  25%|##5       | 2/8 [00:00<00:00, 5805.27it/s]
+[2025-07-19T14:53:57.492+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  25%|##5       | 2/8 [00:00<00:00, 1078.50it/s]
+[2025-07-19T14:53:57.492+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  38%|###7      | 3/8 [00:00<00:00, 1454.84it/s]
+[2025-07-19T14:53:57.494+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  38%|###7      | 3/8 [00:00<00:00, 855.22it/s] 
+[2025-07-19T14:53:57.494+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/execution_engine/execution_engine.py", line 548, in _process_direct_and_bundled_metric_computation_configurations
+    ] = metric_computation_configuration.metric_fn(  # type: ignore[misc] # F not callable
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/expectations/metrics/metric_provider.py", line 100, in inner_func
+    return metric_fn(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/expectations/metrics/map_metric_provider/column_condition_partial.py", line 96, in inner_func
+    metric_domain_kwargs = get_dbms_compatible_metric_domain_kwargs(
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/expectations/metrics/util.py", line 703, in get_dbms_compatible_metric_domain_kwargs
+    column_name: str | sqlalchemy.quoted_name = get_dbms_compatible_column_names(
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/expectations/metrics/util.py", line 777, in get_dbms_compatible_column_names
+    _verify_column_names_exist_and_get_normalized_typed_column_names_map(
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/expectations/metrics/util.py", line 873, in _verify_column_names_exist_and_get_normalized_typed_column_names_map
+    raise gx_exceptions.InvalidMetricAccessorDomainKwargsKeyError(
+great_expectations.exceptions.exceptions.InvalidMetricAccessorDomainKwargsKeyError: Error: The column "atr_14" in BatchData does not exist.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/build_ml_features_dag.py", line 111, in validate_features
+    validator.expect_column_values_to_be_between("atr_14", min_value=0, strict_min=True)
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/validator/validator.py", line 590, in inst_expectation
+    raise err
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/validator/validator.py", line 553, in inst_expectation
+    validation_result = expectation.validate(
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/expectations/expectation.py", line 1314, in validate
+    ] = validator.graph_validate(
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/validator/validator.py", line 1065, in graph_validate
+    raise err
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/validator/validator.py", line 1044, in graph_validate
+    ) = self._resolve_suite_level_graph_and_process_metric_evaluation_errors(
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/validator/validator.py", line 1200, in _resolve_suite_level_graph_and_process_metric_evaluation_errors
+    ) = self._metrics_calculator.resolve_validation_graph(
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/validator/metrics_calculator.py", line 274, in resolve_validation_graph
+    resolved_metrics, aborted_metrics_info = graph.resolve(
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/validator/validation_graph.py", line 202, in resolve
+    aborted_metrics_info: _AbortedMetricsInfoDict = self._resolve(
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/validator/validation_graph.py", line 302, in _resolve
+    raise err
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/validator/validation_graph.py", line 269, in _resolve
+    self._execution_engine.resolve_metrics(
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/execution_engine/execution_engine.py", line 283, in resolve_metrics
+    return self._process_direct_and_bundled_metric_computation_configurations(
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/execution_engine/execution_engine.py", line 552, in _process_direct_and_bundled_metric_computation_configurations
+    raise gx_exceptions.MetricResolutionError(
+great_expectations.exceptions.exceptions.MetricResolutionError: Error: The column "atr_14" in BatchData does not exist.
+[2025-07-19T14:53:57.501+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=build_ml_features, task_id=validate_features, execution_date=20250719T145351, start_date=20250719T145357, end_date=20250719T145357
+[2025-07-19T14:53:57.505+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 135 for task validate_features (Error: The column "atr_14" in BatchData does not exist.; 315)
+[2025-07-19T14:53:57.519+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-19T14:53:57.526+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

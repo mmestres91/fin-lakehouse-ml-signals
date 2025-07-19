@@ -33,6 +33,8 @@ COPY --chown=airflow:0 scripts /opt/airflow/scripts
 ENV PYTHONPATH=/opt/airflow \
     GREAT_EXPECTATIONS_HOME=/opt/airflow/gx \
     AWS_DEFAULT_REGION=us-east-1   
+COPY ./features /opt/airflow/features
+ENV PYTHONPATH="/opt/airflow:${PYTHONPATH}"
 
 ##############################
 # Switch to airflow user

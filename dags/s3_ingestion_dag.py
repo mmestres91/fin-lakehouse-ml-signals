@@ -64,6 +64,7 @@ with DAG(
     "spy_yfinance_parquet_ingestion",
     default_args=default_args,
     schedule_interval="@daily",
+    tags=["ingestion", "s3"],
     catchup=False,
 ) as dag:
 

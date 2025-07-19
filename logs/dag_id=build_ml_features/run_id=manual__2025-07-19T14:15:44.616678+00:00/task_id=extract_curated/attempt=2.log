@@ -1,0 +1,2 @@
+[2025-07-19T14:20:45.046+0000] {taskinstance.py:1946} INFO - Dependencies not met for <TaskInstance: build_ml_features.extract_curated manual__2025-07-19T14:15:44.616678+00:00 [skipped]>, dependency 'Task Instance State' FAILED: Task is in the 'skipped' state.
+[2025-07-19T14:20:45.049+0000] {local_task_job_runner.py:160} INFO - Task is not able to be run

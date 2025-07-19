@@ -103,6 +103,8 @@ fluent_datasources:
       spy_sample:
         type: dataframe
         batch_metadata: {}
+      features_v1:
+        type: dataframe
 notebooks:
 include_rendered_content:
   globally: false

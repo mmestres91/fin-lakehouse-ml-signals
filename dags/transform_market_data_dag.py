@@ -81,6 +81,7 @@ default_args = {
 with DAG(
     "transform_market_data",
     default_args=default_args,
+    tags=["transformation"],
     schedule_interval="@daily",
     catchup=False,
 ) as dag:

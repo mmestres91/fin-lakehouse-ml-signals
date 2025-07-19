@@ -1,0 +1,20 @@
+{
+  "expectation_suite_name": "feature_suite",
+  "expectations": [
+    {"expectation_type": "expect_column_values_to_not_be_null", "kwargs": {"column": "date"}},
+    {"expectation_type": "expect_column_values_to_not_be_null", "kwargs": {"column": "day_of_week"}},
+    {"expectation_type": "expect_column_values_to_not_be_null", "kwargs": {"column": "ema_9"}},
+    {"expectation_type": "expect_column_values_to_not_be_null", "kwargs": {"column": "ema_20"}},
+    {"expectation_type": "expect_column_values_to_not_be_null", "kwargs": {"column": "macd_line"}},
+    { "expectation_type": "expect_column_values_to_not_be_null", "kwargs": { "column": "mom_5d" } },
+    { "expectation_type": "expect_column_values_to_not_be_null", "kwargs": { "column": "mom_10d" } },
+    { "expectation_type": "expect_column_values_to_not_be_null", "kwargs": { "column": "mom_20d" } },
+    {"expectation_type": "expect_column_values_to_be_between", "kwargs": {"column": "atr_14d", "min_value": 0, "strict_min": true}},
+    {"expectation_type": "expect_column_values_to_be_between", "kwargs": {"column": "rsi_14d", "min_value": 0, "max_value": 100}},
+    {"expectation_type": "expect_column_values_to_be_in_set", "kwargs": {"column": "day_of_week", "value_set": ["Mon", "Tue", "Wed", "Thu", "Fri"]}},
+    {"expectation_type": "expect_table_row_count_to_be_between", "kwargs": {"min_value": 1, "max_value": 20000}}
+  ],
+  "meta": {
+    "great_expectations_version": "0.18.15"
+  }
+}

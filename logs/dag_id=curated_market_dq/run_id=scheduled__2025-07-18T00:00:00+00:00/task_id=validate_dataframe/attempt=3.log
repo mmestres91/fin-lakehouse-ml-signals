@@ -1,0 +1,69 @@
+[2025-07-19T13:18:44.110+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: curated_market_dq.validate_dataframe scheduled__2025-07-18T00:00:00+00:00 [queued]>
+[2025-07-19T13:18:44.112+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: curated_market_dq.validate_dataframe scheduled__2025-07-18T00:00:00+00:00 [queued]>
+[2025-07-19T13:18:44.112+0000] {taskinstance.py:2170} INFO - Starting attempt 3 of 3
+[2025-07-19T13:18:44.117+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): validate_dataframe> on 2025-07-18 00:00:00+00:00
+[2025-07-19T13:18:44.120+0000] {standard_task_runner.py:60} INFO - Started process 192 to run task
+[2025-07-19T13:18:44.122+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'curated_market_dq', 'validate_dataframe', 'scheduled__2025-07-18T00:00:00+00:00', '--job-id', '68', '--raw', '--subdir', 'DAGS_FOLDER/curated_market_dq_dag.py', '--cfg-path', '/tmp/tmpp32yagyj']
+[2025-07-19T13:18:44.123+0000] {standard_task_runner.py:88} INFO - Job 68: Subtask validate_dataframe
+[2025-07-19T13:18:44.141+0000] {task_command.py:423} INFO - Running <TaskInstance: curated_market_dq.validate_dataframe scheduled__2025-07-18T00:00:00+00:00 [running]> on host e05da308c0da
+[2025-07-19T13:18:44.205+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-platform' AIRFLOW_CTX_DAG_ID='curated_market_dq' AIRFLOW_CTX_TASK_ID='validate_dataframe' AIRFLOW_CTX_EXECUTION_DATE='2025-07-18T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-07-18T00:00:00+00:00'
+[2025-07-19T13:18:44.226+0000] {file_data_context.py:222} INFO - FileDataContext loading fluent config
+[2025-07-19T13:18:44.227+0000] {config.py:187} INFO - Loading 'datasources' ->
+[{'assets': [...], 'name': 'local_pandas', 'type': 'pandas'}]
+[2025-07-19T13:18:44.227+0000] {fluent_base_model.py:276} INFO - _PandasDataAsset.dict() - missing `config_provider`, skipping config substitution
+[2025-07-19T13:18:44.241+0000] {abstract_data_context.py:5515} INFO - Loaded 'local_pandas' from fluent config
+[2025-07-19T13:18:44.241+0000] {file_data_context.py:174} INFO - Saving 1 Fluent Datasources to /opt/***/gx/great_expectations.yml
+[2025-07-19T13:18:44.241+0000] {fluent_base_model.py:276} INFO - DataFrameAsset.dict() - missing `config_provider`, skipping config substitution
+[2025-07-19T13:18:44.241+0000] {fluent_base_model.py:276} INFO - PandasDatasource.dict() - missing `config_provider`, skipping config substitution
+[2025-07-19T13:18:44.262+0000] {validator.py:1461} INFO - 	7 expectation(s) included in expectation_suite.
+[2025-07-19T13:18:44.298+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:   0%|          | 0/23 [00:00<?, ?it/s]
+[2025-07-19T13:18:44.299+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:   0%|          | 0/23 [00:00<?, ?it/s]
+[2025-07-19T13:18:44.299+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:   9%|8         | 2/23 [00:00<00:00, 4007.94it/s]
+[2025-07-19T13:18:44.305+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:   9%|8         | 2/23 [00:00<00:00, 290.32it/s] 
+[2025-07-19T13:18:44.306+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  13%|#3        | 3/23 [00:00<00:00, 421.43it/s]
+[2025-07-19T13:18:44.311+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  13%|#3        | 3/23 [00:00<00:00, 234.07it/s]
+[2025-07-19T13:18:44.313+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  30%|###       | 7/23 [00:00<00:00, 482.74it/s]
+[2025-07-19T13:18:44.318+0000] {logging_mixin.py:188} WARNING - Calculating Metrics:  30%|###       | 7/23 [00:00<00:00, 351.48it/s]
+[2025-07-19T13:18:44.323+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 23/23 [00:00<00:00, 929.86it/s]
+[2025-07-19T13:18:44.325+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 23/23 [00:00<00:00, 861.68it/s]
+[2025-07-19T13:18:44.325+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 23/23 [00:00<00:00, 855.95it/s]
+[2025-07-19T13:18:44.326+0000] {logging_mixin.py:188} WARNING - Calculating Metrics: 100%|##########| 23/23 [00:00<00:00, 848.84it/s]
+[2025-07-19T13:18:44.456+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/curated_market_dq_dag.py", line 89, in validate_dataframe
+    ctx.build_data_docs(site_names=["local_site"])
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/core/usage_statistics/usage_statistics.py", line 266, in usage_statistics_wrapped_method
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/data_context/data_context/abstract_data_context.py", line 5317, in build_data_docs
+    return self._build_data_docs(
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/data_context/data_context/abstract_data_context.py", line 5364, in _build_data_docs
+    index_page_resource_identifier_tuple = site_builder.build(
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/render/renderer/site_builder.py", line 322, in build
+    site_section_builder.build(resource_identifiers=resource_identifiers)
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/render/renderer/site_builder.py", line 450, in build
+    resource = self.source_store.get(resource_key)
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/data_context/store/expectations_store.py", line 223, in get
+    return super().get(key)  # type: ignore[return-value]
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/data_context/store/store.py", line 210, in get
+    return self.deserialize(value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations/data_context/store/expectations_store.py", line 249, in deserialize
+    return self._expectationSuiteSchema.loads(value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/marshmallow/schema.py", line 757, in loads
+    return self.load(data, many=many, partial=partial, unknown=unknown)
+  File "/home/airflow/.local/lib/python3.8/site-packages/marshmallow/schema.py", line 723, in load
+    return self._do_load(
+  File "/home/airflow/.local/lib/python3.8/site-packages/marshmallow/schema.py", line 910, in _do_load
+    raise exc
+marshmallow.exceptions.ValidationError: {'data_asset_name': ['Unknown field.']}
+[2025-07-19T13:18:44.462+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=curated_market_dq, task_id=validate_dataframe, execution_date=20250718T000000, start_date=20250719T131844, end_date=20250719T131844
+[2025-07-19T13:18:44.467+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 68 for task validate_dataframe ({'data_asset_name': ['Unknown field.']}; 192)
+[2025-07-19T13:18:44.507+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-19T13:18:44.516+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
